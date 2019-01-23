@@ -1,0 +1,93 @@
+---
+layout: default
+title: Portfolio
+section_id: portfolio
+works:
+  - image: images/stars.jpg
+    title: stars
+    link_to: stars.html
+    klass: 2015/2016
+    desc: Corporate Sponsor - SAP | Partner University - Stanford University | DTP Program 2015/2016
+  - image: images/blooma.jpg
+    title: BLOOMA
+    link_to: blooma.html
+    klass: 2016/2017
+    desc: Corporate Sponsor - SAP | Partner University - Stanford University | DTP Program 2016/2017
+  - image: images/diabee.jpg
+    title: DiaBee
+    link_to: portfolio-item.html
+    klass: 2017/2018
+    desc: Corporate Sponsor - Roche | Partner University - Aalto University | DTP Program 2017/2018
+  - image: images/revo.jpg
+    title: revo
+    link_to: portfolio-item.html
+    klass: 2017/2018
+    desc: Corporate Sponsor - SAP | Partner University - Stanford University | DTP Program 2017/2018
+  - image: images/halexa.jpg
+    title: Halexa
+    link_to: portfolio-item.html
+    klass: 2017/2018
+    desc: CBM Program 2017/2018
+---
+
+
+<div class='full parallax' style='background-image: url(images/@header/startup-bg.jpg); color: #fff;'>
+  <div class='row'>
+    <div class='large-12 columns'>
+      {% include section-header.html title="Our portfolio" tagline="Have a look at our works" color="#fff" class="big" %}
+    </div>
+  </div>
+  <div class='four spacing'></div>
+</div>
+
+
+<div class='full'>
+  <div class='row'>
+    <div class='mod modGallery'>
+      <div class='gallery-nav'>
+        <ul>
+          <li class='current'>
+            <a data-cat='all' href='#'>All</a>
+          </li>
+          <li>
+            <a data-cat='2015/2016' href='#'>2015/2016</a>
+          </li>
+          <li>
+            <a data-cat='2016/2017' href='#'>2016/2017</a>
+          </li>
+          <li>
+            <a data-cat='2017/2018' href='#'>2017/2018</a>
+          </li>
+          <!--
+            <li>
+            <a data-cat='development' href='#'>Development</a>
+          </li>
+          <li>
+            <a data-cat='print' href='#'>Print</a>
+          </li>-->
+        </ul>
+      </div>
+
+      <ul class='gallery large-block-grid-4 medium-block-grid-3 small-block-grid-2'>
+
+        {% for work in page.works %}
+          <li class="{{ work.klass }}">
+            <a href='{{ work.link_to }}'>
+              <img alt="" src="{{ work.image }}" />
+              <div class='overlay'>
+                <div class='thumb-info'>
+                  <h3>{{ work.title }}</h3>
+                  <p>{{ work.desc }}</p>
+                </div>
+              </div>
+            </a>
+          </li>
+        {% endfor %}
+
+      </ul>
+
+    </div>
+  </div>
+
+  <div class='four spacing'></div>
+</div>

@@ -1,1 +1,410 @@
-<h1>Hello!</h1>
+---
+layout: default
+section_id: home
+slides:
+  - bg: images/team2017.jpg
+    small_title:
+      klass: bottom-to-top
+      text: Unsere Teams 2017/2018 sind kurz vor dem
+    title:
+      klass: bottom-to-top
+      text: Ziel
+    # buttons:
+    #  klass: bottom-to-top
+     # items:
+      #  - text: 
+       #   link_to:
+  - bg: images/arduino_kurs.jpg
+    klass: centered-text
+    small_title:
+      klass: bottom-to-top
+      text: Making is an essential part of 
+    title:
+      klass: bottom-to-top
+      text: innovation
+    #buttons:
+     # klass: bottom-to-top
+      #items:
+       # - klass: boxed
+        #  text: 
+         # link_to: 
+        #- text: 
+         # link_to: 
+  - bg: images/Raum-02_klein.jpg
+    small_title:
+      klass: bottom-to-top
+      text: Der Raum bietet
+    title:
+      klass: bottom-to-top
+      text: ideale Bedingungen für euer Projekt
+   # buttons:
+    #  klass: bottom-to-top
+     # items:
+      #  - text: 
+       #   link_to:
+
+
+works:
+  - image: images/@stock/work-1.jpg
+    title: Beautiful Girl
+    link_to: portfolio-item.html
+    klass: graphi-design
+    desc: Design &amp; Development
+  - image: images/@stock/work-2.jpg
+    title: Beautiful Girl
+    link_to: portfolio-item.html
+    klass: graphi-design
+    desc: Design &amp; Development
+  - image: images/@stock/work-3.jpg
+    title: Beautiful Girl
+    link_to: portfolio-item.html
+    klass: graphi-design
+    desc: Design &amp; Development
+  - image: images/@stock/work-4.jpg
+    title: Beautiful Girl
+    link_to: portfolio-item.html
+    klass: graphi-design
+    desc: Design &amp; Development
+  - image: images/@stock/work-5.jpg
+    title: Beautiful Girl
+    link_to: portfolio-item.html
+    klass: graphi-design
+    desc: Design &amp; Development
+  - image: images/@stock/work-6.jpg
+    title: Beautiful Girl
+    link_to: portfolio-item.html
+    klass: graphi-design
+    desc: Design &amp; Development
+  - image: images/@stock/work-7.jpg
+    title: Beautiful Girl
+    link_to: portfolio-item.html
+    klass: graphi-design
+    desc: Design &amp; Development
+  - image: images/@stock/work-8.jpg
+    title: Beautiful Girl
+    link_to: portfolio-item.html
+    klass: graphi-design
+    desc: Design &amp; Development
+
+
+services:
+  - icon: trophy
+    title: Web Design
+    desc: Acusamus laborum totam omnis inventore et error aut et eos aut. fuga mollitia vitae id enim omnis perspiciatis. modi maxime eos.
+  - icon: cogs
+    title: Web Development
+    desc: Acusamus laborum totam omnis inventore et error aut et eos aut. fuga mollitia vitae id enim omnis perspiciatis. modi maxime eos.
+  - icon: pagelines
+    title: Branding
+    desc: Acusamus laborum totam omnis inventore et error aut et eos aut. fuga mollitia vitae id enim omnis perspiciatis. modi maxime eos.
+  - icon: lock
+    title: Security
+    desc: Acusamus laborum totam omnis inventore et error aut et eos aut. fuga mollitia vitae id enim omnis perspiciatis. modi maxime eos.
+
+milestones:
+  - icon: folder-open
+    from: 0
+    to: 69
+    title: Projects Completed
+  - icon: coffee
+    from: 0
+    to: 726
+    title: Cups of coffee offered
+  - icon: thumbs-up
+    from: 0
+    to: 59
+    title: Happy clients
+  - icon: file-text
+    from: 0
+    to: 21
+    title: Articles Published
+
+testimonials:
+  - quote: It was a big responsibility, a lot of work and a demanding challenge but a great chance to grow above myself! The freedom of following our own ideas paired with the international and interdisciplinary setup was inspiring. The project always felt full of purpose and meaning. The lectures I attended, the friends I made and the skills I acquired certainly made this a chance of a lifetime. It was the highlight of my studies. I’m grateful that I could participate!
+    author: Christoph Bruthscher, Master in Computer Science - DTP 2016/2017
+  - quote: In the DTP Project I learned to have an open mind to all ideas. Most important I experienced the need to try these ideas out and not give up on them too early. Considering this we accelerated ideation and came up with unexpected new ideas. I brought this mindset to my life&#58; don’t judge ideas as bad or good too early, build on them and test them to create the best experience.
+    author: Emylie Pereira, Master in Computer Science - DTP 2015/2016
+  - quote: A lot of the things I learned will pay off in my future. It was a very exhausting time but also it was the masters course program that I learned the most in. A really deep and intense learning experience!”
+    author: Max Becker, Master in Computer Science - DTP 2016/2017
+---
+
+
+
+
+<div class='mod modDefaultSlider'>
+  <div class='sequence' data-autostop='off' data-timeout='3500' >
+    <a class='sequence-prev' href='javascript:void(0);'>
+      <span></span>
+    </a>
+    <a class='sequence-next' href='javascript:void(0);'>
+      <span></span>
+    </a>
+    <ul class='sequence-pagination'>
+      {% for slide in page.slides %}
+        {% if forloop.first %}
+          {% assign class = 'current' %}
+        {% else %}
+          {% assign class = '' %}
+        {% endif %}
+        <li class="{{class}}"></li>
+      {% endfor %}
+    </ul>
+    <ul class='sequence-canvas'>
+      {% for slide in page.slides %}
+        {% if forloop.first %}
+          {% assign style = 'static' %}
+        {% else %}
+          {% assign style = '' %}
+        {% endif %}
+
+        <li class='frame {{style}} {{ slide.klass }}'>
+          <div class='bg' style='background-image: url({{ slide.bg}});'></div>
+          <div class='small-title {{ slide.small_title.klass }}'>
+            <div class='row'>
+              <div class='large-12 columns'>
+                <h2>{{ slide.small_title.text }}</h2>
+              </div>
+            </div>
+          </div>
+          <div class='title {{ slide.title.klass }}'>
+            <div class='row'>
+              <div class='large-12 columns'>
+                <h2>{{ slide.title.text }}</h2>
+              </div>
+            </div>
+          </div>
+          <div class='buttons-wrapper {{ slide.buttons.klass }}'>
+            <div class='row'>
+              <div class='large-12 columns'>
+                <div class='two spacing'></div>
+                {% for button in slide.buttons.items %}
+                  <a class='button {{ button.klass }}' href='{{ button.link_to }}'>{{ button.text }}</a>
+                {% endfor %}
+              </div>
+            </div>
+          </div>
+        </li>
+      {% endfor %}
+    </ul>
+  </div>
+</div>
+
+<div class="four spacing"></div>
+<!-- -->
+<div class="row">
+  <div class="medium-4 large-4 columns">
+    {% include icon-text.html title='Innovation' desc='Bringing together technology, business and humans to drive innovation.' icon_class='far fa-lightbulb' delay='0' shape_class='icon-text-circle' %}
+  </div>
+  <div class="medium-4 large-4 columns">
+    {% include icon-text.html title='Self-Responsibility' desc='Students take responsability from the idea to the final proof of concept.' icon_class='far fa-paper-plane' delay='200' shape_class='icon-text-circle' %}
+  </div>
+  <div class="medium-4 large-4 columns">
+    {% include icon-text.html title='Prototyping' desc='New ideas become tangible through rapid prototyping and feedback cycles.    ' icon_class='fas fa-hammer' delay='400' shape_class='icon-text-circle' %}
+  </div>
+  
+</div>
+
+<div class="spacing"></div>
+<!--
+<div class="full" style="background: #f5f5f5;">
+  <div class="row">
+    <div class="large-12 columns">
+      {% include section-header.html title="Our works" %}
+      <div class="spacing"></div>
+      <p>
+        Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat consectetuer sit amet magna adipiscing. Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat consectetuer sit amet magna adipiscing.
+      </p>
+      <div class="three spacing"></div>
+    </div>
+  </div>
+
+  <div class="mod modGallery">
+    <ul class="gallery small-block-grid-2 medium-block-grid-3 large-block-grid-4">
+      {% for work in page.works %}
+        <li class="{{ work.klass }}">
+          <a href='{{ work.link_to }}'>
+            <img alt="" src="{{ work.image }}" />
+            <div class='overlay'>
+              <div class='thumb-info'>
+                <h3>{{ work.title }}</h3>
+                <p>{{ work.desc }}</p>
+              </div>
+            </div>
+          </a>
+        </li>
+      {% endfor %}
+    </ul>
+  </div>
+</div>
+-->
+
+<div class='full' style="background: #f5f5f5;">
+  <div class='row'>
+    <div class='large-12 columns'>
+      {% include section-header.html title="Our services for students and companies" %}
+      <div class='spacing'></div>
+      <p>
+        Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat consectetuer sit amet magna adipiscing. Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat consectetuer sit amet magna adipiscing.
+      </p>
+      <div class='three spacing'></div>
+    </div>
+  </div>
+  <div class='row'>
+    <div class='medium-6 columns'>
+      <img class="fadeinleft" alt="" src="images/service.jpg" />
+      <div class='three spacing'></div>
+    </div>
+    <div class='medium-6 columns'>
+      {% for service in page.services %}
+        <div class='fadein mod modIconText' data-delay='{{ 300 | times:forloop.index0 }}'>
+          <div class='icon-text-simple'>
+            <i class='fa fa-{{service.icon}}'></i>
+            <h3>{{service.title}}</h3>
+            <p>{{service.desc}}</p>
+          </div>
+          <div class='two spacing'></div>
+        </div>
+      {% endfor %}
+    </div>
+  </div>
+  <div class='spacing'></div>
+</div>
+
+
+<div class='full parallax' style='background-image: url(images/teams-bg.jpg); color: #fff;'>
+  <div class='row'>
+    <div class='large-12 columns'>
+      {% include section-header.html title="Parallax effect" color="#fff" %}
+      <div class='spacing'></div>
+      <p class='centered-text' style='color: #ccc;'>
+        Dolore magna aliquam erat volutpat consectetuer sit amet magna adipiscing. Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat consectetuer sit amet magna adipiscing.
+      </p>
+      <div class='two spacing'></div>
+    </div>
+  </div>
+  <div class='row'>
+    {% for milestone in page.milestones %}
+      <div class='medium-3 large-3 columns'>
+        <div class='mod modMilestone'>
+          <i class='fa fa-{{milestone.icon}}'></i>
+          <strong data-from='{{milestone.from}}' data-to='{{milestone.to}}'>&nbsp;</strong>
+          <span>{{milestone.title}}</span>
+          <div class='four spacing'></div>
+        </div>
+      </div>
+    {% endfor %}
+  </div>
+  <div class='two spacing'></div>
+</div>
+
+<div class='full'>
+  <div class='row'>
+    <div class='large-12 columns'>
+      {% include section-header.html title="News &amp; Events" %}
+      <div class='spacing'></div>
+      <p></p>
+      <div class='two spacing'></div>
+    </div>
+  </div>
+
+  <div class='row'>
+    {% for post in site.posts %}
+      {% if forloop.index > 3 %}
+        {% break %}
+      {% endif %}
+
+      <div class='large-4 medium-4 columns'>
+        <div class='mod modBlogPost'>
+          {% for image in post.images %}
+            {% unless forloop.first %}
+              {% break %}
+            {% endunless %}
+            <a href="{{post.url}}"><img alt="" src="{{image}}" /></a>
+          {% endfor %}
+          <div class='content'>
+            <p class='date'>{{post.date | date: "%B %d, %Y" }}</p>
+            <h4><a href="#">{{post.title}}</a></h4>
+            <p>{{post.excerpt}}</p>
+            <!--
+              <div class="tags">
+                {% for cat in post.categories %}
+                  <a href="#">{{cat | capitalize}}</a>
+                  {% unless forloop.last %}
+                    ,
+                  {% endunless %}
+                {% endfor %}
+              </div>
+            -->
+          </div>
+        </div>
+      </div>
+
+    {% endfor %}
+
+  </div>
+
+
+  <div class='two spacing'></div>
+  <div class='row'>
+    <div class='large-12 columns'>
+      <p class='centered-text'>
+        <a class='button' href='blog.html'>See more posts</a>
+      </p>
+    </div>
+  </div>
+  <div class='two spacing'></div>
+
+</div>
+<div class='full parallax' style="background: #f5f5f5;">
+  <div class='row'>
+    <div class='large-12 columns'>
+      <p class='centered-text'>
+        <i class='fa fa-quote-left' style='color: #f39200; font-size: 36px;'></i>
+      </p>
+    </div>
+  </div>
+  <div class='row'>
+    <div class='large-12 columns'>
+      {% include section-header.html title="What students say" %}
+      <div class='spacing'></div>
+    </div>
+  </div>
+  <div class='row'>
+    <div class='large-12 columns'>
+      <div class='mod modTestimonials'>
+        <div class='row'>
+          <div class='small-12 columns'>
+            <div class='items centered-text'>
+              {% for testimonial in page.testimonials %}
+                <div class='item'>
+                  <p class='quote'>"{{testimonial.quote}}"</p>
+                  <p class='author'>- {{testimonial.author}}</p>
+                  <div class='two spacing'></div>
+                </div>
+              {% endfor %}
+            </div>
+          </div>
+          <div class='spacing'></div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+
+{% include our-customers.html %}
+
+
+<div class='full no-padding' style='background: #f39200; text-align: center;'>
+  <div class='two spacing'></div>
+  <div class='mod modCallToAction'>
+    <div class='row'>
+      <div class='medium-8 large-8 columns'>
+        <p>You want to join us? Then get in touch with us ></p>
+      </div>
+      <div class='medium-4 large-4 columns'>
+        <a class='button' href='http://themeforest.net/user/honryou/portfolio?ref=honryou'>Apply now</a>
+      </div>
+    </div>
+  </div>
+  <div class='spacing'></div>
+</div>

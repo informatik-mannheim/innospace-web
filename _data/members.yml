@@ -1,0 +1,30 @@
+- avatar: images/@ttteam/kirstin-kohler.jpg
+  name: Kirstin Kohler
+  position: inno.space coordinator | Professor of Computer Science 
+  socials:
+    - link: https://de.linkedin.com/in/kirstin-kohler-b6ab3b94/de
+      icon: fab fa-linkedin-in
+  desc1: 
+    Kirstin Kohler
+  desc2:    
+    inno.space coordinator | Professor of Computer Science
+- avatar: images/@ttteam/peter-kaiser.jpg
+  name: Dr. Peter Kaiser
+  position: Professor of Computer Science 
+  socials:
+    - link: https://de.linkedin.com/pub/peter-kaiser/6/b41/596
+      icon: fab fa-linkedin-in
+  desc1:
+     Dr. Peter Kaiser
+  desc2:
+    Professor of Computer Science 
+- avatar: images/@stock/member-3.jpg
+  name: Catarina Batista
+  position: Research Assistant 
+  socials:
+    - link: http://twitter.com
+      icon: twitter
+  desc1:
+    Catarina Batista
+  desc2:
+    Research Assistant  
