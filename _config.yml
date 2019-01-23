@@ -6,7 +6,7 @@ description: > # this means to ignore newlines until "baseurl:"
  co- creation across disciplines and industrial cooperation. 
  It facilitates teamwork, making, prototyping, and digital fabrication in an inspiring and open atmosphere.
 baseurl: "/innospace-web" # the subpath of your site, e.g. /blog/
-#url: "" # the base hostname & protocol for your site
+url: "https://informatik-mannheim.github.io/" # the base hostname & protocol for your site
 twitter_username: 
 github_username:  
 
