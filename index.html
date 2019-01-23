@@ -102,22 +102,22 @@ services:
     desc: Acusamus laborum totam omnis inventore et error aut et eos aut. fuga mollitia vitae id enim omnis perspiciatis. modi maxime eos.
 
 milestones:
-  - icon: folder-open
+  - icon: fas fa-user-graduate
     from: 0
-    to: 69
-    title: Projects Completed
-  - icon: coffee
+    to: 28
+    title: students
+  - icon: fas fa-book
     from: 0
-    to: 726
-    title: Cups of coffee offered
-  - icon: thumbs-up
+    to: 4
+    title: programs
+  - icon: fas fa-hands-helping
     from: 0
-    to: 59
-    title: Happy clients
-  - icon: file-text
+    to: 4
+    title: academic partners
+  - icon: fas fa-industry
     from: 0
-    to: 21
-    title: Articles Published
+    to: 5
+    title: corporate sponsors
 
 testimonials:
   - quote: It was a big responsibility, a lot of work and a demanding challenge but a great chance to grow above myself! The freedom of following our own ideas paired with the international and interdisciplinary setup was inspiring. The project always felt full of purpose and meaning. The lectures I attended, the friends I made and the skills I acquired certainly made this a chance of a lifetime. It was the highlight of my studies. I’m grateful that I could participate!
@@ -286,7 +286,7 @@ testimonials:
     {% for milestone in page.milestones %}
       <div class='medium-3 large-3 columns'>
         <div class='mod modMilestone'>
-          <i class='fa fa-{{milestone.icon}}'></i>
+          <i class='{{milestone.icon}}'></i>
           <strong data-from='{{milestone.from}}' data-to='{{milestone.to}}'>&nbsp;</strong>
           <span>{{milestone.title}}</span>
           <div class='four spacing'></div>
