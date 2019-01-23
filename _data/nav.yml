@@ -2,24 +2,24 @@
   path: index.html
   section_id: home
 - name: About
-  path: about.html
+  path: /about.html
   section_id: about
 - name: Services
   section_id: services
   children:
     - name: Students
-      path: students.html
+      path: /students.html
     - name: Industry
-      path: industry.html
+      path: /industry.html
 - name: Projects
-  path: portfolio.html
+  path: /portfolio.html
   section_id: portfolio
 - name: Network
-  path: network.html
+  path: /network.html
   section-id: network
 - name: Contact
-  path: contact.html
+  path: /contact.html
   section_id: contact
 - name: Blog
-  path: blog/
+  path: /blog/
   section_id: blog
