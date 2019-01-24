@@ -1290,6 +1290,17 @@ form input.error, form textarea.error {
   border: 1px solid transparent;
 }
 
+/* Slogan */
+.slogan{
+    color: white;
+    font-weight: bold;
+    font-size: x-large;
+    padding: 0px 20px;
+}
+.slogan-light{
+    color: #ffffff91;
+}
+
 /* Icons */
 /* Arrows */
 .slick-prev,

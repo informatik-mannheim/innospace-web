@@ -88,18 +88,15 @@ works:
 
 
 services:
-  - icon: trophy
-    title: Web Design
+  - icon: fas fa-user-graduate
+    title: Students
+    desc: Currently, we host 3 different programs at inno.space. Our offer suits both Master and Bachelor students and, although being slightly different, all our programs are multidisciplinary, international and focused on human centered innovation
+  - icon: fas fa-industry
+    title: Industry
     desc: Acusamus laborum totam omnis inventore et error aut et eos aut. fuga mollitia vitae id enim omnis perspiciatis. modi maxime eos.
-  - icon: cogs
-    title: Web Development
+    title: Short term courses
     desc: Acusamus laborum totam omnis inventore et error aut et eos aut. fuga mollitia vitae id enim omnis perspiciatis. modi maxime eos.
-  - icon: pagelines
-    title: Branding
-    desc: Acusamus laborum totam omnis inventore et error aut et eos aut. fuga mollitia vitae id enim omnis perspiciatis. modi maxime eos.
-  - icon: lock
-    title: Security
-    desc: Acusamus laborum totam omnis inventore et error aut et eos aut. fuga mollitia vitae id enim omnis perspiciatis. modi maxime eos.
+ 
 
 milestones:
   - icon: fas fa-user-graduate
@@ -128,9 +125,7 @@ testimonials:
     author: Max Becker, Master in Computer Science - DTP 2016/2017
 ---
 
-
-
-
+<!-- Header -->
 <div class='mod modDefaultSlider'>
   <div class='sequence' data-autostop='off' data-timeout='3500' >
     <a class='sequence-prev' href='javascript:void(0);'>
@@ -189,8 +184,20 @@ testimonials:
   </div>
 </div>
 
-<div class="four spacing"></div>
-<!-- -->
+<!-- Slogan -->
+<div class="full parallax" style="text-align: center;background-image: url(images/slogan.jpg); color: #fff;">
+    <div class="spacing"></div>
+    <div class="row">
+
+        <div class="large-12">
+            <p class="slogan">Where passion based learning meets real world problems to generate human centred innovation</p>
+
+        </div>
+    </div>
+    <div class="three spacing"></div>
+</div>
+
+<!-- 
 <div class="row">
   <div class="medium-4 large-4 columns">
     {% include icon-text.html title='Innovation' desc='Bringing together technology, business and humans to drive innovation.' icon_class='far fa-lightbulb' delay='0' shape_class='icon-text-circle' %}
@@ -204,7 +211,7 @@ testimonials:
   
 </div>
 
-<div class="spacing"></div>
+ -->
 <!--
 <div class="full" style="background: #f5f5f5;">
   <div class="row">
@@ -238,13 +245,15 @@ testimonials:
 </div>
 -->
 
+<!-- Service -->
 <div class='full' style="background: #f5f5f5;">
   <div class='row'>
     <div class='large-12 columns'>
-      {% include section-header.html title="Our services for students and companies" %}
+      {% include section-header.html title="Our offer for students and companies" %}
       <div class='spacing'></div>
       <p>
-        Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat consectetuer sit amet magna adipiscing. Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat consectetuer sit amet magna adipiscing.
+        Inno.space - Design Factory Mannheim provides the environment for passion-based learning, co- creation across disciplines and cultures and industrial cooperation. <br/>
+        It facilitates teamwork, making, prototyping, and digital fabrication in an inspiring and open atmosphere.
       </p>
       <div class='three spacing'></div>
     </div>
@@ -258,7 +267,7 @@ testimonials:
       {% for service in page.services %}
         <div class='fadein mod modIconText' data-delay='{{ 300 | times:forloop.index0 }}'>
           <div class='icon-text-simple'>
-            <i class='fa fa-{{service.icon}}'></i>
+            <i class='{{service.icon}}'></i>
             <h3>{{service.title}}</h3>
             <p>{{service.desc}}</p>
           </div>
@@ -270,14 +279,14 @@ testimonials:
   <div class='spacing'></div>
 </div>
 
-
+<!-- Numbers -->
 <div class='full parallax' style='background-image: url(images/teams-bg.jpg); color: #fff;'>
   <div class='row'>
     <div class='large-12 columns'>
-      {% include section-header.html title="Parallax effect" color="#fff" %}
+      {% include section-header.html title="inno.space in numbers" color="#fff" %}
       <div class='spacing'></div>
       <p class='centered-text' style='color: #ccc;'>
-        Dolore magna aliquam erat volutpat consectetuer sit amet magna adipiscing. Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat consectetuer sit amet magna adipiscing.
+        
       </p>
       <div class='two spacing'></div>
     </div>
@@ -297,6 +306,7 @@ testimonials:
   <div class='two spacing'></div>
 </div>
 
+<!-- Events -->
 <div class='full'>
   <div class='row'>
     <div class='large-12 columns'>
@@ -342,7 +352,7 @@ testimonials:
     {% endfor %}
 
   </div>
-
+<!-- Quotes -->
 
   <div class='two spacing'></div>
   <div class='row'>
@@ -391,9 +401,10 @@ testimonials:
   </div>
 </div>
 
+<!-- Customers -->
 {% include our-customers.html %}
 
-
+<!-- Call to action -->
 <div class='full no-padding' style='background: #f39200; text-align: center;'>
   <div class='two spacing'></div>
   <div class='mod modCallToAction'>
