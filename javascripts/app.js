@@ -410,15 +410,12 @@ jQuery(document).foundation();
                 options.autoStop = false;
             }
 
-             console.log(options);
-
             var sequence = $(".sequence", $ctx).sequence(options).data("sequence");
             
             sequence.beforeCurrentFrameAnimatesOut = function () {
                 var sequence = this;
                 var removeStatic = function () {
                     jQuery(".frame.static").removeClass('static');
-                     console.log("test");
                     if (!window.sequenceAutoStarted && sequence.settings.autoPlay) {
                         sequence.startAutoPlay(sequence.settings.autoPlayDelay);
                         window.sequenceAutoStarted = false;
@@ -428,8 +425,6 @@ jQuery(document).foundation();
 
                 // when the next frame is the last one
                 if (sequence.nextFrameID == sequence.frames.length && !options.autoStop) {
-                    console.log(sequence.frames.length);
-                    console.log(sequence.nextFrameID);
                     sequence.stopAutoPlay();
                 }
 
