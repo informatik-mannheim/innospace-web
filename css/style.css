@@ -682,6 +682,11 @@ ul.shortcode-list i {
   margin-top: -100px;
 }
 
+
+.list{
+    list-style-type: none;
+}
+
 /*Big social for demo 2 */
 .big-social {
   text-align: center;
