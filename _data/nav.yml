@@ -4,8 +4,9 @@
 - name: About
   path: about.html
   section_id: about
-- name: Services
-  section_id: services
+- name: Offer
+  path: offer.html
+  section_id: offer
   children:
     - name: Students
       path: students.html

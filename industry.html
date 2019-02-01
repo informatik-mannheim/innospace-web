@@ -1,71 +1,88 @@
 ---
 layout: default
-title: Services
-section_id: services
-services_left:
-  - icon: trophy
-    title: Web Design
-    desc: Acusamus laborum totam omnis inventore et error aut et eos aut. fuga mollitia vitae id enim omnis perspiciatis. modi maxime eos.
-  - icon: cogs
-    title: Web Development
-    desc: Acusamus laborum totam omnis inventore et error aut et eos aut. fuga mollitia vitae id enim omnis perspiciatis. modi maxime eos.
-  - icon: pagelines
-    title: Branding
-    desc: Acusamus laborum totam omnis inventore et error aut et eos aut. fuga mollitia vitae id enim omnis perspiciatis. modi maxime eos.
-  - icon: lock
-    title: Security
-    desc: Acusamus laborum totam omnis inventore et error aut et eos aut. fuga mollitia vitae id enim omnis perspiciatis. modi maxime eos.
-services_right:
-  - icon: compass
-    title: Art Direction
-    desc: Acusamus laborum totam omnis inventore et error aut et eos aut. fuga mollitia vitae id enim omnis perspiciatis. modi maxime eos.
-  - icon: image
-    title: Photography
-    desc: Acusamus laborum totam omnis inventore et error aut et eos aut. fuga mollitia vitae id enim omnis perspiciatis. modi maxime eos.
-  - icon: database
-    title: Data
-    desc: Acusamus laborum totam omnis inventore et error aut et eos aut. fuga mollitia vitae id enim omnis perspiciatis. modi maxime eos.
-  - icon: film
-    title: Video
-    desc: Acusamus laborum totam omnis inventore et error aut et eos aut. fuga mollitia vitae id enim omnis perspiciatis. modi maxime eos.
----
+title: Students
+section_id: students
 
-<div class='full parallax' style='background-image: url(images/@stock/service-page-header.jpg); color: #fff;'>
-  <div class='row'>
-    <div class='large-12 columns'>
-      {% include section-header.html title="Industry" tagline="Get to know what we do" color="#fff" class="big" %}
+value_left:
+  - icon: fas fa-brain
+    desc: New way of thinking
+  - icon: fas fa-hand-pointer
+    desc: Hands on approach
+  - icon: fas fa-cogs
+    desc: '"Real life" simulator'
+ 
+value_right:
+  - icon: fas fa-globe-americas
+    desc: International collaboration
+  - icon: fas fa-map-signs
+    desc: A broader horizon of opportunities  
+
+---
+<div class='full parallax' style='background-image: url(images/@header/teams-bg.jpg); color: #fff;'>
+    <div class='row'>
+        <div class='large-12 columns'>
+            {% include section-header.html title="Industry" tagline="Get to know our offer" color="#fff" class="big" %}
+        </div>
     </div>
-  </div>
-  <div class='four spacing'></div>
+    <div class='four spacing'></div>
 </div>
 
 
 <div class='full'>
-  <div class='row'>
-    <div class='medium-6 columns'>
-      {% for service in page.services_left %}
-        <div class='fadein mod modIconText' data-delay='{{ 300 | times:forloop.index0 }}'>
-          <div class='icon-text-simple'>
-            <i class='fa fa-{{service.icon}}'></i>
-            <h3>{{service.title}}</h3>
-            <p>{{service.desc}}</p>
-          </div>
-          <div class='two spacing'></div>
+    <div class='row'>
+        <div class='large-12 columns'>
+            {% include section-header.html title="As a corporate sponsor" color="#222" %}
+            <div class='spacing'></div>
+           
+            <p>Our offer is a human-centric innovation program to develop new products and services. The projects' problems can come from medium-sized and large companies and from a wide range of sectors (healthcare, telecommunications, software, transport, public institutions, etc.). At the beginning of the project, as a customer you will formulate the problem in the form of a "design brief", which we are happy to help constructing. The question presented in this briefing is so open and broad that the students will not develop only one solution, they will make multiple iterations and develop various concepts and prototypes througout the project, changing and deepening their understanding of the problem. The teams are made up of students from different faculties and we try to form them according to the technical requirements of the challenge. At the end they present an executable demonstrator whose quality has been tested with regard to technological feasibility, user satisfaction and economic viability. 
+            </p>
+            <p>
+                As a company you will get a functional prototype of an innovative product or service, comprehensive documentation of the complete journey, protoypes and findings, identification of business opportunities, insights into a systematic path to innovation (methods, culture, mindset) through observation of the student team, a combination of German engineering culture with the spirit of the Silicon Valley and being integrated into a global innovation network.
+            </p>
+           
+            
+            <div class='two spacing'></div>
+
         </div>
-      {% endfor %}
     </div>
-    <div class='medium-6 columns'>
-      {% for service in page.services_right %}
-        <div class='fadein mod modIconText' data-delay='{{ 300 | times:forloop.index0 }}'>
-          <div class='icon-text-simple'>
-            <i class='fa fa-{{service.icon}}'></i>
-            <h3>{{service.title}}</h3>
-            <p>{{service.desc}}</p>
-          </div>
-          <div class='two spacing'></div>
+    <div class='spacing'></div>
+</div>
+
+<div class='full' style="background: #f5f5f5;">
+    <div class='row'>
+        <div class='large-12 columns'>
+            {% include section-header.html title="As a company interested in Design Thinking" color="#222" %}
+
+            <div class='spacing'></div>
+  
+            <p> 
+                Besides our long term projects, we also provide short and fast paced workshops to make sure your company gets in the right mindset and gets the feeling of what design thinking can be.
+
+            </p>
+            <p>
+                These workshops are adjusted to your company availability and tailored to the companys needs and wishes. They can take form as a 1 or 2 day bootcamp where together we go though one cycle of the Design Thinking Process.
+
+            </p>
+            <p>
+                It is the perfect way of realizing how beneficial this mindset can be when driving innovation and how to implement this mindset within your organization.
+
+            </p>
+            
+
+            <div class='two spacing'></div>
+
         </div>
-      {% endfor %}
     </div>
-  </div>
-  <div class='spacing'></div>
+     <div class='mod modCallToAction' style="text-align: center;">
+
+        <div class='two spacing'></div>
+        <div class='row'>
+
+            <div class='medium-12 large-12 columns'>
+                <p> Interested? Contact us through our e-mail.</p>
+            </div>
+
+        </div>
+        <div class='spacing'></div>
+    </div>
 </div>
