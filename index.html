@@ -5,54 +5,54 @@ slides:
   - bg: images/@slider/Landing_1.1.jpg
     small_title:
       klass: bottom-to-top
-      text: 
+      text:
     title:
       klass: bottom-to-top
-      text: 
+      text:
     # buttons:
     #  klass: bottom-to-top
      # items:
-      #  - text: 
+      #  - text:
        #   link_to:
   - bg: images/@slider/Landing_1.2.jpg
     klass: centered-text
     small_title:
       klass: bottom-to-top
-      text: 
+      text:
     title:
       klass: bottom-to-top
-      text: 
+      text:
     #buttons:
      # klass: bottom-to-top
       #items:
        # - klass: boxed
-        #  text: 
-         # link_to: 
-        #- text: 
-         # link_to: 
+        #  text:
+         # link_to:
+        #- text:
+         # link_to:
   - bg: images/@slider/Landing_1.3.jpg
     small_title:
       klass: bottom-to-top
-      text: 
+      text:
     title:
       klass: bottom-to-top
-      text: 
+      text:
    # buttons:
     #  klass: bottom-to-top
      # items:
-      #  - text: 
+      #  - text:
        #   link_to:
   - bg: images/@slider/Landing_1.4.jpg
     small_title:
       klass: bottom-to-top
-      text: 
+      text:
     title:
       klass: bottom-to-top
-      text: 
+      text:
    # buttons:
     #  klass: bottom-to-top
      # items:
-      #  - text: 
+      #  - text:
        #   link_to:
 
 
@@ -65,10 +65,10 @@ services:
     desc: Besides our long term projects, we also provide short and fast paced workshops to industry partners to guarantee that your company gets in the Design Thinking mindset, facilitating the implementation of this method inside the company and driving innovation faster and more effectively.
   - icon: fas fa-stopwatch
     title: Short term courses
-    desc: "Alongside our main programs, many other events and courses happen at inno.space! 
+    desc: "Alongside our main programs, many other events and courses happen at inno.space!
     We are delighted to offer shorter programs that rely on making and, especially, having fun!
     We conduct courses on how to operate our laser cutter machine, the Challenge Based Making course and Rat Relay, an event spread around 14 different locations with sprints of 6 hours."
- 
+
 
 milestones:
   - icon: fas fa-user-graduate
@@ -243,7 +243,7 @@ testimonials:
       {% include section-header.html title="inno.space in numbers" color="#fff" %}
       <div class='spacing'></div>
       <p class='centered-text' style='color: #ccc;'>
-        
+
       </p>
       <div class='two spacing'></div>
     </div>
@@ -273,56 +273,20 @@ testimonials:
       <div class='two spacing'></div>
     </div>
   </div>
-   
+
 
   <div class='row'>
-    {% for post in site.posts %}
-      {% if forloop.index > 3 %}
-        {% break %}
-      {% endif %}
 
-      <div class='large-4 medium-4 columns'>
-        <div class='mod modBlogPost'>
-          {% for image in post.images %}
-            {% unless forloop.first %}
-              {% break %}
-            {% endunless %}
-            <a href="{{post.url}}"><img alt="" src="{{image}}" /></a>
-          {% endfor %}
-          <div class='content'>
-            <p class='date'>{{post.date | date: "%B %d, %Y" }}</p>
-            <h4><a href="#">{{post.title}}</a></h4>
-            <p>{{post.excerpt}}</p>
-            <!--
-              <div class="tags">
-                {% for cat in post.categories %}
-                  <a href="#">{{cat | capitalize}}</a>
-                  {% unless forloop.last %}
-                    ,
-                  {% endunless %}
-                {% endfor %}
-              </div>
-            -->
-          </div>
-        </div>
-      </div>
+    <div class='medium-12 columns'>
+        <a href='#'>
+          {% include icon-text.html title='Events' desc='Check our calendar' icon_class='far fa-calendar-alt' delay='0' shape_class='icon-text-circle' %}
+        </a>
+    </div>
 
-    {% endfor %}
 
   </div>
 
 <!-- Quotes -->
-  <div class='two spacing'></div>
-  <div class='row'>
-    <div class='large-12 columns'>
-      <p class='centered-text'>
-        <a class='button' href='blog.html'>See more posts</a>
-      </p>
-    </div>
-  </div>
-  <div class='two spacing'></div>
-
-</div>
 <div class='full parallax' style="background: #f5f5f5;">
   <div class='row'>
     <div class='large-12 columns'>
