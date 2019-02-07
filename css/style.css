@@ -619,7 +619,7 @@ a:hover {
 }
 
 h1, h2, h3, h4, h5, h6 {
-    
+
   text-transform: uppercase;
   letter-spacing: 1px;
 }
@@ -687,7 +687,7 @@ ul.shortcode-list i {
     list-style-type: none;
 }
 .ctaLink{
-  
+
   color: #222;
   -moz-transition-duration: 0.3s;
   -o-transition-duration: 0.3s;
@@ -695,7 +695,7 @@ ul.shortcode-list i {
   transition-duration: 0.3s;
 }
 .ctaLink:hover {
-  color: #999;
+  color: #fff;
 }
 
 /*Big social for demo 2 */
@@ -3662,7 +3662,7 @@ body {
     .small{
         visibility: visible;
     }
-  
+
   .parallax {
     background-attachment: scroll;
   }
@@ -3751,7 +3751,7 @@ body {
   .f-topbar-fixed.shrink .top-bar .title-area a img {
     width: 180px;
   }
-    
+
 }
 @media only screen and (max-width: 767px) {
   .modDefaultSlider .sequence .title h2 {
@@ -3850,4 +3850,3 @@ body {
     display: none;
   }
 }
-
