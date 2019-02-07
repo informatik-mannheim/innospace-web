@@ -209,36 +209,51 @@ works:
 <div class='full'>
     <div class='row'>
         <div class='medium-12 columns'>
-            <h2>Our inno.space</h2>
-            <p>Consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat consectetuer sit amet magna adipiscing. Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat consectetuer sit amet magna adipiscing.</p>
-            <p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat consectetuer sit amet magna adipiscing.</p>
-            <div class='two spacing'></div>
-            <div class='mod modIconText' data-delay='{{ 300 | times:forloop.index0 }}'>
-                <div class='icon-text-simple'>
-
-                    <h3>Equipment</h3>
-                    <p>Devices</p>
-                    <ul style="padding-left: 30px">
-                        <li>Laser Cutter Epilog Helix 60W</li>
-                        <li>3D-Printer Ultimaker 2+</li>
-                        <li>Tools</li>
-                        <li>Prototyping </li>
-                        <li>Test</li>
-                        <li>Test</li>
-                        <li>Test</li>
-                    </ul>
-
-                </div>
-                <div class='two spacing'></div>
-            </div>
-            {% include image-gallery.html folder="/images/@room" %}
+             <h2>Our inno.space</h2>
         </div>
-        
-
     </div>
-    
+    <div class='row'>
+        <div class='medium-6 columns'>
+           
+            <h3>Equipment</h3>
+            <p>Appliances</p>
+            <ul style="padding-left: 30px">
+                <li>Laser Cutter Epilog Helix 60W</li>
+                <li>3D-Printer Ultimaker 2 extended+</li>
+                
+            </ul>
+            <p>Prototyping</p>
+            <ul style="padding-left: 30px">
+                <li>Craft stuff</li>
+                <li>Different kinds of wood, acrylic plates</li>
+                <li>Tools like drill, hammer, screwdrivers</li>
+                <li>Electronic parts</li>
+                <li>Soldering iron</li>
+        
+            </ul>
+            <p>Furniture</p>
+            <ul style="padding-left: 30px">
+                <li>Laser Cutter Epilog Helix 60W</li>
+                <li>3D-Printer Ultimaker 2+</li>
+                
+            </ul>
+            <p>Kitchen</p>
+            <ul style="padding-left: 30px">
+                <li>Fridge</li>
+                <li>Microwave</li>
+            </ul>
+
+
+            <div class='two spacing'></div>
+        </div>
+
+        <div class='medium-6 columns'>
+                 {% include image-gallery.html folder="/images/@room" %}
+
+        </div>
+    </div>
+
     <div class='spacing'></div>
 </div>
-
 
   
