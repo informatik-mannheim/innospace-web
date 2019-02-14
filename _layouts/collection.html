@@ -1,0 +1,69 @@
+---
+layout: default
+---
+
+<div class='full parallax' style='background-image: url({{site.baseurl}}/images/@header/startup-bg.jpg); color: #fff;'>
+  <div class='row'>
+    <div class='large-12 columns'>
+      {% include section-header.html title="Diabee" tagline="Have a look at our project" color="#fff" class="big" %}
+    </div>
+  </div>
+  <div class='four spacing'></div>
+</div>
+
+<div class='full'>
+  <div class='row'>
+    <div class='large-12 columns'>
+      <div class='mod modBoxedSlider'>
+        <div class='slides'>
+          <div class='slide'>
+            {% if page.image1 %}
+              <img class="slideImage" src="{{site.baseurl}}{{ page.image1 }}" alt="{{ page.title | downcase }}">
+            {% endif %}
+
+          </div>
+          <div class='slide'>
+              {% if page.image2 %}
+                <img class="slideImage" src="{{site.baseurl}}{{ page.image2 }}" alt="{{ page.title | downcase }}">
+              {% endif %}
+
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <div class='spacing'></div>
+<div class='row'>
+    <div class='large-8 columns'>
+        {{content}}
+
+
+        <div class='spacing'></div>
+    </div>
+    <div class='large-4 columns'>
+      <ul class='info'>
+        <li>
+          <strong>Sponsor:</strong>
+          {{page.sponsor}}
+        </li>
+        <li>
+          <strong>Partner University:</strong>
+          {{page.partnerUni}}
+        </li>
+          <li>
+          <strong>Year:</strong>
+          {{page.year}}
+        </li>
+        <li>
+          <div class='spacing'></div>
+
+          <a href='{{site.baseurl}}/projects.html' title='back to projects'>
+            <i class='icon-layout'></i>
+          </a>
+
+        </li>
+      </ul>
+    </div>
+  </div>
+  <div class='four spacing'></div>
+</div>

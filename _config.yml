@@ -1,14 +1,19 @@
 # Site settings
 title: inno.space
-email: 
+email:
 description: > # this means to ignore newlines until "baseurl:"
- Inno.space - Design Factory Mannheim provides the environment for passion-based learning, 
- co- creation across disciplines and industrial cooperation. 
+ Inno.space - Design Factory Mannheim provides the environment for passion-based learning,
+ co- creation across disciplines and industrial cooperation.
  It facilitates teamwork, making, prototyping, and digital fabrication in an inspiring and open atmosphere.
 baseurl: "/innospace-web" # the subpath of your site, e.g. /blog/
 url: "https://informatik-mannheim.github.io/" # the base hostname & protocol for your site
-twitter_username: 
-github_username:  
+twitter_username:
+github_username:
+
+collections:
+  program:
+    output: true
+    permalink: /program/:name/
 
 # Build settings
 markdown: kramdown
