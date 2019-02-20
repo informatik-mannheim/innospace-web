@@ -3,10 +3,12 @@ layout: collection
 title: Diabee
 section_id: portfolio
 year: 2017/2018
+program: DTP
 sponsor: Roche
 partnerUni: Aalto University
-image1: /images/@projects/IMG_0894.JPG
-image2: /images/@projects/diabee3.jpg
+image:
+  - /images/@projects/IMG_0894.JPG
+  - /images/@projects/diabee3.jpg
 ---
 
 ### Diabee

@@ -5,7 +5,7 @@ layout: default
 <div class='full parallax' style='background-image: url({{site.baseurl}}/images/@header/startup-bg.jpg); color: #fff;'>
   <div class='row'>
     <div class='large-12 columns'>
-      {% include section-header.html title="Diabee" tagline="Have a look at our project" color="#fff" class="big" %}
+      {% include section-header.html title=page.title tagline="Have a look at our project" color="#fff" class="big" %}
     </div>
   </div>
   <div class='four spacing'></div>
@@ -16,18 +16,11 @@ layout: default
     <div class='large-12 columns'>
       <div class='mod modBoxedSlider'>
         <div class='slides'>
-          <div class='slide'>
-            {% if page.image1 %}
-              <img class="slideImage" src="{{site.baseurl}}{{ page.image1 }}" alt="{{ page.title | downcase }}">
-            {% endif %}
-
-          </div>
-          <div class='slide'>
-              {% if page.image2 %}
-                <img class="slideImage" src="{{site.baseurl}}{{ page.image2 }}" alt="{{ page.title | downcase }}">
-              {% endif %}
-
-          </div>
+          {% for image in page.image %}
+            <div class='slide'>
+              <img class="slideImage" src="{{site.baseurl}}{{ page.image[forloop.index0]}}" alt="{{ page.title | downcase }}">
+            </div>
+          {% endfor %}
         </div>
       </div>
     </div>
@@ -43,13 +36,20 @@ layout: default
     <div class='large-4 columns'>
       <ul class='info'>
         <li>
-          <strong>Sponsor:</strong>
-          {{page.sponsor}}
-        </li>
+          <strong>Program:</strong>
+          {{page.program}}
+        {% if page.sponsor %}
+          <li>
+            <strong>Sponsor:</strong>
+            {{page.sponsor}}
+          </li>
+        {% endif %}
+        {% if page.partnerUni %}
         <li>
           <strong>Partner University:</strong>
           {{page.partnerUni}}
         </li>
+        {% endif %}
           <li>
           <strong>Year:</strong>
           {{page.year}}

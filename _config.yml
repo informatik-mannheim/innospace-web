@@ -11,9 +11,9 @@ twitter_username:
 github_username:
 
 collections:
-  program:
+  projects:
     output: true
-    permalink: /program/:name/
+    permalink: /projects/:name/
 
 # Build settings
 markdown: kramdown
