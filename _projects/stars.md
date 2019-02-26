@@ -9,6 +9,7 @@ partnerUni: Stanford University
 image:
   - /images/@projects/stars.JPG
   - /images/@projects/stars2.JPG
+  - /images/@projects/stars3.JPG
 ---
 
 ### STARS – Ambient Lightsystem for Officespace
