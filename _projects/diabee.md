@@ -7,7 +7,6 @@ program: DTP
 sponsor: Roche
 partnerUni: Aalto University
 image:
-  - /images/@projects/IMG_0894.JPG
   - /images/@projects/diabee.jpg
   - /images/@projects/diabee2.jpg
   - /images/@projects/diabee3.jpg
