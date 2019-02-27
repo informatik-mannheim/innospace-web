@@ -7,7 +7,6 @@ program: DTP
 sponsor: SAP
 partnerUni: Stanford University
 image:
-  - /images/@projects/blooma.jpg
   - /images/@projects/blooma2.JPG
 ---
 
