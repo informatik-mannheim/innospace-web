@@ -8,8 +8,8 @@ sponsor: SAP
 partnerUni: Stanford University
 image:
   - /images/@projects/stars.jpg
-  - /images/@projects/stars2.jpg
-  - /images/@projects/stars3.jpg
+  - /images/@projects/stars2.JPG
+  - /images/@projects/stars3.JPG
 ---
 
 ### STARS – Ambient Lightsystem for Officespace
