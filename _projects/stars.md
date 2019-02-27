@@ -7,9 +7,9 @@ program: DTP
 sponsor: SAP
 partnerUni: Stanford University
 image:
-  - /images/@projects/stars.JPG
-  - /images/@projects/stars2.JPG
-  - /images/@projects/stars3.JPG
+  - /images/@projects/stars.jpg
+  - /images/@projects/stars2.jpg
+  - /images/@projects/stars3.jpg
 ---
 
 ### STARS – Ambient Lightsystem for Officespace
