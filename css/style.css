@@ -801,6 +801,7 @@ ul.shortcode-list i {
   color: #fff;
   background: #f39200;
   border: 2px solid #f39200;
+  min-width: 200px;
 }
 
 .button:hover {
@@ -1220,9 +1221,7 @@ form input.error, form textarea.error {
   -webkit-box-shadow: 0 -4px 15px 0 rgba(0, 0, 0, 0.1);
   box-shadow: 0 -4px 15px 0 rgba(0, 0, 0, 0.1);
 }
-.logo{
-    height: 70px;
-}
+
 
 
 /* Slider */
@@ -3635,7 +3634,7 @@ body {
   padding: 0 60px;
 }
 .modTestimonials p.quote {
-  font-size: 1.5rem;
+  font-size: 1.1rem;
   margin-bottom: 30px;
 }
 .modTestimonials p.author {
