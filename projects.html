@@ -85,7 +85,7 @@ works:
         {% for work in page.works %}
           <li class="{{ work.klass }}">
             <a href='{{ work.link_to }}'>
-              <img alt="" src="{{ images/projects_headline.jpg }}" />
+              <img alt="" src="{{ work.image }}" />
               <div class='overlay'>
                 <div class='thumb-info'>
                   <h3>{{ work.title }}</h3>
