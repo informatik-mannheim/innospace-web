@@ -1,4 +1,4 @@
-- avatar: images/@ttteam/kirstin-kohler.jpg
+- avatar: images/@ttteam/kirstin.png
   name: Prof. Kirstin Kohler
   position: inno.space coordinator | Teaching Team Member
   socials:
@@ -8,7 +8,7 @@
     Prof. Kirstin Kohler
   desc2:    
     inno.space coordinator | Professor of Computer Science
-- avatar: images/@ttteam/peter-kaiser.jpg
+- avatar: images/@ttteam/peter.png
   name: Prof. Dr. Peter Kaiser
   position: Teaching Team Member
   socials:
@@ -18,7 +18,7 @@
      Prof. Dr. Peter Kaiser
   desc2:
     Teaching Team Member
-- avatar: images/@stock/member-3.jpg
+- avatar: images/@ttteam/thomas.png
   name: Prof. Thomas Smits
   position: Teaching Team Member
   socials:
@@ -28,7 +28,7 @@
     Prof. Thomas Smits
   desc2:
     Teaching Team Member  
-- avatar: images/@stock/member-3.jpg
+- avatar: images/@ttteam/catarina.png
   name: Catarina Batista
   position: Teaching Team Member
   socials:
