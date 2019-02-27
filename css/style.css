@@ -617,7 +617,9 @@ a {
 a:hover {
   color: #999;
 }
-
+a:focus {
+  color: #fff;
+}
 h1, h2, h3, h4, h5, h6 {
 
   text-transform: uppercase;
@@ -697,7 +699,9 @@ ul.shortcode-list i {
 .ctaLink:hover {
   color: #fff;
 }
-
+.ctaLink:focus {
+  color: #fff;
+}
 /*Big social for demo 2 */
 .big-social {
   text-align: center;
