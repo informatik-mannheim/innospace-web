@@ -9,7 +9,6 @@ partnerUni: Aalto University
 image:
   - /images/@projects/diabee.jpg
   - /images/@projects/diabee2.jpg
-  - /images/@projects/diabee3.jpg
 ---
 
 ### Diabee
