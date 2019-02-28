@@ -703,10 +703,12 @@ ul.shortcode-list i {
   color: #222;
 }
 @media only screen and (min-width: 720px) {
+
 .image-text-center{
   display: flex;
   align-items: center;
 }
+
 }
 .logo{
   height:70px;
