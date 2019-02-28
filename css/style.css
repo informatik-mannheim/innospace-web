@@ -618,7 +618,7 @@ a:hover {
   color: #999;
 }
 a:focus {
-  color: #fff;
+  color: #222;
 }
 h1, h2, h3, h4, h5, h6 {
 
@@ -700,12 +700,16 @@ ul.shortcode-list i {
   color: #fff;
 }
 .ctaLink:focus {
-  color: #fff;
+  color: #222;
 }
 
 .image-text-center{
   display: flex;
   align-items: center;
+}
+
+.logo{
+  height:80px;
 }
 
 /*Big social for demo 2 */
