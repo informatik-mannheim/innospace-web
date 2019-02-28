@@ -1,4 +1,4 @@
-@charset "UTF-8";@font-face {
+margin: 0 30px@charset "UTF-8";@font-face {
   font-family: "Steelfish";
   src: url('../fonts/steelfish/steelfish_eb-webfont.eot');
   src: url('../fonts/steelfish/steelfish_eb-webfont.eot?#iefix') format('embedded-opentype'), url('../fonts/steelfish/steelfish_eb-webfont.woff') format('woff'), url('../fonts/steelfish/steelfish eb.otf') format('opentype');
@@ -1249,7 +1249,7 @@ form input.error, form textarea.error {
   position: relative;
   overflow: hidden;
   display: block;
-  margin: 0;
+  margin: 0 -30px;
   padding: 0;
 }
 .slick-list:focus {
@@ -1293,6 +1293,7 @@ form input.error, form textarea.error {
   height: 100%;
   min-height: 1px;
   display: none;
+  margin: 0 30px;
 }
 [dir="rtl"] .slick-slide {
   float: right;
@@ -1594,7 +1595,7 @@ form input.error, form textarea.error {
   position: relative;
   overflow: hidden;
   display: block;
-  margin: 0;
+  margin: 0 -30px;
   padding: 0;
 }
 .slick-list:focus {
@@ -1638,6 +1639,7 @@ form input.error, form textarea.error {
   height: 100%;
   min-height: 1px;
   display: none;
+  margin: 0 30px;
 }
 [dir="rtl"] .slick-slide {
   float: right;
@@ -1881,7 +1883,7 @@ form input.error, form textarea.error {
   position: relative;
   overflow: hidden;
   display: block;
-  margin: 0;
+  margin: 0 -30px;
   padding: 0;
 }
 .slick-list:focus {
@@ -1925,6 +1927,7 @@ form input.error, form textarea.error {
   height: 100%;
   min-height: 1px;
   display: none;
+  margin: 0 30px;
 }
 [dir="rtl"] .slick-slide {
   float: right;
@@ -3428,7 +3431,7 @@ body {
   position: relative;
   overflow: hidden;
   display: block;
-  margin: 0;
+  margin: 0 -30px;
   padding: 0;
 }
 .slick-list:focus {
@@ -3472,6 +3475,7 @@ body {
   height: 100%;
   min-height: 1px;
   display: none;
+  margin: 0 30px;
 }
 [dir="rtl"] .slick-slide {
   float: right;
