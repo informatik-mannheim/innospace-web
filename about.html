@@ -97,24 +97,22 @@ works:
     <div class='medium-6 columns'>
       {% for value in page.value_left %}
         <div class='fadein mod modIconText' data-delay='{{ 300 | times:forloop.index0 }}'>
-          <div class='icon-text-simple'>
+          <div class='icon-text-simple' style="min-height:140px">
             <i class='{{value.icon}}'></i>
             <h3>{{value.title}}</h3>
             <p>{{value.desc}}</p>
           </div>
-          <div class='two spacing'></div>
         </div>
       {% endfor %}
     </div>
     <div class='medium-6 columns'>
       {% for value in page.value_right %}
         <div class='fadein mod modIconText' data-delay='{{ 300 | times:forloop.index0 }}'>
-          <div class='icon-text-simple'>
+          <div class='icon-text-simple' style="min-height:140px">
             <i class='{{value.icon}}'></i>
             <h3>{{value.title}}</h3>
             <p>{{value.desc}}</p>
           </div>
-          <div class='two spacing'></div>
         </div>
       {% endfor %}
     </div>
