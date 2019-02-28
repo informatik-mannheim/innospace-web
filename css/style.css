@@ -702,6 +702,12 @@ ul.shortcode-list i {
 .ctaLink:focus {
   color: #fff;
 }
+
+.image-text-center{
+  display: flex;
+  align-items: center;
+}
+
 /*Big social for demo 2 */
 .big-social {
   text-align: center;
