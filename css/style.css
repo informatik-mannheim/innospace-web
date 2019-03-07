@@ -3815,6 +3815,12 @@ body {
   .footerText{
     padding: 0 50px;
   }
+  .slogan{
+      color: white;
+      font-weight: bold;
+      font-size: medium;
+      padding: 0px 20px;
+  }
 }
 @media only screen and (max-width: 480px) {
   .modDefaultSlider .sequence .title h2 {
