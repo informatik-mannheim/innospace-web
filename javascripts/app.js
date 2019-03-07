@@ -341,6 +341,7 @@ jQuery(document).foundation();
                 autoplay: true,
                 autoplaySpeed: 2000,
                 pauseOnHover: false,
+                arrows: false,
                 responsive: [
                     {
                         breakpoint: 767,
@@ -411,7 +412,7 @@ jQuery(document).foundation();
             }
 
             var sequence = $(".sequence", $ctx).sequence(options).data("sequence");
-            
+
             sequence.beforeCurrentFrameAnimatesOut = function () {
                 var sequence = this;
                 var removeStatic = function () {

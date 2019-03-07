@@ -704,12 +704,12 @@ ul.shortcode-list i {
 }
 @media only screen and (min-width: 720px) {
 
-.image-text-center{
-  display: flex;
-  align-items: center;
+  .image-text-center{
+    display: flex;
+    align-items: center;
+  }
 }
 
-}
 .logo{
   height:70px;
 }
@@ -1261,7 +1261,7 @@ form input.error, form textarea.error {
   position: relative;
   overflow: hidden;
   display: block;
-  margin: 0 -30px;
+  margin: 0 30px;
   padding: 0;
 }
 .slick-list:focus {
@@ -1607,7 +1607,7 @@ form input.error, form textarea.error {
   position: relative;
   overflow: hidden;
   display: block;
-  margin: 0 -30px;
+  margin: 0 30px;
   padding: 0;
 }
 .slick-list:focus {
@@ -1895,7 +1895,7 @@ form input.error, form textarea.error {
   position: relative;
   overflow: hidden;
   display: block;
-  margin: 0 -30px;
+  margin: 0 30px;
   padding: 0;
 }
 .slick-list:focus {
@@ -3443,7 +3443,7 @@ body {
   position: relative;
   overflow: hidden;
   display: block;
-  margin: 0 -30px;
+  margin: 0 30px;
   padding: 0;
 }
 .slick-list:focus {
@@ -3651,7 +3651,7 @@ body {
 }
 
 .modTestimonials {
-  padding: 0 60px;
+  padding: 0 0px;
 }
 .modTestimonials p.quote {
   font-size: 1.1rem;
@@ -3811,6 +3811,9 @@ body {
   }
   .modBoxedSlider .caption h2 {
     font-size: 1.8rem;
+  }
+  .footerText{
+    padding: 0 50px;
   }
 }
 @media only screen and (max-width: 480px) {

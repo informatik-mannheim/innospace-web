@@ -18,4 +18,4 @@ BLOOMA is a crowdsourced last-mile delivery solution. Delivery companies pay for
 
 This solution not only offers a way to cope with the increasing volume of packages sent and delivered every day but also improves the experience for the rec  ipient and increases the quality of service and scalability for the delivery company.
 
-<iframe src="https://player.vimeo.com/video/221223456" width="640" height="360" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>
+<iframe src="https://player.vimeo.com/video/221223456" width="100%" height="360" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>
