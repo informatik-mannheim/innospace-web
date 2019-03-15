@@ -5,8 +5,7 @@ section_id: portfolio
 year: 2017/2018
 program: CBM
 image:
-  - /images/halexa.JPG
-  - /images/halexa.JPG
+  - /images/@projects/Halexa.jpg
 ---
 
 ### Halexa
