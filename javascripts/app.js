@@ -392,7 +392,7 @@ jQuery(document).foundation();
                     left: "next",
                     right: "prev"
                 },
-                pauseOnHover: false
+                pauseOnHover: true
             }
 
             var autostop = $('.sequence', $ctx).data('autostop') == 'on' ? true : false;

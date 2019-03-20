@@ -2553,6 +2553,7 @@ form input.error, form textarea.error {
   -webkit-transition-delay: 0.5s;
   transition-delay: 0.5s;
 }
+/*
 .modDefaultSlider .sequence .animate-out .info.left-to-right, .modDefaultSlider .sequence .animate-out .info1.left-to-right, .modDefaultSlider .sequence .animate-out .info2.left-to-right, .modDefaultSlider .sequence .animate-out .info3.left-to-right, .modDefaultSlider .sequence .animate-out .info4.left-to-right, .modDefaultSlider .sequence .animate-out .buttons-wrapper.left-to-right, .modDefaultSlider .sequence .animate-out .title.left-to-right, .modDefaultSlider .sequence .animate-out .small-title.left-to-right {
   opacity: 0;
   left: 100%;
@@ -2576,6 +2577,7 @@ form input.error, form textarea.error {
   -webkit-transition-duration: 1s;
   transition-duration: 1s;
 }
+*/
 .modDefaultSlider .sequence .animate-out .bg {
   left: -100%;
   -moz-transition-duration: 1s;
@@ -3221,12 +3223,13 @@ body {
   text-align: center;
   padding: 27px;
   display: inline-block;
-  margin-bottom: 45px;
+  margin-bottom: 40px;
 }
 .modMilestone strong {
   font-size: 3.42857rem;
   display: block;
   margin-bottom: 30px;
+  line-height: 1;
 }
 .modMilestone span {
   letter-spacing: 1px;
@@ -3826,7 +3829,11 @@ body {
   .modDefaultSlider .sequence .title h2 {
     font-size: 3.14286rem;
     line-height: 3.14286rem;
+    margin-bottom: 0px;
+    display: inherit;
+    text-align: center;
   }
+
   .modDefaultSlider .sequence .small-title h2 {
     font-size: 1rem;
   }
