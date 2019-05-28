@@ -2553,7 +2553,7 @@ form input.error, form textarea.error {
   -webkit-transition-delay: 0.5s;
   transition-delay: 0.5s;
 }
-/*
+
 .modDefaultSlider .sequence .animate-out .info.left-to-right, .modDefaultSlider .sequence .animate-out .info1.left-to-right, .modDefaultSlider .sequence .animate-out .info2.left-to-right, .modDefaultSlider .sequence .animate-out .info3.left-to-right, .modDefaultSlider .sequence .animate-out .info4.left-to-right, .modDefaultSlider .sequence .animate-out .buttons-wrapper.left-to-right, .modDefaultSlider .sequence .animate-out .title.left-to-right, .modDefaultSlider .sequence .animate-out .small-title.left-to-right {
   opacity: 0;
   left: 100%;
@@ -2577,7 +2577,7 @@ form input.error, form textarea.error {
   -webkit-transition-duration: 1s;
   transition-duration: 1s;
 }
-*/
+
 .modDefaultSlider .sequence .animate-out .bg {
   left: -100%;
   -moz-transition-duration: 1s;
