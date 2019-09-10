@@ -7,7 +7,7 @@ program: DTP
 sponsor: Valeo
 partnerUni: d.school Paris
 image:
-  - /images/@projects/blooma2.JPG
+  - /images/@projects/safespace-hero.jpg
 ---
 
 ### Safe Space - Feel safe, be safe
