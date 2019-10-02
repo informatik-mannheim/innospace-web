@@ -38,3 +38,14 @@
     Catarina Batista
   desc2:
     Teaching Team Member
+- avatar: images/@ttteam/moritz.png
+  name: Moritz Mundhenke
+  position: Student Assistant
+  socials:
+    - link: https://www.linkedin.com/in/catarina-batista/
+      icon: fab fa-linkedin-in
+  desc1:
+    Moritz Mundhenke
+  desc2:
+    Student Assistant
+
