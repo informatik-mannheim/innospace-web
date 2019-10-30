@@ -5,9 +5,11 @@ section_id: portfolio
 year: 2018/2019
 program: CBI
 sponsor: CERN
-#partnerUni: Stanford University
+#partnerUni:
 image:
-  - /images/@projects/remy.JPG
+  - /images/@projects/quata1.jpg
+  - /images/@projects/quata2.JPG
+  - /images/@projects/quata3.jpg
 
 ---
 
