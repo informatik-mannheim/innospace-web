@@ -5,9 +5,9 @@ section_id: portfolio
 year: 2018/2019
 program: SQUAD
 sponsor: SUSI & James
-partnerUni: University of Porto
+partnerUni: Porto Polytechnic
 image:
-  - /images/@projects/fampedia.jpg
+  - /images/@projects/fampedia1.jpg
 
 ---
 
