@@ -1,0 +1,39 @@
+<style>
+#panorama {
+    width: 100%;
+    height: 500px;
+    margin-bottom: 25px;
+}
+</style>
+
+<div id="panorama"></div>
+<script>
+var a = pannellum.viewer('panorama', {
+    "default": {
+    "firstScene": "kitchen"
+    },
+    "scenes": {
+        {% for room in page.rooms%}
+        "{{ room[0] }}": {
+            "type": "equirectangular",
+            "compass": false,
+            "panorama": "{{site.baseurl}}/images/@room360/{{ room[1].image }}",
+            // Only autoload picture on large/desktop devices
+            "autoLoad": matchMedia(Foundation.media_queries['large']).matches,
+            "yaw": {{ room[1].start | default: 0 }},
+            "hotSpots": [
+                {% for connection in room[1].connections %}
+                    {
+                        "yaw": "{{ connection.horizontal }}",
+                        "pitch": 0,
+                        "type": "scene",
+                        "text": "{{ page.rooms[connection.linksTo].text }}",
+                        "sceneId": "{{ connection.linksTo }}",
+                    },
+                {% endfor %}
+            ]
+        },
+        {% endfor %}
+    }
+});
+</script>

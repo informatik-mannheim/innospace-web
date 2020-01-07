@@ -41,7 +41,56 @@ works:
     link_to:
     klass:
     desc:
-
+# -- For the panorama viewer --
+custom_css: pannellum
+custom_js: pannellum
+rooms:
+    kitchen:
+        text: Kitchen and teaching team area
+        image: kitchen.jpg
+        start: 130
+        connections:
+            -
+                horizontal: 175
+                linksTo: lasercutter
+            -
+                horizontal: -140
+                linksTo: workarea
+            -
+                horizontal: 90
+                linksTo: teamsarea
+    lasercutter:
+        text: Lasercutter room
+        image: lasercutter.jpg
+        start: 40
+        connections:
+            -
+                horizontal: -170
+                linksTo: workarea
+            -
+                horizontal: -120
+                linksTo: kitchen
+    workarea:
+        text: General work area for prototyping
+        image: workarea.jpg
+        connections:
+            -
+                horizontal: 140
+                linksTo: lasercutter
+            -
+                horizontal: 60
+                linksTo: kitchen
+            -
+                horizontal: 90
+                linksTo: teamsarea
+    teamsarea:
+        text: Regular working area for the teams
+        image: teamsarea.jpg
+        connections:
+            -
+                horizontal: 25
+                linksTo: kitchen
+# -- End of panorama section --
 ---
 
 
@@ -186,6 +235,9 @@ works:
         <div class='medium-12 columns'>
              <h2>Our Space</h2>
         </div>
+    </div>
+    <div class='row'>
+      {% include panorama.html rooms=rooms%}
     </div>
     <div class='row'>
         <div class='medium-6 columns'>
