@@ -18,6 +18,7 @@ collections:
 # Build settings
 markdown: kramdown
 
+plugins: [jekyll-paginate]
 
 paginate: 3
 paginate_path: "blog/page:num"
