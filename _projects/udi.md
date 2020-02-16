@@ -6,7 +6,7 @@ year: 2019/2020
 program: UDI
 sponsor: HITA, eV
 image:
-  - /images/@projects/udi.jpg
+  - /images/@projects/udi.JPG
 ---
 
 ### Healthpost Aid & Patient Diary
