@@ -62,6 +62,15 @@ const panorama_viewer = pannellum.viewer('panorama', {
                         "sceneId": "{{ connection.linksTo }}",
                     },
                 {% endfor %}
+                {% for poi in room[1].pointsOfInterest %}
+                    {
+                        "yaw": "{{ poi.horizontal }}",
+                        "pitch": "{{ poi.vertical }}",
+                        "type": "info",
+                        "text": "{{ poi.text }}",
+                        "URL": "{{ poi.link }}"
+                    },
+                {% endfor %}
             ]
         },
         {% endfor %}
