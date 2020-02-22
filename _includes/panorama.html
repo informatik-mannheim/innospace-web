@@ -6,9 +6,40 @@
 }
 </style>
 
-<div id="panorama"></div>
+<div id="panorama">
+    <div id="panorama-tooltip" style="display: none">
+        <span class="panorama-tooltip-text">Move to other rooms using the</span>
+        <span class="pnlm-sprite pnlm-hotspot pnlm-scene panorama-tooltip-text"></span>
+        <span class="panorama-tooltip-text">icon</span>
+    </div>
+</div>
+<style>
+#panorama {
+    position: relative;
+}
+#panorama-tooltip {
+    position: absolute;
+    bottom: 0;
+    left: 50%;
+    z-index: 10;
+    color: #222222;
+    background-color: #EEEEEE99;
+    border-radius: 1em;
+    margin: 1em;
+    padding: 1em;
+    text-align: center;
+    backdrop-filter: blur(5px);
+    transform: translateX(-50%);
+}
+.panorama-tooltip-text {
+    vertical-align: middle;
+    display: inline-block;
+}
+</style>
 <script>
-var a = pannellum.viewer('panorama', {
+let panorama_tooltip_shown = false;
+const panorama_tooltip = document.getElementById("panorama-tooltip");
+const panorama_viewer = pannellum.viewer('panorama', {
     "default": {
     "firstScene": "kitchen"
     },
@@ -35,5 +66,14 @@ var a = pannellum.viewer('panorama', {
         },
         {% endfor %}
     }
+});
+panorama_viewer.on("load", () => {
+    if(!panorama_tooltip_shown) {
+        panorama_tooltip_shown = true;
+        panorama_tooltip.style.display = "";
+    }
+});
+panorama_viewer.on("scenechange", () => {
+    panorama_tooltip.style.display = "none";
 });
 </script>
