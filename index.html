@@ -217,12 +217,18 @@ testimonials:
     </div>
   </div>
   <div class='row'>
-    <div class='medium-6 columns'>
-      <img class="fadeinleft" alt="" src="images/service.jpg" />
+    <div class='small-12 columns'>
+      <div style='padding:56.25% 0 0 0;position:relative;'>
+        <iframe src='https://player.vimeo.com/video/413049427?title=0&byline=0&portrait=0' style='position:absolute;top:0;left:0;width:100%;height:100%;' frameborder='0' allow='autoplay; fullscreen' allowfullscreen>
+        </iframe>
+      </div>
       <div class='three spacing'></div>
     </div>
-    <div class='medium-6 columns'>
-      {% for service in page.services %}
+  </div>
+  <div class='row'>
+    <div class="three spacing"></div>
+    {% for service in page.services %}
+      <div class='medium-4 columns'>
         <div class='fadein mod modIconText' data-delay='{{ 300 | times:forloop.index0 }}'>
           <div class='icon-text-simple'>
             <i class='{{service.icon}}'></i>
@@ -231,8 +237,8 @@ testimonials:
           </div>
           <div class='two spacing'></div>
         </div>
-      {% endfor %}
-    </div>
+      </div>
+    {% endfor %}
   </div>
   <div class='spacing'></div>
 </div>
@@ -263,7 +269,6 @@ testimonials:
   </div>
   <div class='two spacing'></div>
 </div>
-
 
 <!-- Quotes -->
 <div class='full parallax' style="background: #f5f5f5;">
