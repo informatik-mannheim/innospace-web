@@ -7,7 +7,7 @@ program: SQUAD
 sponsor: CIM do Tâmega e Sousa
 partnerUni: University of Porto
 image:
-  - /images/@projects/reshelf.JPG
+  - /images/@projects/reshelf.jpg
 
 ---
 

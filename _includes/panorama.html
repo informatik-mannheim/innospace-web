@@ -49,7 +49,6 @@ const panorama_viewer = pannellum.viewer('panorama', {
             "type": "equirectangular",
             "compass": false,
             "panorama": "{{site.baseurl}}/images/@room360/{{ room[1].image }}",
-            // Only autoload picture on large/desktop devices
             "autoLoad": false,
             "yaw": {{ room[1].start | default: 0 }},
             "hotSpots": [
