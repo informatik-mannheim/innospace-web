@@ -8,7 +8,6 @@
     Prof. Kirstin Kohler
   desc2:    
     inno.space coordinator | Professor of Computer Science
-    
 - avatar: images/@ttteam/peter.jpg
   name: Prof. Dr. Peter Kaiser
   position: Teaching Team Member
@@ -18,8 +17,7 @@
   desc1:
      Prof. Dr. Peter Kaiser
   desc2:
-    Teaching Team Member
-    
+    Teaching Team Member    
 - avatar: images/@ttteam/thomas.jpg
   name: Prof. Thomas Smits
   position: Teaching Team Member
@@ -47,8 +45,7 @@
   desc1:
     Damian Wrobel
   desc2:
-    Teaching Team Member
-    
+    Teaching Team Member    
 - avatar: images/@ttteam/moritz.jpg
   name: Moritz Mundhenke
   position: Student Assistant
@@ -59,7 +56,6 @@
     Moritz Mundhenke
   desc2:
     Student Assistant
-
 - avatar: images/@ttteam/clara.jpg
   name: Clara Dieing
   position: Student Assistant
@@ -69,6 +65,14 @@
   desc1:
     Clara Dieing
   desc2:
+    Student Assistant    
+    - avatar: images/@ttteam/manuel.jpg
+  name: Manuel Walter
+  position: Student Assistant
+  socials:
+    - link: hhttps://www.linkedin.com/in/manuel-walter-1106791a2/
+      icon: fab fa-linkedin-in
+  desc1:
+    Manuel Walter
+  desc2:
     Student Assistant
-    
-
