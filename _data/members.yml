@@ -52,8 +52,8 @@
   name: Albena Bogoeva
   position: Teaching Team Member
   socials:
-      - link: https://www.linkedin.com/in/abogoeva/
-      icon: fab fa-linkedin-in
+   - link: https://www.linkedin.com/in/abogoeva/
+     icon: fab fa-linkedin-in
   desc1:
     Albena Bogoeva
   desc2:
