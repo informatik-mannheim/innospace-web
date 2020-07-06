@@ -71,14 +71,4 @@
   desc2:
     Student Assistant
     
-    - avatar: images/@ttteam/manuel.jpg
-  name: Manuel Walter
-  position: Student Assistant
-  socials:
-    - link: hhttps://www.linkedin.com/in/manuel-walter-1106791a2/
-      icon: fab fa-linkedin-in
-  desc1:
-    Manuel Walter
-  desc2:
-    Student Assistant
 
