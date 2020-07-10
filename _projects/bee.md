@@ -1,6 +1,6 @@
 ---
 layout: collection
-title: CLASH
+title: BEE
 section_id: portfolio
 year: 2019/2020
 program: CBI
