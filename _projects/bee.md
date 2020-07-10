@@ -8,7 +8,7 @@ sponsor: CERN
 #partnerUni:
 image:
   - /images/@projects/bee1.jpg
-  - /images/@projects/bee2.JPG
+  - /images/@projects/bee2.jpg
   - /images/@projects/bee3.jpg
 
 ---

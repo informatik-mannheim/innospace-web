@@ -8,7 +8,7 @@ sponsor: CERN
 #partnerUni:
 image:
   - /images/@projects/clash1.jpg
-  - /images/@projects/clash2.JPG
+  - /images/@projects/clash2.jpg
   - /images/@projects/clash3.jpg
 
 ---
