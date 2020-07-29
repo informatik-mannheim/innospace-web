@@ -7,7 +7,12 @@ program: ME310
 sponsor: Maersk Drilling
 partnerUni: Stanford University
 image:
-  - /images/@projects/oceanlog.jpg
+  - /images/@projects/oceanlog1.jpg
+  - /images/@projects/oceanlog2.jpg
+  - /images/@projects/oceanlog3.jpg
+  - /images/@projects/oceanlog4.jpg
+  - /images/@projects/oceanlog5.jpg
+  - /images/@projects/oceanlog6.jpg
 ---
 
 ### OCEANLOG – The new wave of logitsics
