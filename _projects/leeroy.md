@@ -3,9 +3,9 @@ layout: collection
 title: Leeroy
 section_id: portfolio
 year: 20192020
-program: ME310
+program: GDIP
 sponsor:  
-partnerUni: Stanford University
+partnerUni: University of Tartu
 image:
   - /images/@projects/leeroy1.jpg
   - /images/@projects/leeroy2.jpg
