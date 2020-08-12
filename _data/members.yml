@@ -4,9 +4,9 @@
   socials:
     - link: https://www.linkedin.com/in/kirstin-kohler-mannheim/
       icon: fab fa-linkedin-in
-  desc1: 
+  desc1:
     Prof. Kirstin Kohler
-  desc2:    
+  desc2:
     inno.space coordinator | Professor of Computer Science
 - avatar: images/@ttteam/peter.jpg
   name: Prof. Dr. Peter Kaiser
@@ -17,7 +17,7 @@
   desc1:
      Prof. Dr. Peter Kaiser
   desc2:
-    Teaching Team Member    
+    Teaching Team Member
 - avatar: images/@ttteam/thomas.jpg
   name: Prof. Thomas Smits
   position: Teaching Team Member
@@ -27,7 +27,7 @@
   desc1:
     Prof. Thomas Smits
   desc2:
-    Teaching Team Member  
+    Teaching Team Member
 - avatar: images/@ttteam/catarina.jpg
   name: Catarina Batista
   position: Teaching Team Member
@@ -47,7 +47,7 @@
   desc1:
     Damian Wrobel
   desc2:
-    Teaching Team Member    
+    Teaching Team Member
 - avatar: images/@ttteam/albena.jpg
   name: Albena Bogoeva
   position: Teaching Team Member
@@ -57,17 +57,7 @@
   desc1:
     Albena Bogoeva
   desc2:
-    Teaching Team Member    
-- avatar: images/@ttteam/moritz.jpg
-  name: Moritz Mundhenke
-  position: Student Assistant
-  socials:
-    - link: hhttps://www.linkedin.com/in/moritz-mundhenke-b24813165/
-      icon: fab fa-linkedin-in
-  desc1:
-    Moritz Mundhenke
-  desc2:
-    Student Assistant
+    Teaching Team Member
 - avatar: images/@ttteam/clara.jpg
   name: Clara Dieing
   position: Student Assistant
@@ -77,7 +67,7 @@
   desc1:
     Clara Dieing
   desc2:
-    Student Assistant    
+    Student Assistant
 - avatar: images/@ttteam/manuel.jpg
   name: Manuel Walter
   position: Student Assistant
