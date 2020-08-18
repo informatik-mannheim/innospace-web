@@ -669,6 +669,8 @@ hr {
 
 .parallax {
   background-attachment: fixed;
+  height: 180px;
+
 }
 
 ul.shortcode-list {
