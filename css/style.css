@@ -2105,6 +2105,10 @@ form input.error, form textarea.error {
 
 .modClients .slick-slider {
   margin-bottom: 10px;
+  display: flex;
+  height: auto;
+  align-items: center;
+  justify-content: center;
 }
 .modDefaultSlider .sequence {
   height: 650px;
