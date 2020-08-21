@@ -3,15 +3,18 @@
   section_id: home
 - name: About
   path: about.html
-  section_id: about
-- name: Offer
-  path: offer.html
-  section_id: offer
-  children:
-    - name: Students
-      path: students.html
-    - name: Industry
-      path: industry.html
+  section_id: about     
+- name: Students
+  path: students.html
+  section_id: students
+  children: 
+    - name: Courses
+      path: courses.html
+    - name: Exchange
+      path: exchange.html
+- name: Industry
+  path: industry.html
+  section_id: industry
 - name: Projects
   path: projects.html
   section_id: projects
