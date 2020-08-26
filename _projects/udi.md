@@ -20,4 +20,4 @@ Over the course of 5 months, the student team investigated the current issues in
 The team developed two concepts that aim to improve the current patient record system.
 One targeted the nurses and one the patients, providing them with an easy-to-use platform to collect and record their data, empowering users and allowing them to be more responsible for their own health.
 
-You can find more information about HITA and how you can support them here: https://www.hita-ev.org/. Find more details on the project, including pictures from the process, [here](https://github.com/informatik-mannheim/innospace-web/blob/master/_projects/udi/HITA_Articles.pdf). 
+You can find more information about HITA and how you can support them here: https://www.hita-ev.org/. Find more details on the project, including pictures from the process, ![here](.HITA_Articles.pdf). 
