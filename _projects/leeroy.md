@@ -2,7 +2,7 @@
 layout: collection
 title: Leeroy
 section_id: portfolio
-year: 20192020
+year: 2019/2020
 program: GDIP
 sponsor:  
 partnerUni: University of Tartu
