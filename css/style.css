@@ -608,7 +608,7 @@
 }
 /*some basic settings */
 a {
-  color: #ff6000;
+  color: #f39200;
   -moz-transition-duration: 0.3s;
   -o-transition-duration: 0.3s;
   -webkit-transition-duration: 0.3s;
@@ -669,7 +669,6 @@ hr {
 
 .parallax {
   background-attachment: fixed;
-
 }
 
 ul.shortcode-list {
@@ -677,7 +676,7 @@ ul.shortcode-list {
   margin: 0 0 20px;
 }
 ul.shortcode-list i {
-  color: #ff6000;
+  color: #f39200;
   margin-right: 3px;
 }
 
@@ -731,8 +730,8 @@ ul.shortcode-list i {
   -moz-border-radius: 50%;
   -webkit-border-radius: 50%;
   border-radius: 50%;
-  background-color: #ff6000;
-  border: 3px solid #ff6000;
+  background-color: #f39200;
+  border: 3px solid #f39200;
   -moz-transition: all 0.2s linear;
   -o-transition: all 0.2s linear;
   -webkit-transition: all 0.2s linear;
@@ -742,7 +741,7 @@ ul.shortcode-list i {
   margin: 0;
 }
 .big-social i:hover {
-  border: 3px solid #ff6000;
+  border: 3px solid #f39200;
   background-color: rgba(249, 206, 6, 0);
 }
 
@@ -816,8 +815,8 @@ ul.shortcode-list i {
   text-transform: uppercase;
   letter-spacing: 1px;
   color: #fff;
-  background: #ff6000;
-  border: 2px solid #ff6000;
+  background: #f39200;
+  border: 2px solid #f39200;
   min-width: 200px;
 }
 
@@ -1042,7 +1041,7 @@ ul.info a {
   margin-right: 5px;
 }
 ul.info i {
-  border: 1px solid #ff6000;
+  border: 1px solid #f39200;
   padding: 5px;
   -moz-transition: all 0.1s linear;
   -o-transition: all 0.1s linear;
@@ -1050,7 +1049,7 @@ ul.info i {
   transition: all 0.1s linear;
 }
 ul.info i:hover {
-  background: #ff6000;
+  background: #f39200;
   color: #fff;
 }
 
@@ -1091,7 +1090,7 @@ form input.error, form textarea.error {
   color: #999;
 }
 .pager a:hover {
-  color: #ff6000;
+  color: #f39200;
 }
 .pager .older {
   float: left;
@@ -1185,7 +1184,7 @@ form input.error, form textarea.error {
   -moz-border-radius: 20px;
   -webkit-border-radius: 20px;
   border-radius: 20px;
-  background: #ff6000;
+  background: #f39200;
   color: #333;
   text-align: center;
   font-size: 1.25rem;
@@ -1230,7 +1229,7 @@ form input.error, form textarea.error {
 }
 .modBarGraph .bars p.highlighted {
   width: 0;
-  background: #ff6000;
+  background: #f39200;
   height: 12px;
 }
 .shadow{
@@ -1495,7 +1494,7 @@ form input.error, form textarea.error {
   color: #333;
 }
 .modBlogPost h4 a:hover {
-  color: #ff6000;
+  color: #f39200;
 }
 .modBlogPost .date {
   font-size: 0.78571rem;
@@ -1550,7 +1549,7 @@ form input.error, form textarea.error {
   color: #333;
 }
 .modBlogPost.big h3 a:hover {
-  color: #ff6000;
+  color: #f39200;
 }
 .modBlogPost.big h4 {
   font-size: 1.7rem;
@@ -1829,7 +1828,7 @@ form input.error, form textarea.error {
 }
 .modBoxedSlider .caption p {
   display: inline-block;
-  background: #ff6000;
+  background: #f39200;
   color: #fff;
   font-family: "droid serif";
   margin-bottom: 0;
@@ -1854,7 +1853,7 @@ form input.error, form textarea.error {
   margin-bottom: 40px;
 }
 .modBoxedTextSlider .box i {
-  color: #ff6000;
+  color: #f39200;
   font-size: 36px;
   width: 48px;
   height: 48px;
@@ -1862,7 +1861,7 @@ form input.error, form textarea.error {
   margin-bottom: 30px;
 }
 .modCallToAction{
-    background-color: #ff6000;
+    background-color: #f39200;
     color: #222;
 }
 .modCallToAction p {
@@ -2105,10 +2104,6 @@ form input.error, form textarea.error {
 
 .modClients .slick-slider {
   margin-bottom: 10px;
-  display: flex;
-  height: auto;
-  align-items: center;
-  justify-content: center;
 }
 .modDefaultSlider .sequence {
   height: 650px;
@@ -2987,10 +2982,10 @@ form input.error, form textarea.error {
   color: #999;
 }
 .modGallery .gallery-nav li.current {
-  border: 1px solid #ff6000;
+  border: 1px solid #f39200;
 }
 .modGallery .gallery-nav li.current a {
-  color: #ff6000;
+  color: #f39200;
 }
 .modGallery ul.gallery img {
   width: 100%;
@@ -3091,12 +3086,12 @@ form input.error, form textarea.error {
   margin: -4px;
 }
 .modIconText .icon-text-circle:hover i {
-  color: #ff6000;
+  color: #f39200;
 }
 .modIconText .icon-text-simple i {
   font-size: 3.42857rem;
   float: left;
-  color: #ff6000;
+  color: #f39200;
 ;
   width: 48px;
   height: 48px;
@@ -3129,10 +3124,10 @@ body {
   color: #999;
 }
 .modMasonryGallery .gallery-nav li.current {
-  border: 1px solid #ff6000;
+  border: 1px solid #f39200;
 }
 .modMasonryGallery .gallery-nav li.current a {
-  color: #ff6000;
+  color: #f39200;
 }
 .modMasonryGallery ul.gallery {
   margin: 0;
@@ -3219,7 +3214,7 @@ body {
 .modMilestone i {
   font-size: 36px;
   color: #333;
-  background: #ff6000;
+  background: #f39200;
   width: 90px;
   height: 90px;
   -moz-border-radius: 45px;
@@ -3311,7 +3306,7 @@ body {
 }
 
 .modPriceBox.featured .info {
-  border-top: 4px solid #ff6000;
+  border-top: 4px solid #f39200;
 }
 
 .modPriceBox:hover {
@@ -3326,7 +3321,7 @@ body {
   width: 66%;
   margin: 0 auto;
   height: 2px;
-  background: #ff6000;
+  background: #f39200;
   display: block;
 }
 
@@ -3373,7 +3368,7 @@ body {
   -moz-border-radius: 18px;
   -webkit-border-radius: 18px;
   border-radius: 18px;
-  background: #ff6000;
+  background: #f39200;
   color: #fff;
   text-align: center;
   font-size: 1.125rem;
