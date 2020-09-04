@@ -3894,3 +3894,11 @@ body {
     display: none;
   }
 }
+#map_wrapper {
+  height: 400px;
+}
+
+#map_canvas {
+  width: 100%;
+  height: 100%;
+}
