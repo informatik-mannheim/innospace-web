@@ -14,12 +14,7 @@ value_right:
     desc: International collaboration
   - icon: fas fa-map-signs
     desc: A broader horizon of opportunities
----
 
----
-layout: default
-title: Corona
-section_id: corona
 corona_left:
   - icon: fas fa-pencil-ruler
     desc: The Space
@@ -53,6 +48,54 @@ corona_right:
     <div class="three spacing"></div>
 </div>
 
+<!-- CORONA Info -->
+<div class='full'><div class='row'>
+	<div class='medium-12 columns'>
+      <h3>How is Corona infecting Inno.Space???</h3>
+      <div class='thre spacing'></div>
+    </div>
+  </div>
+  <div class='row'>
+   <div class='medium-6 columns'>
+     {% for value in page.corona_left %}
+     <div class='fadein mod modIconText' data-delay='{{ 300 | times:forloop.index0 }}'>
+       <div class='icon-text-simple'>
+         <i class='{{value.icon}}'></i>
+         <p>{{value.desc}}</p>
+      </div>
+      <div class='three spacing'></div>
+     </div>
+       {% endfor %}
+    </div>
+    <div class='medium-6 columns'>
+      {% for value in page.corona_middle %}
+      <div class='fadein mod modIconText' data-delay='{{ 300 | times:forloop.index0 }}'>
+        <div class='icon-text-simple'>
+          <i class='{{value.icon}}'></i>
+          <p>{{value.desc}}</p>
+        </div>
+        <div class='three spacing'></div>
+      </div>
+      {% endfor %}
+     </div>
+    <div class='medium-6 columns'>
+      {% for value in page.corona_right %}
+      <div class='fadein mod modIconText' data-delay='{{ 300 | times:forloop.index0 }}'>
+        <div class='icon-text-simple'>
+          <i class='{{value.icon}}'></i>
+          <p>{{value.desc}}</p>
+        </div>
+        <div class='three spacing'></div>
+      </div>
+      {% endfor %}
+    </div>
+  </div>
+  <div class='spacing'></div>
+  <div class='mod modCallToAction' style="text-align: center;">
+</div>
+
+
+ 
 
 <div id="dtp" class='full'>
   <div class='row'>
