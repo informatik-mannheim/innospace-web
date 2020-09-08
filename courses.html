@@ -15,6 +15,23 @@ value_right:
   - icon: fas fa-map-signs
     desc: A broader horizon of opportunities
 
+corona_left:
+  - icon: fas fa-pencil-ruler
+    desc: The Space
+  - icon: fas fa-map-signs
+    desc: Hyiene concept
+
+corona_middle:
+  - icon: fas fa-tools
+    desc: International collaboration
+  - icon: fas fa-map-signs
+    desc: A broader horizon of opportunities
+
+corona_right:
+  - icon: fab fa-sketch
+    desc: International collaboration
+  - icon: fas fa-map-signs
+    desc: A broader horizon of opportunities
 ---
 <div class='full parallax' style='background-image: url(images/@header/offer_students.jpg); color: #fff;'>
   <div class='row'>
@@ -36,15 +53,37 @@ value_right:
     </div>
     <div class="three spacing"></div>
 </div>
-<div class="full parallax" style="text-align: center; color: #0000;">
+<!-- CORONA Info -->
+<div class="full parallax" style="text-align: center; color: #0005;">
 	<div class="spacing"></div>
 	<div class="row">
 		<div class="large-12">
-			<p class "Slogan"> here you can write informations about corona etc!
+			<p class "slogan"> here you can write informations about corona etc!
 			</p>
 		</div>
+	 <div class='medium-6 columns'>
+      {% for value in page.value_left %}
+      <div class='fadein mod modIconText' data-delay='{{ 300 | times:forloop.index0 }}>
+        <div class='icon-text-simple'>
+          <i class='{{value.icon}}'></i>
+          <p>{{value.desc}}</p>
+        </div>
+        <div class='two spacing'></div>
+      </div>
+      {% endfor %}
+    </div>
+    <div class='medium-6 columns'>
+      {% for value in page.value_right %}
+      <div class='fadein mod modIconText' data-delay='{{ 300 | times:forloop.index0 }}'>
+        <div class='icon-text-simple'>
+          <i class='{{value.icon}}'></i>
+          <p>{{value.desc}}</p>
+        </div>
+        <div class='two spacing'></div>
+      </div>
 	</div>
 </div>
+
 <div id="dtp" class='full'>
   <div class='row'>
     <div class='large-12 columns'>
