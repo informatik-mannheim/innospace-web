@@ -56,43 +56,6 @@ corona_right:
       <div class='thre spacing'></div>
     </div>
   </div>
-  <div class='row'>
-   <div class='medium-4 columns'>
-     {% for value in page.corona_left %}
-     <div class='fadein mod modIconText' data-delay='{{ 300 | times:forloop.index0 }}'>
-       <div class='icon-text-simple'>
-         <i class='{{value.icon}}'></i>
-         <p>{{value.desc}}</p>
-      </div>
-      <div class='three spacing'></div>
-     </div>
-       {% endfor %}
-    </div>
-    <div class='medium-4 columns'>
-      {% for value in page.corona_middle %}
-      <div class='fadein mod modIconText' data-delay='{{ 300 | times:forloop.index0 }}'>
-        <div class='icon-text-simple'>
-          <i class='{{value.icon}}'></i>
-          <p>{{value.desc}}</p>
-        </div>
-        <div class='three spacing'></div>
-      </div>
-      {% endfor %}
-     </div>
-    <div class='medium-4 columns'>
-      {% for value in page.corona_right %}
-      <div class='fadein mod modIconText' data-delay='{{ 300 | times:forloop.index0 }}'>
-        <div class='icon-text-simple'>
-          <i class='{{value.icon}}'></i>
-          <p>{{value.desc}}</p>
-        </div>
-        <div class='three spacing'></div>
-      </div>
-      {% endfor %}
-    </div>
-  </div>
-  <div class='spacing'></div>
-  <div class='mod modCallToAction' style="text-align: center;">
 </div>
 
 
