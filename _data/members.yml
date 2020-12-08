@@ -58,14 +58,14 @@
     Albena Bogoeva
   desc2:
     Teaching Team Member
-- avatar: images/@ttteam/clara.jpg
-  name: Clara Dieing
+- avatar: images/@ttteam/madita.jpg
+  name: Madita Nisble
   position: Student Assistant
   socials:
-    - link: https://www.linkedin.com/in/clara-dieing-1512b9197/
-      icon: fab fa-linkedin-in
+    - link: https://www.behance.net/larsklormann
+      icon: fab fa-behance
   desc1:
-    Clara Dieing
+    Madita Nisble
   desc2:
     Student Assistant
 - avatar: images/@ttteam/manuel.jpg
