@@ -15,6 +15,16 @@ value_right:
     desc: International collaboration
   - icon: fas fa-map-signs
     desc: A broader horizon of opportunities
+excservices:
+  - icon: fas fa-user-graduate
+    title: Possibilities
+    desc:
+  - icon: fas fa-user-graduate
+    title: Organization
+    desc:
+  - icon: fas fa-user-graduate
+    title: Support from inno.space
+    desc:
 
 testimonials2:
   - quote: So many opportunities and relationships! This experience had great impact on my personal and professional development and I want to encourage everyone who gets the chance to take the opportunity and go for this adventure - I am sure it will be an experience just as great as mine in Tartu.
@@ -33,17 +43,32 @@ testimonials2:
 <div class='full'>
     <div class='row'>
         <div class='large-12 columns'>
-            <h3>Going abroad with inno.space</h3>
+            <h2>Going abroad with inno.space</h2>
             <div class='spacing'></div>
               <p>Spending time abroad through an exchange semester or internship can enrich your study experience and offer more future perspectives. 
                 Together with our partners from the Design Factory Global Network (DFGN) and financial support from MA.global, inno.space is providing students of the Mannheim University of Applied Sciences with the opportunity for a semester abroad.
               </p>
           
+              <div class='row'>
+                <div class="three spacing"></div>
+                {% for service in page.excservices %}
+                  <div class='medium-4 columns'>
+                    <div class='fadein mod modIconText' data-delay='{{ 300 | times:forloop.index0 }}'>
+                      <div class='icon-text-simple'>
+                        <i class='{{service.icon}}'></i>
+                        <h3>{{service.title}}</h3>
+                        <p>{{service.desc}}</p>
+                      </div>
+                      <div class='two spacing'></div>
+                    </div>
+                  </div>
+                {% endfor %}
+              </div>
+<!--
 <div class="container">
   <div id="format" class='full'>
     <div class='row'>
        <div class="large-12 columns">
-        <h3>Format</h3>
             <div class='large-6 columns' style="padding-right: 25px;">              
             <ul>
               <li>You can join a university from the DFGN to:</li>
@@ -59,19 +84,17 @@ testimonials2:
               <li>each scholarship covers <b>monthly expenses of 1000€</b>, <b>health insurance in the destination country</b> and <b>travel allowance of max. 300€ per direction</b></li>
             </ul>
           </div>
-          <div class='large-6 columns'>
-            <a href="{{site.baseurl}}/images/abroad.png" class="gray lightbox-image" title="Abroad"><img class="fadeinleft" alt="" src="{{site.baseurl}}/images/abroad.png" /></a>
-          </div>
         </div>
       </div>
     </div>
     </div>
+    -->
    <div class="container">
       <div id="destinations" class="full">
         <div class='row'>
           <div class="large-12 columns">
-            <h3>Destinations</h3>
-          </div>
+            <h2>Destinations</h2>
+          
           <div class='large-6 columns' style="padding-right: 25px;">     
          <!-- <div class='spacing'></div>-->
           <p class="text-justify">We cooperate with multiple universities which are part of the <a href="https://dfgn.org/" target="_blank">Design Factory Global Network (DFGN)</a>. 
@@ -89,9 +112,10 @@ testimonials2:
             </div>
         </div>  
 </div>  
+</div>
 </div>       
           <div class='spacing'></div>
-            <h3>Application & Selection Process</h3>
+            <h2>Application & Selection Process</h2>
             <div class='spacing'></div>
           <p>In order to be considered for the inno.space exchange scholarship,</p>
           <ul>
