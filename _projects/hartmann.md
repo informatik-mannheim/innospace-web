@@ -13,14 +13,13 @@ image:
   - /images/@projects/hartmann4.png
   - /images/@projects/hartmann5.png
   - /images/@projects/hartmann6.png
-  - /images/@projects/hartmann7.png
 
 ---
 
 ### **CareSense** 
 
 When people reach a certain age they begin to require external help from caregivers. A large
-percentage of such caregivers are relatives. However, for relatives this can be very challenging emtionally and physically since they usually have a full-time job and their own family. The [Hartmann Group] (https://www.hartmann.info/) therefore challenged the team to design a concept to support caregivers at home taking care of their elderly relatives, particularly those who suffer from incontinence. Conceptually the challenge can be broken down into two main parts. On the one hand, caregivers need to deal with two households, increasing the physical burden and on the other hand, the emotional burden of knowing that someone close is in need of help. 
+percentage of such caregivers are relatives. However, for relatives this can be very challenging emtionally and physically since they usually have a full-time job and their own family. The [Hartmann Group](https://www.hartmann.info/) therefore challenged the team to design a concept to support caregivers at home taking care of their elderly relatives, particularly those who suffer from incontinence. Conceptually the challenge can be broken down into two main parts. On the one hand, caregivers need to deal with two households, increasing the physical burden and on the other hand, the emotional burden of knowing that someone close is in need of help. 
 
 As a research result the team found out that this emotional stress almost exceeds the
 physical one. With quotes from caregivers saying “I cannot be there all the time” or “What if
