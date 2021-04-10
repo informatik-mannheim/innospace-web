@@ -20,5 +20,5 @@ markdown: kramdown
 
 plugins: [jekyll-paginate]
 
-paginate: 4
+paginate: 3
 paginate_path: "blog/page:num"
