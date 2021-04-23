@@ -60,34 +60,42 @@ slides:
 services:
   - icon: fas fa-user-graduate
     title: Students
-    desc: Currently, we host 3 different programs at inno.space. Our offer suits both Master and Bachelor students and, although being slightly different, all our programs are multidisciplinary, international and focused on human-centered innovation.
+    desc: Currently, we host different programs at inno.space. Our offer suits both Master and Bachelor students and, although being slightly different, all our programs are multidisciplinary, international and focused on human-centered innovation.
   - icon: fas fa-industry
     title: Industry
-    desc: Besides our long term projects, we also provide short and fast paced workshops to industry partners to guarantee that your company gets in the Design Thinking mindset, facilitating the implementation of this method inside the company and driving innovation faster and more effectively.
+    desc: Besides our long term projects, we also provide short and fast paced workshops to industry partners to guarantee that your company gets in the Design Thinking mindset, facilitate the implementation of this method inside the company and driving innovation faster and more effectively.
   - icon: fas fa-stopwatch
     title: Short term courses
-    desc: "Alongside our main programs, many other events and courses happen at inno.space!
-    We are delighted to offer shorter programs that rely on making and, especially, having fun!
-    We conduct courses on how to operate our laser cutter machine, how to prototype in various mediums, the Challenge Based Making course and Rat Relay."
+    desc: "Alongside our main programs, we host many other events and courses at inno.space!
+    We offer shorter programs that focus on making and, especially, having fun!
+    We conduct courses on how to operate a laser cutter, 3D printer and how to prototype in various mediums."
 
 
 milestones:
   - icon: fas fa-user-graduate
     from: 0
-    to: 55
-    title: students
+    to: 76
+    title: students completed <br>our semester programs 
   - icon: fas fa-book
     from: 0
-    to: 5
-    title: programs
+    to: 995
+    title: ECTS earned acquiring <br>an innovation mindset  
+  - icon: fas fa-hammer
+    from: 0
+    to: 146
+    title: students participated in  <br>our making workshops
+  - icon: fas fa-trophy
+    from: 0
+    to: 19
+    title: partner challenges solved <br> during our programs
   - icon: fas fa-hands-helping
     from: 0
     to: 8
-    title: academic partners
-  - icon: fas fa-industry
+    title: international<br> partner universities
+  - icon: fas fa-globe
     from: 0
-    to: 10
-    title: corporate sponsors
+    to: 24
+    title: student field trips <br>internationally
 
 testimonials:
   - quote: You learn how what you learn can fit to the things you need. You need to make the connections. (…) The main learning was how far you can get from a simple sketch … it’s really impressive what you can achieve in such a few months.
@@ -269,19 +277,18 @@ testimonials:
       {% include section-header.html title="inno.space so far" color="#fff" %}
       <div class='spacing'></div>
       <p class='centered-text' style='color: #ccc;'>
-
       </p>
-      <div class='two spacing'></div>
+      <!-- <div class='spacing'></div> -->
     </div>
   </div>
   <div class='row'>
     {% for milestone in page.milestones %}
-      <div class='medium-3 large-3 columns'>
+      <div class='medium-4 columns'>
         <div class='mod modMilestone'>
           <i class='{{milestone.icon}}'></i>
           <strong data-from='{{milestone.from}}' data-to='{{milestone.to}}'>&nbsp;</strong>
           <span>{{milestone.title}}</span>
-          <div class='four spacing'></div>
+          <div class='two spacing'></div>
         </div>
       </div>
     {% endfor %}
