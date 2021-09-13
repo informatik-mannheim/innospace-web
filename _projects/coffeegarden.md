@@ -8,9 +8,9 @@ sponsor: Coffee Consulate
 partnerUni: HAMK Häme University of Applied Sciences
 image:
   - /images/@projects/auroma1.png
-  - /images/@projects/auroma2.jpg
-  - /images/@projects/auroma3.jpg
-  - /images/@projects/auroma5.jpg
+  - /images/@projects/auroma2.png
+  - /images/@projects/auroma3.png
+  - /images/@projects/auroma4.png
 
 ---
 
