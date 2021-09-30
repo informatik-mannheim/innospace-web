@@ -28,6 +28,16 @@
       Prof. Thomas Smits
   desc2:
       Teaching Team Member
+- avatar: images/@ttteam/clara.png
+  name: Clara Dieing
+  position: Teaching Team Member
+  socials:
+    - link: https://www.linkedin.com/in/clara-dieing/
+      icon: fab fa-linkedin-in
+  desc1:
+      Clara Dieing
+  desc2:
+      Teaching Team Member
 - avatar: images/@ttteam/damian.jpg
   name: Damian Wrobel
   position: Teaching Team Member
@@ -38,31 +48,21 @@
       Damian Wrobel
   desc2:
       Teaching Team Member
-- avatar: images/@ttteam/clara.png
-  name: Clara Dieing
-  position: Teaching Team Member
+- avatar: images/@ttteam/manuel.jpg
+  name: Manuel Walter
+  position: SPrototyping and Workshop Assistant
   socials:
-   - link: https://www.linkedin.com/in/clara-dieing/
-     icon: fab fa-linkedin-in
-  desc1:
-      Clara Dieing
-  desc2:
-      Teaching Team Member
- - avatar: images/@ttteam/manuel.jpg
-   name: Manuel Walter
-position: Prototyping and Workshop Assistant 
-  socials:
-  - link: hhttps://www.linkedin.com/in/manuel-walter-1106791a2/
+    - link: https://www.linkedin.com/in/manuel-walter-1106791a2/
       icon: fab fa-linkedin-in
-      desc1:
-        Manuel Walter
-      desc2:
-        Student Assistant
+  desc1:
+      Manuel Walter
+  desc2:
+      Student Assistant
 - avatar: images/@ttteam/othdom.png
   name: Othdom Ly
   position: Student Assistant
   socials:
-    - link: hhttps://www.linkedin.com/in/othdom-ly-9066341b6/
+    - link: https://www.linkedin.com/in/othdom-ly-9066341b6/
       icon: fab fa-linkedin-in
   desc1:
       Othdom Ly
