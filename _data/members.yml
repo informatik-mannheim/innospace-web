@@ -5,9 +5,9 @@
     - link: https://www.linkedin.com/in/kirstin-kohler-mannheim/
       icon: fab fa-linkedin-in
   desc1:
-    Prof. Kirstin Kohler
+      Prof. Kirstin Kohler
   desc2:
-    inno.space coordinator | Professor of Computer Science
+      inno.space coordinator | Professor of Computer Science
 - avatar: images/@ttteam/peter.jpg
   name: Prof. Dr. Peter Kaiser
   position: Teaching Team Member
@@ -15,9 +15,9 @@
     - link: https://www.linkedin.com/in/peter-kaiser-mannheim/
       icon: fab fa-linkedin-in
   desc1:
-     Prof. Dr. Peter Kaiser
+        Prof. Dr. Peter Kaiser
   desc2:
-    Teaching Team Member
+      Teaching Team Member
 - avatar: images/@ttteam/thomas.jpg
   name: Prof. Thomas Smits
   position: Teaching Team Member
@@ -25,19 +25,9 @@
     - link: https://www.linkedin.com/in/thomas-smits-71b66237/
       icon: fab fa-linkedin-in
   desc1:
-    Prof. Thomas Smits
+      Prof. Thomas Smits
   desc2:
-    Teaching Team Member
-- avatar: images/@ttteam/catarina.jpg
-  name: Catarina Batista
-  position: Teaching Team Member
-  socials:
-    - link: https://www.linkedin.com/in/catarina-batista/
-      icon: fab fa-linkedin-in
-  desc1:
-    Catarina Batista
-  desc2:
-    Teaching Team Member
+      Teaching Team Member
 - avatar: images/@ttteam/damian.jpg
   name: Damian Wrobel
   position: Teaching Team Member
@@ -45,36 +35,36 @@
    - link:  https://www.linkedin.com/in/damian-wrobel-6a5015171/
      icon: fab fa-linkedin-in
   desc1:
-    Damian Wrobel
+      Damian Wrobel
   desc2:
-    Teaching Team Member
-- avatar: images/@ttteam/albena.jpg
-  name: Albena Bogoeva
+      Teaching Team Member
+- avatar: images/@ttteam/clara.png
+  name: Clara Dieing
   position: Teaching Team Member
   socials:
-   - link: https://www.linkedin.com/in/abogoeva/
+   - link: https://www.linkedin.com/in/clara-dieing/
      icon: fab fa-linkedin-in
   desc1:
-    Albena Bogoeva
+      Clara Dieing
   desc2:
-    Teaching Team Member
-- avatar: images/@ttteam/madita.jpg
-  name: Madita Nisble
+      Teaching Team Member
+ - avatar: images/@ttteam/manuel.jpg
+   name: Manuel Walter
+position: Prototyping and Workshop Assistant 
+  socials:
+  - link: hhttps://www.linkedin.com/in/manuel-walter-1106791a2/
+      icon: fab fa-linkedin-in
+      desc1:
+        Manuel Walter
+      desc2:
+        Student Assistant
+- avatar: images/@ttteam/othdom.png
+  name: Othdom Ly
   position: Student Assistant
   socials:
-    - link: https://www.behance.net/larsklormann
-      icon: fab fa-behance
-  desc1:
-    Madita Nisble
-  desc2:
-    Student Assistant
-- avatar: images/@ttteam/manuel.jpg
-  name: Manuel Walter
-  position: Student Assistant
-  socials:
-    - link: hhttps://www.linkedin.com/in/manuel-walter-1106791a2/
+    - link: hhttps://www.linkedin.com/in/othdom-ly-9066341b6/
       icon: fab fa-linkedin-in
   desc1:
-    Manuel Walter
+      Othdom Ly
   desc2:
-    Student Assistant
+      Student Assistant
