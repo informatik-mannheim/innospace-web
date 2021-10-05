@@ -28,7 +28,7 @@
       Prof. Thomas Smits
   desc2:
       Teaching Team Member
-- avatar: images/@ttteam/clara.png
+- avatar: images/@ttteam/clara.jpg
   name: Clara Dieing
   position: Teaching Team Member
   socials:
@@ -50,15 +50,15 @@
       Teaching Team Member
 - avatar: images/@ttteam/manuel.jpg
   name: Manuel Walter
-  position: SPrototyping and Workshop Assistant
+  position: Prototyping and Workshop Assistant
   socials:
     - link: https://www.linkedin.com/in/manuel-walter-1106791a2/
       icon: fab fa-linkedin-in
   desc1:
       Manuel Walter
   desc2:
-      Student Assistant
-- avatar: images/@ttteam/othdom.png
+      Prototyping and Workshop Assistant
+- avatar: images/@ttteam/othdom.jpg
   name: Othdom Ly
   position: Student Assistant
   socials:
@@ -67,4 +67,6 @@
   desc1:
       Othdom Ly
   desc2:
-      Student Assistant
+      Student Assistant      
+
+      
