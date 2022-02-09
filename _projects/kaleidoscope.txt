@@ -14,7 +14,7 @@ image:
 
 ---
 
-### **Kaleidoscope** 
+### **Kaleidoscope**
 
 The company Strategy Compass posted the challenge "How might we leverage social interaction to facilitate digital soft skill development in organization?".
 
