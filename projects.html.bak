@@ -3,11 +3,26 @@ layout: default
 title: Projects
 section_id: projects
 works:
+  - image: images/Stadt Mannheim_01_klein.jpg
+    title: Community Kitchen
+    link_to: projects/communitykitchen
+    klass: 2021/2022 GDIP
+    desc: Corporate Sponsor - City of Mannheim | Partner University - University of Tartu | GDIP Program 2021/2022
+  - image: images/@projects/Strategy Compass_03_klein.jpg
+    title: Kaleidoscope
+    link_to: projects/kaleidoscope
+    klass: 2021/2022 GDIP
+    desc: Corporate Sponsor - Strategy Compass | Partner University - University of Tartu | GDIP Program 2021/2022
+  - image: images/@projects/CBM_Team_2_2_klein.jpg
+    title: Greenbox
+    link_to: projects/greenbox
+    klass: 2021 CBM
+    desc: CBM Program 2021/2022
   - image: images/@projects/CBM_Team_1_3_klein.jpg
     title: Ben the Bin
     link_to: projects/benthebin
     klass: 2021 CBM
-    desc: CBM Program 2021 
+    desc: CBM Program 2021/2022
   - image: images/auroma.JPG
     title: Coffee Garden
     link_to: projects/coffeegarden
