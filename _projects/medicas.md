@@ -20,7 +20,7 @@ image:
 
 is a medical technology kit that enhances possibilities during teleconsultation with a focus on human touch. DAMU, creates nearby medical practices and appointments within a day.
 Onsite medical staff provides information, help and in-person medical follow-ups. In
-combination with that we have developed three tools that enable doctors to perform
+combination with that we have developed four tools that enable doctors to perform
 remote auscultation while meeting patients online.
 The four tools developed by us include: Innovative Stethoscope, Pulse Tablet, Dermatologic Camera and Help Button.
 
