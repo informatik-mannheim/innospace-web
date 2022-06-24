@@ -9,7 +9,7 @@ partnerUni: d.school Paris
 image:
   - /images/@projects/medicas_1.jpg
   - /images/@projects/medicas_2.JPG
-  - /images/@projects/medicas_3.png
+  - /images/@projects/medicas_3.jpg
   - /images/@projects/medicas_4.png
   - /images/@projects/medicas_5.jpg
   
