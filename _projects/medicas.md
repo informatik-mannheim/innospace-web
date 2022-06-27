@@ -24,4 +24,4 @@ combination with that we have developed four tools that enable doctors to perfor
 remote auscultation while meeting patients online.
 The four tools developed by us include: Innovative Stethoscope, Pulse Tablet, Dermatologic Camera and Help Button.
 
-<iframe src="/images/@projects/medicas_gif.gif" width="100%" height="360" frameborder="0" allow="autoplay; fullscreen" allowfullscreen></iframe>
+<iframe src="/images/@projects/medicas_gif.gif" width="100%" height=auto frameborder="0" allow="autoplay; fullscreen" allowfullscreen></iframe>
