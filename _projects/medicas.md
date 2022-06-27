@@ -11,7 +11,7 @@ image:
   - /images/@projects/medicas_2.JPG
   - /images/@projects/medicas_3.jpg
   - /images/@projects/medicas_5.jpg
-  - /images/@projects/medicas_8.jpg
+  - /images/@projects/medicas_8.JPG
   - /images/@projects/medicas_7.jpg
   
 
