@@ -3,10 +3,19 @@ layout: default
 title: Apply Now!
 section_id: apply
 
+nav {display: none;}
+
+testimonials:
+  - quote: The ME310 program really taught me a lot about myself, team work and project management. I learned how to use my skills in an international setting, understand different cultures and reach a goal together with a corporate partner. I would recommend this course to every student, who wants to enter working life with a boost!
+    author: Lia Habben, Masters in Communication Design - DTP 2021/2022
+  - quote: Start with a brainstorm, continue with an idea, explore technologies, change the properties, rewrite everything, hard work until the end and then you realize, that the real fun just started.
+    author: Matthias Bachstädter, Masters in Chemical and Process Engineering - CBI 2021/2022
+  - quote: The first real interdisciplinary project in the degree program. A completely different challenge, not to be given a discrete task and already have the path to a solution in mind, but to first find out what the users really need. This requires a lot of social interaction and communication before the practical part and solution-oriented development can begin. It is precisely this social exchange that ultimately led to a lot of fun and to the fact that fellow students have become friends in the meantime.
+    author: David Keller, Masters in Biomedical Engineering - DTP 2020/2021
 ---
 
 
-<div class='full parallax' style='background-image: url(images/@header/network_headline.jpg); color: #fff;'>
+<div class='full parallax' style='background-image: url(images/@header/apply_header.jpg); color: #fff;'>
   <div class='row'>
     <div class='twelve columns'>
       {% include section-header.html title="Changemaker gesucht" color="#fff" tagline="Apply Now!" class="big" %}
@@ -21,7 +30,7 @@ section_id: apply
     <div class="spacing"></div>
     <div class="row">
         <div class="large-12">
-            <p class="slogan">Du bist Studierende*r der Fakultät V und möchtest lernen,
+            <p class="slogan">Lerne uns kennen, am Dienstag, 05. Juni ab 11:00 Uhr
         </div>
     </div>
     <div class="three spacing"></div>
@@ -30,10 +39,10 @@ section_id: apply
 
 
 
-<div class='full'>
+<div class='full' >
     <div class='row'>
         <div class='large-12 columns'>
-            <h2>ADu bist Studierende*r der Fakultät V ?</h2>
+            <h2>Du studierst an der Fakultät V ?</h2>
 
             Du möchtest lernen,
           <p>
@@ -64,7 +73,7 @@ section_id: apply
     </div>
     <div class='row image-text-center'>
         <div class='medium-6 columns'>
-            <a href="{{site.baseurl}}/images/Kurse_FakV.png" class="gray lightbox-image" title="Sugaraösjfa"><img class="fadeinleft" alt="" src="{{site.baseurl}}/images/Kurse_FakV.png" /></a>
+            <a href="{{site.baseurl}}/images/Kurse_FakV.png" class="gray lightbox-image" title="FakV"><img class="fadeinleft" alt="" src="{{site.baseurl}}/images/Kurse_FakV.png" /></a>
             <div class='three spacing'></div>
         </div>
         <div class='medium-6 columns'>
@@ -89,7 +98,7 @@ section_id: apply
 </div>
 <div class='row image-text-center'>
 
-    <div class='medium-4 columns'>
+    <div class='medium-6 columns'>
         <div class='fadein mod ' data-delay='{{ 200 | times:forloop.index0 }}'>
             <div class='icon-text-simple'>
                 <p>In jedem Fall, wirst du:
@@ -113,17 +122,55 @@ section_id: apply
             <div class='two spacing'></div>
         </div>
     </div>
-    <div class='medium-8 columns'>
-        <a href="{{site.baseurl}}/images/DFGNmap.png" class="gray lightbox-image" title="DFGN"><img class="fadeinleft" alt="" src="{{site.baseurl}}/images/DFGNmap.png" /></a>
+    <div class='medium-6 columns'>
+        <a href="{{site.baseurl}}/images/fakV.jpg" class="gray lightbox-image" title="Prototyping"><img class="fadeinleft" alt="" src="{{site.baseurl}}/images/fakV.jpg" /></a>
 
         <div class='three spacing'></div>
     </div>
 </div>
 
-<div class='full' style="background: #f5f5f5;">
+<!-- Quotes -->
+<div class='full parallax' style="background: #f5f5f5;">
+  <div class='row'>
+    <div class='large-12 columns'>
+      <p class='centered-text'>
+        <i class='fa fa-quote-left' style='color: #ff6000; font-size: 36px;'></i>
+      </p>
+    </div>
+  </div>
+  <div class='row'>
+    <div class='large-12 columns'>
+      {% include section-header.html title="Das sagen deine Kommiliton*innen:" %}
+      <div class='spacing'></div>
+    </div>
+  </div>
+  <div class='row'>
+    <div class='large-12 columns'>
+      <div class='mod modTestimonials'>
+        <div class='row'>
+          <div class='small-12 columns'>
+            <div class='items centered-text'>
+              {% for testimonial in page.testimonials %}
+                <div class='item'>
+                  <p class='quote'>"{{testimonial.quote}}"</p>
+                  <p class='author'>- {{testimonial.author}}</p>
+                  <div class='two spacing'></div>
+                </div>
+              {% endfor %}
+            </div>
+          </div>
+          <div class='spacing'></div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+
+
+<div class='full' style="background: #f   5f5f5;">
     <div class='row'>
         <div class='medium-12 columns'>
-            <h2>Digital Hub</h2>
+            <h2>Interesse ?</h2>
             <p></p>
             <div class='two spacing'></div>
 
@@ -131,14 +178,22 @@ section_id: apply
     </div>
     <div class='row image-text-center'>
         <div class='medium-6 columns'>
-            <a href="{{site.baseurl}}/images/digitalhub.jpg" class="gray lightbox-image" title="DigitalHub"><img class="fadeinleft" alt="" src="{{site.baseurl}}/images/digitalhub.jpg" /></a>
+            <a href="{{site.baseurl}}/images/fakV-interesse.jpg" class="gray lightbox-image" title="Interesse?"><img class="fadeinleft" alt="" src="{{site.baseurl}}/images/fakV-interesse.jpg" /></a>
 
             <div class='three spacing'></div>
         </div>
         <div class='medium-6 columns'>
             <div class='fadein mod ' data-delay='{{ 200 | times:forloop.index0 }}'>
                 <div class='icon-text-simple'>
-                    <p>Sponsored by the federal State Baden-Württemberg, 12 partners of the region have bundled their competences in the <a href="https://digitalhub-kurpfalz.de/" target="_blank">Digital Hub kurpfalz@bw</a> initiative to support small and medium enterprises in their entry into digitalization projects. The various services offered by the individual partners range from advice and lectures to training and qualification courses on digital topics throughout the Kurpfalz region. Inno.space, as one of these 12 partners, will provide an alternative access to digital innovation for SMEs through co-creation projects with students and additional educational and training offerings.</p>
+                    <p> Bist du neugierig geworden und möchtest mehr erfahren? Dann komm gerne vorbei, überzeug dich selbst und lerne uns kennen!
+                        Am <b>Dienstag, den 05.06.2022</b>, könnt ihr einfach unverbindlich bei uns im inno.space (Gebäude K. Raum 019) vorbeikommen.
+                        Ansonsten kannst du uns bei Interesse oder mit Fragen auch per E-Mail an  <a href = "mailto: inno.space@hs-mannheim.de">inno.space</a>. erreichen.
+                        </p>
+
+                      <p>  Da wir in den Projekten mit Partner Hochschulen im Ausland und externen Unternehmen/NGOs arbeiten, müssen wir die Teilnehmer*innen vor Beginn des Semesters festlegen.<br>
+                        Du kannst dich ab jetzt bewerben!
+                        Da die Kursgröße begrenzt ist, gilt <b>"first come first serve"</b>!
+                    </p>
                 </div>
                 <div class='two spacing'></div>
             </div>
