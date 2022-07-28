@@ -7,9 +7,9 @@ program: PDP
 sponsor: connected
 partnerUni: HAMK Häme University of Applied Sciences
 image:
-  - /images/@projects/connected1.JPG
-  - /images/@projects/connected2.JPG
-  - /images/@projects/connected3.JPG
+  - /images/@projects/connected1.jpg
+  - /images/@projects/connected2.jpg
+  - /images/@projects/connected3.jpg
 
 
 ---
