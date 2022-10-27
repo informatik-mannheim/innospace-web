@@ -58,6 +58,16 @@
       Manuel Walter
   desc2:
       Prototyping and Workshop Assistant
+- avatar: images/@ttteam/christian.JPG
+  name: Christian Müller
+  position: Associate for Technology and Workshop Refinement
+  socials:
+    - link: https://www.linkedin.com/in/christian-m%C3%BCller-0096981b6/
+      icon: fab fa-linkedin-in
+  desc1:
+      Christian Müller
+  desc2:
+      Associate for Technology and Workshop Refinement
 - avatar: images/@ttteam/sofia.jpg
   name: Sofia Argiriou
   position: Student Assistant
