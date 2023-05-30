@@ -7,11 +7,12 @@ program: CBI
 sponsor: CERN
 #partnerUni:
 image:
-  - /images/@projects/paludisa_team.jpg
-  - /images/@projects/paludisa_1.jpg
-  - /images/@projects/paludisa_2.png
+  - /images/@projects/paludisa.JPG
+  - /images/@projects/paludisa_5.jpg
+  - /images/@projects/paludisa_6.png
   - /images/@projects/paludisa_3.png
   - /images/@projects/paludisa_4.jpg
+  - /images/@projects/paludisa_7.JPG
 
 
 
