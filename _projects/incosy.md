@@ -8,7 +8,7 @@ sponsor: Diakonie Baden
 partnerUni: KIT Karlsruhe
 image:
   - /images/@projects/incosy_1.jpg
-  - /images/@projects/incosy_2.JPG
+  - /images/@projects/incosy_2.jpg
   - /images/@projects/incosy_3.jpg
 
   
