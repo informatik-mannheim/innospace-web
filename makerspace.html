@@ -7,7 +7,7 @@ section_id: makerspace
 <div class='full parallax' style='background-image: url(images/@header/makerspace.png); color: #fff; '>
   <div class='row'>
     <div class='large-12 columns'>
-      {% include section-header.html title="maker.space" tagline="maker.space" color="#fff" class="big" %}
+      {% include section-header.html title="maker.space" tagline="how we bring things to life" color="#fff" class="big" %}
     </div>
   </div>
   <div class='four spacing'></div>
@@ -16,13 +16,12 @@ section_id: makerspace
   <div class='full'>
     <div class='row'>
       <div class='medium-8 columns'>
-        <p>Hier ensteht die Infoseite für den maker.space, der Hochschule Mannheim. </p>
-          <p>Die betreuende Leitung des maker.space wird von inno.space Personal übernommen.
+        <!-- <p>maker.space - the HMA's great all-round DIY workshop. </p> -->
+        <p>Our makerspace provides access to various machines and tools for modern digital fabrication. We welcome students and researchers of all faculties and support them to bring their projects and ideas to life. <br> <br>
+          We open the doors weekly on Tuesday from 1:30 pm and Friday from 9:00 am. During this time people can book the machines for predefined time slots and the inno.space teaching team supports and supervises the usage. <br> Booking is organized via the following moodle course: <a href="https://moodle.hs-mannheim.de/course/view.php?id=5259" target="_blank" rel="noopener noreferrer">makerspace</a> <br><br>
+          The usage of dedicated machinery requires special training. Therefor we offer mastering machinery courses in a blended format. Further information is also available in the respective moodle course. 
         </p>
-		
-        <p>This is how to find us:</p>
-          <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2592.72262828729!2d8.481564900000002!3d49.4708554!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x4797ceaf0eafdec9%3A0x37d661e2cb309a64!2sinno.space!5e0!3m2!1sde!2sde!4v1540983579112" width="100%" height="450" frameborder="0" style="border:0" allowfullscreen></iframe>
-
+		        
         <div class='two spacing'></div>
       </div>
       <div class='medium-4 columns'>
@@ -31,13 +30,111 @@ section_id: makerspace
           <p>inno.space in Gebäude K 020 (EG)</p>
           <p>Paul-Wittsack-Straße 10 </p>
           <p>68163 Mannheim </p>
-          <h4>Email:</h4>
-          <p><a href="mailto:inno.space@hs-mannheim.de ?subject=Design Thinking - HS Mannheim">inno.space(at)hs-mannheim.de</a></p>
-		  <h4>Phone:</h4>
-		  <p><a href="tel:+496212926392 ?subject=Design Thinking - HS Mannheim">+49 621 2926-392</a></p>
+          <h4>Opening hours:</h4>
+          <p>Tuesday: 1:30 pm - 5:30 pm<p>
+		      <p>Friday: 9:00 am - 1:00 pm<p>
+		  </p>
         </div>
       </div>
     </div>
   </div>
-  <div class='four spacing'></div>
+  <div class='two spacing'></div>
 </div>
+
+<!--
+<div class='full' style="background: #f5f5f5;">
+    <div class="row">
+        <div class='medium-12 columns'>
+            <h2>Our machine Highlights</h2>
+        </div>
+    </div>
+    <br>
+    <div class='row'>
+
+        {% for machine in site.data.machines %}
+        <div class='small-6 end medium-3 large-3 columns'>
+            <div class='mod modTeamMember'>
+                <div class='member'>
+                    <img class="avatar" alt="" src="{{ machine.avatar }}"  />
+                    <div class='overlay'>
+                        <div class='intro'>
+                            <h3>{{machine.name}}</h3>
+                            <p>{{machine.position}}</p>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class='four spacing'></div>
+        </div>
+        {% endfor %}
+    </div>
+</div>
+-->
+
+<!--
+<div class='full'>
+    <div class='row'>
+        <div class='medium-12 columns'>
+             <h2>The Room</h2>
+        </div>
+    </div>
+    <div class='row'>
+        <div class='medium-6 columns'>
+
+            <h3>Wood and metal sector</h3>
+            <ul style="padding-left: 30px">
+                <li>Pedestal drilling machine</li>
+                <li>Pedestal drilling machine</li>
+				        <li>Pedestal drilling machine</li>
+            </ul>
+
+            <h3>Digital sector</h3>
+            <ul style="padding-left: 30px">
+                <li>Resin Printer</li>
+                <li>3D-Printer Ultimaker 2 extended+</li>
+				        <li>3D-Printer Ultimaker 5 </li>
+            </ul>
+
+            <h3>Textile sector</h3>
+            <ul style="padding-left: 30px">
+                <li>Vinyl Cutter</li>
+                <li>Sewing machine</li>
+				        <li>Sewing machine</li>
+            </ul>
+
+            <h3>Electronic sector</h3>
+            <ul style="padding-left: 30px">
+                <li>Osziloscope</li>
+                <li>Soldering iron</li>
+				        <li>Soldering iron</li>
+            </ul>
+
+            <h3>Other facilities</h3>
+            <ul style="padding-left: 30px">
+                <li>Lego bricks</li>
+                <li>Prototyping material</li>
+				        <li>Prototyping material</li>
+            </ul>
+
+            <p>Furniture</p>
+            <ul style="padding-left: 30px">
+                <li>Prototyping Wagen</li>
+                <li>Workbench</li>
+
+            </ul>
+            <p>Kitchen</p>
+            <ul style="padding-left: 30px">
+                <li>Fridge</li>
+                <li>Microwave</li>
+            </ul> 
+
+
+            <div class='two spacing'></div>
+        </div>
+
+        <div class='medium-6 columns'>
+                 {% include image-gallery.html folder="/images/@room" %}
+
+        </div> -->
+</div>-
