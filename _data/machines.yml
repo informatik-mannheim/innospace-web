@@ -1,24 +1,27 @@
-- avatar: images/@makerspace/ultimaker.jpg
-  name: Ultimaker S2 and S5
+- avatar: images/@makerspace/ultimakerS5.jpg
+  name: Ultimaker S5
+  position: Large Filament-Printer | Additive Manufacturing
+- avatar: images/@makerspace/ultimaker2.jpg
+  name: Ultimaker 2 Extended+ 
   position: Filament-Printer | Additive Manufacturing
-- avatar: images/@makerspace/ultimaker.jpg
+- avatar: images/@makerspace/formlabs.jpg
+  name: Formlabs 3B+
+  position: Large Resin Printer | Additive Manufacturing
+- avatar: images/@makerspace/anycubic.jpg
   name: Anycubic Photon D2
-  position: Resin-Printer | Additive Manufacturing
-- avatar: images/@makerspace/ultimaker.jpg
-  name: Hpilog Helix
+  position: Resin Printer | Additive Manufacturing
+- avatar: images/@makerspace/epilog.jpg
+  name: Epilog Helix
   position: Laser Cutter&Engraver | Decoration & panel cutting
-- avatar: images/@makerspace/ultimaker.jpg
+- avatar: images/@makerspace/roland.jpg
   name: Roland CGS-24
   position: Vinylcutter | Decoration  
-- avatar: images/@makerspace/ultimaker.jpg
+- avatar: images/@makerspace/isel.jpg
   name: Isel ICP 4030
   position: CNC-Table Mill | Subtractive Manufacturing
-- avatar: images/@makerspace/ultimaker.jpg
-  name: Ersa RDS80 & Icon Vario 2
-  position: Soldering Desoldering Reflow | Electronic
-- avatar: images/@makerspace/ultimaker.jpg
+- avatar: images/@makerspace/brother.jpg
+  name: Brother Innov-is F 480
+  position:  Embroiding and Sewing | Fabric work    
+- avatar: images/@makerspace/shaper.jpg
   name: Shaper Origin 
   position: Handdheld Router | Substractive Decoration
-- avatar: images/@makerspace/ultimaker.jpg
-  name: Brother Innov-is F 480
-  position:  embroiding and sewing | Fabric work    
