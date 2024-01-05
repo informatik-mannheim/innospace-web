@@ -12,16 +12,25 @@
   position: Resin Printer | Additive Manufacturing
 - avatar: images/@makerspace/epilog.jpg
   name: Epilog Helix
-  position: Laser Cutter&Engraver | Decoration & panel cutting
+  position: Laser Cutter & Engraver | Decoration & panel cutting
 - avatar: images/@makerspace/roland.jpg
   name: Roland CGS-24
   position: Vinylcutter | Decoration  
+- avatar: images/@makerspace/press.jpg
+  name: Stahls Clam Basic
+  position: Heat Press | Decoration
+- avatar: images/@makerspace/brother.jpg
+  name: Brother Innov-is F 480
+  position:  Embroiding and Sewing | Fabric work  
 - avatar: images/@makerspace/isel.jpg
   name: Isel ICP 4030
   position: CNC-Table Mill | Subtractive Manufacturing
-- avatar: images/@makerspace/brother.jpg
-  name: Brother Innov-is F 480
-  position:  Embroiding and Sewing | Fabric work    
+- avatar: images/@makerspace/drill.jpg
+  name: Optimum Drill
+  position: Wood, Aluminum, and Steel Drill  |  Save and accurate Drilling in to smaller workpieces
+- avatar: images/@makerspace/saw.jpg
+  name: Hegner Multicut Scroll Saw
+  position: Precision Saw |  Thin Bladed Sewing
 - avatar: images/@makerspace/shaper.jpg
   name: Shaper Origin 
-  position: Handdheld Router | Substractive Decoration
+  position: Handheld Router | Substractive Decoration
