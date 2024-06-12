@@ -38,16 +38,33 @@
       Manuel Walter
   desc2:
       Teaching Team Member
-- avatar: images/@ttteam/christian.JPG
-  name: Christian Müller
+- avatar: images/@ttteam/philipp.jpg
+  name: Philipp Arnold
   position: Teaching Team Member
   socials:
-    - link: https://www.linkedin.com/in/christian-m%C3%BCller-0096981b6/
+    - link: https://www.linkedin.com/in/philipp-arnold-287473297/
       icon: fab fa-linkedin-in
   desc1:
-      Christian Müller
+      Phillip Arnold
   desc2:
       Teaching Team Member
+- avatar: images/@ttteam/luana.jpg
+  name: Mia Luana Werner
+  position: Student Assistant
+  socials:
+    - link: https://www.linkedin.com/in/mia-luana-werner-a773b330b/
+      icon: fab fa-linkedin-in
+  desc1:
+      Mia Luana Werner
+  desc2:
+      Student Assistant  
+- avatar: images/@ttteam/julianf.jpg
+  name: Julian Finger
+  position: Student Assistant
+  desc1:
+      Julian Finger
+  desc2:
+      Student Assistant     
 - avatar: images/@ttteam/sofia.jpg
   name: Sofia Argiriou
   position: Student Assistant
