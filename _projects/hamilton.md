@@ -20,7 +20,7 @@ image:
 
 ### **Cell Care** 
 
-ICell Care is an automated, low-cost system designed to change the media in cell culture flasks, commonly used by biologists in research and academic labs to cultivate prokaryotic cells. These cells require regular media changes for nutrients, which are traditionally done manually, often requiring lab visits during inconvenient times.
+Cell Care is an automated, low-cost system designed to change the media in cell culture flasks, commonly used by biologists in research and academic labs to cultivate prokaryotic cells. These cells require regular media changes for nutrients, which are traditionally done manually, often requiring lab visits during inconvenient times.
 
 Cell Care eliminates the need for manual media changes, allowing users to monitor their cells remotely via microscopic images. The system is compatible with 90% of incubators and consists of two main parts:
 
