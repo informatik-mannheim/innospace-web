@@ -4,10 +4,10 @@
 - avatar: images/@makerspace/ultimaker2.jpg
   name: Ultimaker 2 Extended+ 
   position: Filament-Printer | Additive Manufacturing
-  avatar: images/@makerspace/ultimaker2.jpg
-  name: 2x Bambu Lab X1E 
+  avatar: images/@makerspace/bambulabx1e.jpg
+  name: Bambu Lab X1E 
   position: Filament-Printer | Additive Manufacturing
-- avatar: images/@makerspace/bambulabx1e.jpg
+- avatar: images/@makerspace/formlabs.jpg
   name: Formlabs 3B+
   position: Large Resin Printer | Additive Manufacturing
 - avatar: images/@makerspace/anycubic.jpg
