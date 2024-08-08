@@ -10,7 +10,7 @@ works:
     desc: Vision Domes | PDP Program 2024
   - image: images/@projects/innolight1.jpg
     title: inno.light
-    link_to: projects/innolight
+    link_to: projects/inno.light
     klass: 2024 PDP
     desc: innol.light | PDP Program 2024
   - image: images/@projects/deco1.jpg
