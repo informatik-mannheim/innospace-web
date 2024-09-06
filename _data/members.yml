@@ -65,13 +65,15 @@
       Mia Luana Werner
   desc2:
       Student Assistant  
-- avatar: images/@ttteam/julianf.jpg
-  name: Julian Finger
-  position: Student Assistant
+- avatar: images/@ttteam/robin.jpg
+  name: Robin Reyer
+  position: Teaching Team Member
+  socials:
+    - link: https://www.linkedin.com/in/robin-reyer/
+      icon: fab fa-linkedin-in
   desc1:
-      Julian Finger
-  desc2:
-      Student Assistant     
+       
+  desc2: Teaching Team Member  
 - avatar: images/@ttteam/sofia.jpg
   name: Sofia Argiriou
   position: Student Assistant
