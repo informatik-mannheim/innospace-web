@@ -57,32 +57,22 @@
       Teaching Team Member
 - avatar: images/@ttteam/luana.jpg
   name: Mia Luana Werner
-  position: Student Assistant
+  position: Crew Member
   socials:
     - link: https://www.linkedin.com/in/mia-luana-werner-a773b330b/
       icon: fab fa-linkedin-in
   desc1:
       Mia Luana Werner
   desc2:
-      Student Assistant  
+      Crew Member  
 - avatar: images/@ttteam/robin.jpg
   name: Robin Reyer
-  position: Teaching Team Member
+  position: Research Assistant
   socials:
     - link: https://www.linkedin.com/in/robin-reyer/
       icon: fab fa-linkedin-in
   desc1:
        
-  desc2: Teaching Team Member  
-- avatar: images/@ttteam/sofia.jpg
-  name: Sofia Argiriou
-  position: Student Assistant
-  socials:
-    - link: https://www.linkedin.com/in/sofia-argiriou-2b282724b/
-      icon: fab fa-linkedin-in
-  desc1:
-      Sofia Argiriou
-  desc2:
-      Student Assistant      
+  desc2: Research Assistant
 
       
