@@ -25,6 +25,12 @@
 - avatar: images/@makerspace/brother.jpg
   name: Brother Innov-is F 480
   position:  Embroiding and Sewing | Fabric work  
+  - avatar: images/@makerspace/juki-tl2300.jpg
+  name: Juki TL-2300	
+  position:  Sewing | Fabric work  
+  - avatar: images/@makerspace/juki-mo735n.jpg
+  name: Juki MO-735N
+  position:  Sewing | Fabric work  
 - avatar: images/@makerspace/isel.jpg
   name: Isel ICP 4030
   position: CNC-Table Mill | Subtractive Manufacturing
