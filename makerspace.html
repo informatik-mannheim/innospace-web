@@ -117,8 +117,29 @@ section_id: makerspace
 
             <div class='two spacing'></div>
         </div> -->
+		<style>
+			/* Stellt den Container des Videos responsiv ein */
+			.responsive-video {
+				position: relative; 
+				padding-bottom: 56.25%; /* 16:9 Aspect Ratio */
+				padding-top: 25px; 
+				height: 0;
+			}
 
-        <div class='medium-12 columns'>
+			/* Stellt das iframe des Videos so ein, dass es den Container voll ausfüllt */
+			.responsive-video iframe {
+				position: absolute;
+				top: 0;
+				left: 0;
+				width: 100%;
+				height: 100%;
+			}
+		</style>
+
+        <div class='medium-12 columns responsive-video'>
+                 <iframe width="1280" height="720" src="https://www.youtube.com/embed/yTFlZoqhUnA" title="maker.space" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+        </div>
+		<div class='medium-12 columns'>
                  {% include image-gallery.html folder="/images/@makerRoom" %}
         </div> 
 </div>-
