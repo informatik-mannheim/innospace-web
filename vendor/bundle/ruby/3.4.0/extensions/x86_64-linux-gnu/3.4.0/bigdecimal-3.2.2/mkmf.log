@@ -135,7 +135,7 @@ checked program was:
 have_func: checking for _lzcnt_u32() in x86intrin.h... -------------------- no
 
 LD_LIBRARY_PATH=.:/usr/lib64 ASAN_OPTIONS=detect_leaks=0 "gcc -o conftest -I/usr/include/ruby-3.4.0/x86_64-linux-gnu -I/usr/include/ruby-3.4.0/ruby/backward -I/usr/include/ruby-3.4.0 -I.   -O2 -Wall -U_FORTIFY_SOURCE -D_FORTIFY_SOURCE=3 -fstack-protector-strong -funwind-tables -fasynchronous-unwind-tables -fstack-clash-protection -Werror=return-type -flto=auto -g -fno-strict-aliasing -std=gnu99 -fstack-protector-strong  -O3 -fno-fast-math -ggdb3 -Wall -Wextra -Wdeprecated-declarations -Wdiv-by-zero -Wduplicated-cond -Wimplicit-function-declaration -Wimplicit-int -Wpointer-arith -Wwrite-strings -Wold-style-definition -Wimplicit-fallthrough=0 -Wmissing-noreturn -Wno-cast-function-type -Wno-constant-logical-operand -Wno-long-long -Wno-missing-field-initializers -Wno-overlength-strings -Wno-packed-bitfield-compat -Wno-parentheses-equality -Wno-self-assign -Wno-tautological-compare -Wno-unused-parameter -Wno-unused-value -Wsuggest-attribute=format -Wsuggest-attribute=noreturn -Wunused-variable -Wmisleading-indentation -Wundef -fPIC conftest.c -L. -L/usr/lib64 -L. -flto=auto -fstack-protector-strong -rdynamic -Wl,-export-dynamic -Wl,--no-as-needed     -lruby3.4  -lm -lpthread  -lc"
-/usr/lib64/gcc/x86_64-suse-linux/15/../../../../x86_64-suse-linux/bin/ld: /tmp/ccB6OkiI.ltrans0.ltrans.o: in function `t':
+/usr/lib64/gcc/x86_64-suse-linux/15/../../../../x86_64-suse-linux/bin/ld: /tmp/cczUGDSk.ltrans0.ltrans.o: in function `t':
 /home/t540p_suse/Schreibtisch/innospace-web/vendor/bundle/ruby/3.4.0/gems/bigdecimal-3.2.2/ext/bigdecimal/conftest.c:16:(.text+0x3): undefined reference to `_lzcnt_u32'
 collect2: error: ld returned 1 exit status
 checked program was:
@@ -197,7 +197,7 @@ checked program was:
 have_func: checking for _lzcnt_u64() in x86intrin.h... -------------------- no
 
 LD_LIBRARY_PATH=.:/usr/lib64 ASAN_OPTIONS=detect_leaks=0 "gcc -o conftest -I/usr/include/ruby-3.4.0/x86_64-linux-gnu -I/usr/include/ruby-3.4.0/ruby/backward -I/usr/include/ruby-3.4.0 -I.   -O2 -Wall -U_FORTIFY_SOURCE -D_FORTIFY_SOURCE=3 -fstack-protector-strong -funwind-tables -fasynchronous-unwind-tables -fstack-clash-protection -Werror=return-type -flto=auto -g -fno-strict-aliasing -std=gnu99 -fstack-protector-strong  -O3 -fno-fast-math -ggdb3 -Wall -Wextra -Wdeprecated-declarations -Wdiv-by-zero -Wduplicated-cond -Wimplicit-function-declaration -Wimplicit-int -Wpointer-arith -Wwrite-strings -Wold-style-definition -Wimplicit-fallthrough=0 -Wmissing-noreturn -Wno-cast-function-type -Wno-constant-logical-operand -Wno-long-long -Wno-missing-field-initializers -Wno-overlength-strings -Wno-packed-bitfield-compat -Wno-parentheses-equality -Wno-self-assign -Wno-tautological-compare -Wno-unused-parameter -Wno-unused-value -Wsuggest-attribute=format -Wsuggest-attribute=noreturn -Wunused-variable -Wmisleading-indentation -Wundef -fPIC conftest.c -L. -L/usr/lib64 -L. -flto=auto -fstack-protector-strong -rdynamic -Wl,-export-dynamic -Wl,--no-as-needed     -lruby3.4  -lm -lpthread  -lc"
-/usr/lib64/gcc/x86_64-suse-linux/15/../../../../x86_64-suse-linux/bin/ld: /tmp/ccIxx5Rl.ltrans0.ltrans.o: in function `t':
+/usr/lib64/gcc/x86_64-suse-linux/15/../../../../x86_64-suse-linux/bin/ld: /tmp/ccMQTt35.ltrans0.ltrans.o: in function `t':
 /home/t540p_suse/Schreibtisch/innospace-web/vendor/bundle/ruby/3.4.0/gems/bigdecimal-3.2.2/ext/bigdecimal/conftest.c:16:(.text+0x3): undefined reference to `_lzcnt_u64'
 collect2: error: ld returned 1 exit status
 checked program was:
@@ -381,7 +381,7 @@ checked program was:
 /* end */
 
 LD_LIBRARY_PATH=.:/usr/lib64 ASAN_OPTIONS=detect_leaks=0 "gcc -o conftest -I/usr/include/ruby-3.4.0/x86_64-linux-gnu -I/usr/include/ruby-3.4.0/ruby/backward -I/usr/include/ruby-3.4.0 -I.   -O2 -Wall -U_FORTIFY_SOURCE -D_FORTIFY_SOURCE=3 -fstack-protector-strong -funwind-tables -fasynchronous-unwind-tables -fstack-clash-protection -Werror=return-type -flto=auto -g -fno-strict-aliasing -std=gnu99 -fstack-protector-strong  -O3 -fno-fast-math -ggdb3 -Wall -Wextra -Wdeprecated-declarations -Wdiv-by-zero -Wduplicated-cond -Wimplicit-function-declaration -Wimplicit-int -Wpointer-arith -Wwrite-strings -Wold-style-definition -Wimplicit-fallthrough=0 -Wmissing-noreturn -Wno-cast-function-type -Wno-constant-logical-operand -Wno-long-long -Wno-missing-field-initializers -Wno-overlength-strings -Wno-packed-bitfield-compat -Wno-parentheses-equality -Wno-self-assign -Wno-tautological-compare -Wno-unused-parameter -Wno-unused-value -Wsuggest-attribute=format -Wsuggest-attribute=noreturn -Wunused-variable -Wmisleading-indentation -Wundef -fPIC conftest.c -L. -L/usr/lib64 -L. -flto=auto -fstack-protector-strong -rdynamic -Wl,-export-dynamic -Wl,--no-as-needed     -lruby3.4  -lm -lpthread  -lc"
-/usr/lib64/gcc/x86_64-suse-linux/15/../../../../x86_64-suse-linux/bin/ld: /tmp/ccEPkL3B.ltrans0.ltrans.o: in function `t':
+/usr/lib64/gcc/x86_64-suse-linux/15/../../../../x86_64-suse-linux/bin/ld: /tmp/ccNTbyqP.ltrans0.ltrans.o: in function `t':
 /home/t540p_suse/Schreibtisch/innospace-web/vendor/bundle/ruby/3.4.0/gems/bigdecimal-3.2.2/ext/bigdecimal/conftest.c:17:(.text+0x7): undefined reference to `__builtin_isfinite'
 collect2: error: ld returned 1 exit status
 checked program was:
