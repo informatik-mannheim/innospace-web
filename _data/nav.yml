@@ -1,23 +1,20 @@
-- name: Home
-  path: index.html
-  section_id: home
 - name: About
   path: about.html
   section_id: about
-- name: Students
+- name: Courses
   path: students.html
   section_id: students
   children:
-    - name: Courses
+    - name: Course Offers
       path: courses.html
-    - name: Exchange
-      path: exchange.html
-- name: Industry
-  path: industry.html
-  section_id: industry
-- name: Projects
-  path: projects.html
-  section_id: projects
+    - name: Past Projects
+      path: projects.html
+- name: Partners
+  path: partners.html
+  section_id: partners
+- name: Funding
+  path: funding.html
+  section_id: funding
 - name: Network
   path: network.html
   section-id: network
