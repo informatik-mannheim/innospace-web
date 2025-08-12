@@ -3,17 +3,23 @@
   section_id: about
 - name: Courses
 <<<<<<< Updated upstream
+<<<<<<< Updated upstream
   path: courses.html
   section_id: courses
   children:
     - name: Course Offers
       path: courses-offers.html
 =======
+=======
+>>>>>>> Stashed changes
   path: students.html
   section_id: students
   children:
     - name: Course Offers
       path: courses.html
+<<<<<<< Updated upstream
+>>>>>>> Stashed changes
+=======
 >>>>>>> Stashed changes
     - name: Past Projects
       path: projects.html
