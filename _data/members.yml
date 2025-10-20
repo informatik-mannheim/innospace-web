@@ -57,15 +57,17 @@
   desc1:
       Mia Luana Werner
   desc2:
-      Crew Member  
-- avatar: images/@ttteam/robin.jpg
-  name: Robin Reyer
+      Crew Member
+- avatar: images/@ttteam/hnudee.jpg
+  name: Hnudee Espedal
+  position: Teaching Team Member
+  socials:
+    - link: https://www.linkedin.com/in/chutimon-espedal-522064208/
+      icon: fab fa-linkedin-in
+- avatar: images/@ttteam/katharina.jpg
+  name: Katharina Salewski
   position: Research Assistant
   socials:
-    - link: https://www.linkedin.com/in/robin-reyer/
+    - link: https://www.linkedin.com/in/katharina-salewski-528b5924a/
       icon: fab fa-linkedin-in
-  desc1:
-       
-  desc2: Research Assistant
-
       
