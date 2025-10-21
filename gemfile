@@ -5,6 +5,9 @@ gem "csv"
 gem "base64" 
 gem "bigdecimal"
 gem "logger"
+source "https://rubygems.org"
+gem "jekyll-paginate"
+
 
 # Falls du Plugins verwendest, hier hinzufügen:
 # gem "jekyll-feed"

@@ -311,7 +311,7 @@ checked program was:
 /* end */
 
 PATH=".;C:/Ruby34-x64/lib;C:\Ruby34-x64\bin;C:\Ruby34-x64\msys64\ucrt64\bin;C:\Ruby34-x64\msys64\usr\bin;C:\Program Files\Common Files\Oracle\Java\javapath;C:\Ruby34-x64\bin;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\WINDOWS\System32\OpenSSH\;C:\Program Files\PuTTY\;C:\Program Files\dotnet\;C:\Program Files\WireGuard\;C:\Users\mawa\AppData\Local\Microsoft\WindowsApps;C:\Users\mawa\AppData\Local\GitHubDesktop\bin" ASAN_OPTIONS=detect_leaks=0 "gcc -o conftest.exe -IC:/Ruby34-x64/include/ruby-3.4.0/x64-mingw-ucrt -IC:/Ruby34-x64/include/ruby-3.4.0/ruby/backward -IC:/Ruby34-x64/include/ruby-3.4.0 -I. -I/usr/local/opt/openssl/include -I/opt/local/include -I/usr/local/include -D_WIN32_WINNT=0x0600 -D__MINGW_USE_VC2005_COMPAT -D_FILE_OFFSET_BITS=64  -O3 -fstack-protector-strong conftest.c -L. -LC:/Ruby34-x64/lib -L/usr/local/opt/openssl/lib -L/opt/local/lib -L/usr/local/lib -L. -pipe -s -fstack-protector-strong -lpthread -Wl,--no-as-needed     -lx64-ucrt-ruby340  -lshell32 -lws2_32 -liphlpapi -limagehlp -lshlwapi -lbcrypt  "
-C:/Ruby34-x64/msys64/ucrt64/bin/../lib/gcc/x86_64-w64-mingw32/15.1.0/../../../../x86_64-w64-mingw32/bin/ld.exe: C:\Users\mawa\AppData\Local\Temp\ccxzLRL6.o:conftest.c:(.text+0x5): undefined reference to `rb_thread_blocking_region'
+C:/Ruby34-x64/msys64/ucrt64/bin/../lib/gcc/x86_64-w64-mingw32/15.1.0/../../../../x86_64-w64-mingw32/bin/ld.exe: C:\Users\mawa\AppData\Local\Temp\ccqnfyDr.o:conftest.c:(.text+0x5): undefined reference to `rb_thread_blocking_region'
 collect2.exe: error: ld returned 1 exit status
 checked program was:
 /* begin */
@@ -493,7 +493,7 @@ checked program was:
 /* end */
 
 PATH=".;C:/Ruby34-x64/lib;C:\Ruby34-x64\bin;C:\Ruby34-x64\msys64\ucrt64\bin;C:\Ruby34-x64\msys64\usr\bin;C:\Program Files\Common Files\Oracle\Java\javapath;C:\Ruby34-x64\bin;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\WINDOWS\System32\OpenSSH\;C:\Program Files\PuTTY\;C:\Program Files\dotnet\;C:\Program Files\WireGuard\;C:\Users\mawa\AppData\Local\Microsoft\WindowsApps;C:\Users\mawa\AppData\Local\GitHubDesktop\bin" ASAN_OPTIONS=detect_leaks=0 "gcc -o conftest.exe -IC:/Ruby34-x64/include/ruby-3.4.0/x64-mingw-ucrt -IC:/Ruby34-x64/include/ruby-3.4.0/ruby/backward -IC:/Ruby34-x64/include/ruby-3.4.0 -I. -I/usr/local/opt/openssl/include -I/opt/local/include -I/usr/local/include -D_WIN32_WINNT=0x0600 -D__MINGW_USE_VC2005_COMPAT -D_FILE_OFFSET_BITS=64  -O3 -fstack-protector-strong conftest.c -L. -LC:/Ruby34-x64/lib -L/usr/local/opt/openssl/lib -L/opt/local/lib -L/usr/local/lib -L. -pipe -s -fstack-protector-strong -lpthread -Wl,--no-as-needed     -lx64-ucrt-ruby340  -lshell32 -lws2_32 -liphlpapi -limagehlp -lshlwapi -lbcrypt  "
-C:/Ruby34-x64/msys64/ucrt64/bin/../lib/gcc/x86_64-w64-mingw32/15.1.0/../../../../x86_64-w64-mingw32/bin/ld.exe: C:\Users\mawa\AppData\Local\Temp\cc5GQeDb.o:conftest.c:(.text+0x5): undefined reference to `rb_enable_interrupt'
+C:/Ruby34-x64/msys64/ucrt64/bin/../lib/gcc/x86_64-w64-mingw32/15.1.0/../../../../x86_64-w64-mingw32/bin/ld.exe: C:\Users\mawa\AppData\Local\Temp\ccbdrbUb.o:conftest.c:(.text+0x5): undefined reference to `rb_enable_interrupt'
 collect2.exe: error: ld returned 1 exit status
 checked program was:
 /* begin */
@@ -718,7 +718,7 @@ checked program was:
 /* end */
 
 PATH=".;C:/Ruby34-x64/lib;C:\Ruby34-x64\bin;C:\Ruby34-x64\msys64\ucrt64\bin;C:\Ruby34-x64\msys64\usr\bin;C:\Program Files\Common Files\Oracle\Java\javapath;C:\Ruby34-x64\bin;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\WINDOWS\System32\OpenSSH\;C:\Program Files\PuTTY\;C:\Program Files\dotnet\;C:\Program Files\WireGuard\;C:\Users\mawa\AppData\Local\Microsoft\WindowsApps;C:\Users\mawa\AppData\Local\GitHubDesktop\bin" ASAN_OPTIONS=detect_leaks=0 "gcc -o conftest.exe -IC:/Ruby34-x64/include/ruby-3.4.0/x64-mingw-ucrt -IC:/Ruby34-x64/include/ruby-3.4.0/ruby/backward -IC:/Ruby34-x64/include/ruby-3.4.0 -I. -I/usr/local/opt/openssl/include -I/opt/local/include -I/usr/local/include -D_WIN32_WINNT=0x0600 -D__MINGW_USE_VC2005_COMPAT -D_FILE_OFFSET_BITS=64  -O3 -fstack-protector-strong conftest.c -L. -LC:/Ruby34-x64/lib -L/usr/local/opt/openssl/lib -L/opt/local/lib -L/usr/local/lib -L. -pipe -s -fstack-protector-strong -lpthread -Wl,--no-as-needed     -lx64-ucrt-ruby340  -lshell32 -lws2_32 -liphlpapi -limagehlp -lshlwapi -lbcrypt  "
-C:/Ruby34-x64/msys64/ucrt64/bin/../lib/gcc/x86_64-w64-mingw32/15.1.0/../../../../x86_64-w64-mingw32/bin/ld.exe: C:\Users\mawa\AppData\Local\Temp\ccuuFII1.o:conftest.c:(.text+0x5): undefined reference to `pipe2'
+C:/Ruby34-x64/msys64/ucrt64/bin/../lib/gcc/x86_64-w64-mingw32/15.1.0/../../../../x86_64-w64-mingw32/bin/ld.exe: C:\Users\mawa\AppData\Local\Temp\ccVO1gXy.o:conftest.c:(.text+0x5): undefined reference to `pipe2'
 collect2.exe: error: ld returned 1 exit status
 checked program was:
 /* begin */
