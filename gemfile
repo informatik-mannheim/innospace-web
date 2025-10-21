@@ -16,3 +16,5 @@ gem "jekyll-paginate"
 
 # Für Ruby 3.4 Kompatibilität
 gem "google-protobuf", ">= 4.27.0"
+
+gem "jekyll-paginate"
