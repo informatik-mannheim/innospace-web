@@ -55,21 +55,19 @@ slides:
       #  - text:
        #   link_to:
 
-
-
 services:
   - icon: fas fa-user-graduate
-    title: Students
-    desc: Currently, we host different programs at inno.space. Our offer suits both Master and Bachelor students and, although being slightly different, all our programs are multidisciplinary, international and focused on human-centered innovation.
-  - icon: fas fa-industry
-    title: Industry
-    desc: Besides our long term projects, we also provide short and fast paced workshops to industry partners to guarantee that your company gets in the Design Thinking mindset, facilitate the implementation of this method inside the company and driving innovation faster and more effectively.
-  - icon: fas fa-stopwatch
-    title: Short term courses
-    desc: "Alongside our main programs, we host many other events and courses at inno.space!
-    We offer shorter programs that focus on making and, especially, having fun!
-    We conduct courses on how to operate a laser cutter, 3D printer and how to prototype in various mediums."
-
+    title: STUDENT-CENTERED LEARNING
+    desc: "We put students at the heart of everything we do. By focusing on future skills such as collaboration, creativity, and critical thinking, we empower the next generation of engineers to grow into confident problem-solvers.  <br>
+    Learning at inno.space is hands-on, challenge-based, and always connected to real-world contexts — preparing students not just for today's challenges, but for tomorrow's opportunities."
+  - icon: fas fa-lightbulb
+    title: INNOVATION EXPERTISE
+    desc: "Innovation doesn't happen by chance — it follows a process. At inno.space, we guide students and partners through structured innovation methods that connect academia with industry. From ideation to validation, we provide the tools, mindset, and network to turn promising ideas into impactful solutions. <br>
+    Our strong links to industry ensure that projects are always relevant and future-ready."
+  - icon: fas fa-tools
+    title: PROTOTYPING EXCELLENCE
+    desc: "Ideas become powerful when they can be tested, touched, and improved. That's why prototyping is at the core of our work. With access to our maker.space, teams bring their concepts to life quickly and iteratively. <br>
+    From early sketches to functional prototypes, we provide the expertise and environment for rapid experimentation — because making is the fastest way to learning."
 
 milestones:
   - icon: fas fa-user-graduate
@@ -97,12 +95,11 @@ milestones:
     to: 56
     title: student field trips <br>internationally
   
-
 ---
 
-<!-- Header -->
+<!-- IMAGE SLIDESHOW & HEADER -->
 <div class='mod modDefaultSlider'>
-  <div class='sequence' data-autostop='off' data-timeout='3500' >
+  <div class='sequence' data-autostop='off' data-timeout='3500'>
     <a class='sequence-prev' href='javascript:void(0);'>
       <span></span>
     </a>
@@ -111,39 +108,39 @@ milestones:
     </a>
     <ul class='sequence-pagination'>
       {% for slide in page.slides %}
-        {% if forloop.first %}
-          {% assign class = 'current' %}
-        {% else %}
-          {% assign class = '' %}
-        {% endif %}
-        <li class="{{class}}"></li>
+      {% if forloop.first %}
+      {% assign class = 'current' %}
+      {% else %}
+      {% assign class = '' %}
+      {% endif %}
+      <li class="{{class}}"></li>
       {% endfor %}
     </ul>
     <ul class='sequence-canvas'>
       {% for slide in page.slides %}
-        {% if forloop.first %}
-          {% assign style = 'static' %}
-        {% else %}
-          {% assign style = '' %}
-        {% endif %}
+      {% if forloop.first %}
+      {% assign style = 'static' %}
+      {% else %}
+      {% assign style = '' %}
+      {% endif %}
 
-        <li class='frame {{style}} {{ slide.klass }}'>
-          <div class='bg' style='background-image: url({{slide.bg}});'></div>
-          <div class='title {{ slide.title.klass }}'>
-            <div class='row'>
-              <div class='large-12 columns'>
-                <h2>{{ slide.small_title.text }}</h2>
-              </div>
+      <li class='frame {{style}} {{ slide.klass }}'>
+        <div class='bg' style='background-image: url({{slide.bg}});'></div>
+        <div class='title {{ slide.title.klass }}'>
+          <div class='row'>
+            <div class='large-12 columns'>
+              <h2>{{ slide.small_title.text }}</h2>
             </div>
           </div>
-          <div class='title {{ slide.title.klass }}'>
-            <div class='row'>
-              <div class='large-12 columns'>
-                <h2>{{ slide.title.text }}</h2>
-              </div>
+        </div>
+        <div class='title {{ slide.title.klass }}'>
+          <div class='row'>
+            <div class='large-12 columns'>
+              <h2>{{ slide.title.text }}</h2>
             </div>
           </div>
-		  <!--
+        </div>
+        <!--
           <div class="buttons-wrapper bottom-to-top">
             <div class="row">
               <div class="large-12 columns">
@@ -156,7 +153,7 @@ milestones:
           </div>
 		  -->
 
-          <!--
+        <!--
           <div class='buttons-wrapper {{ slide.buttons.klass }}'>
             <div class='row'>
               <div class='large-12 columns'>
@@ -168,23 +165,24 @@ milestones:
             </div>
           </div>
           -->
-        </li>
+      </li>
       {% endfor %}
     </ul>
   </div>
 </div>
 
-<!-- Slogan -->
+<!-- SLOGAN -->
 <div class="full parallax" style="text-align: center;background-image: url(images/slogan.jpg); color: #fff;">
-    <div class="spacing"></div>
-    <div class="row">
+  <div class="spacing"></div>
+  <div class="row">
 
-        <div class="large-12">
-            <p class="slogan">Where passion-based learning meets real-world problems to generate human-centred innovation and true impact.</p>
+    <div class="large-12">
+      <p class="slogan">Where passion-based learning meets real-world problems to generate human-centred innovation and
+        true impact.</p>
 
-        </div>
     </div>
-    <div class="three spacing"></div>
+  </div>
+  <div class="three spacing"></div>
 </div>
 
 <!--
@@ -220,15 +218,17 @@ milestones:
 </div>
 -->
 
-<!-- Service -->
+<!-- OUR OFFER FOR STUDENTS AND COMPANIES -->
 <div class='full' style="background: #f5f5f5;">
   <div class='row'>
     <div class='large-12 columns'>
       {% include section-header.html title="Our offer for students and companies" %}
       <div class='spacing'></div>
       <p>
-        inno.space - Design Factory Mannheim provides the environment for passion-based learning, co- creation across disciplines and cultures and industrial cooperation. <br/>
-       It facilitates teamwork, making, prototyping, and digital fabrication in an inspiring and open atmosphere, fostering the right conditions for solving complex real-world problems.
+        inno.space - Design Factory Mannheim provides the environment for passion-based learning, co- creation across
+        disciplines and cultures and industrial cooperation. <br />
+        It facilitates teamwork, making, prototyping, and digital fabrication in an inspiring and open atmosphere,
+        fostering the right conditions for solving complex real-world problems.
       </p>
       <div class='three spacing'></div>
     </div>
@@ -236,7 +236,9 @@ milestones:
   <div class='row'>
     <div class='small-12 columns'>
       <div style='padding:56.25% 0 0 0;position:relative;'>
-        <iframe src="https://player.vimeo.com/video/448552394" style='position:absolute;top:0;left:0;width:100%;height:100%;' frameborder='0' allow="autoplay; fullscreen" allowfullscreen></iframe>
+        <iframe src="https://player.vimeo.com/video/448552394"
+          style='position:absolute;top:0;left:0;width:100%;height:100%;' frameborder='0' allow="autoplay; fullscreen"
+          allowfullscreen></iframe>
       </div>
       <div class='three spacing'></div>
     </div>
@@ -244,22 +246,23 @@ milestones:
   <div class='row'>
     <div class="three spacing"></div>
     {% for service in page.services %}
-      <div class='medium-4 columns'>
-        <div class='fadein mod modIconText' data-delay='{{ 300 | times:forloop.index0 }}'>
-          <div class='icon-text-simple'>
-            <i class='{{service.icon}}'></i>
-            <h3>{{service.title}}</h3>
-            <p>{{service.desc}}</p>
-          </div>
-          <div class='two spacing'></div>
+    <div class='medium-4 columns'>
+      <div class='fadein mod modIconText' data-delay='{{ 300 | times:forloop.index0 }}'>
+        <div class='icon-text-simple'>
+          <i class='{{service.icon}}'></i>
+          <h3>{{service.title}}</h3>
+          <p>{{service.desc}}</p>
         </div>
+        <div class='two spacing'></div>
       </div>
+    </div>
     {% endfor %}
   </div>
   <div class='spacing'></div>
 </div>
 
-<!-- Numbers -->
+
+<!-- STATISTICS -->
 <div class='full parallax' style='background-image: url(images/teams-bg.jpg); color: #fff;'>
   <div class='row'>
     <div class='large-12 columns'>
@@ -272,20 +275,21 @@ milestones:
   </div>
   <div class='row'>
     {% for milestone in page.milestones %}
-      <div class='medium-4 columns'>
-        <div class='mod modMilestone'>
-          <i class='{{milestone.icon}}'></i>
-          <strong data-from='{{milestone.from}}' data-to='{{milestone.to}}'>&nbsp;</strong>
-          <span>{{milestone.title}}</span>
-          <div class='two spacing'></div>
-        </div>
+    <div class='medium-4 columns'>
+      <div class='mod modMilestone'>
+        <i class='{{milestone.icon}}'></i>
+        <strong data-from='{{milestone.from}}' data-to='{{milestone.to}}'>&nbsp;</strong>
+        <span>{{milestone.title}}</span>
+        <div class='two spacing'></div>
       </div>
+    </div>
     {% endfor %}
   </div>
   <div class='two spacing'></div>
 </div>
 
-<!-- Partners -->
+
+<!-- PARTNERS -->
 {% include our-customers.html %}
 
 <!-- Call to action -->
