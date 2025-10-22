@@ -233,23 +233,36 @@ milestones:
 <div class='full' style="background: #f5f5f5;">
   {% include section-header.html title="News" %}
   <div class='two spacing'></div>
-  <div class="row">
 
-      {% for news in site.data.news %}
-      <div class="large-4 medium-4 columns">
-        <div class="mod modBlogPost">
-      
-            <a href="{{ news.link }}"><img alt="" src="{{ news.thumbnail }}"></a>
- 
-          <div class="content">
-            <p class="date">{{ news.date }}</p>
-            <h4><a href="#">{{ news.title }}</a></h4>
-            <p>{{ news.text }}</p>
+  <!-- Trying to apply the testimonials formatting to the news -->
+  <div class="row">
+    <div class='mod modTestimonials'>
+      <div class='row'>
+        <div class='small-12 columns'>
+          <div class='items centered-text'>
+            {% for newspage in site.data.news %}
+            <div class='item'>
+
+              {% for article in newspage.articles %}
+              <div class="small-4 columns">
+                <div class="mod modBlogPost">
+                  <a href="{{ article.link }}"><img alt="" src="{{ article.thumbnail }}"></a>
+                  <div class="content">
+                    <p class="date">{{ article.date }}</p>
+                    <h4><a href="#">{{ article.title }}</a></h4>
+                    <p>{{ article.text }}</p>
+                  </div>
+                </div>
+                <div class='two spacing'></div>
+              </div>
+              {% endfor %}
+            </div>
+            {% endfor %}
           </div>
         </div>
+        <div class='spacing'></div>
       </div>
-      {% endfor %}
-      
+    </div>
   </div>
 </div>
 

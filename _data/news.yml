@@ -1,15 +1,34 @@
-- thumbnail: images/piy.jpg
-  title: Here are some news :)
-  link: news/test
-  text: Have a look at this article! This is a news article that people can click on, in order to read the full article, which is somewhere else on this website. Oh I very much hope this works
-  date: 22.10.2025
-- thumbnail: images/piy.jpg
-  title: Here are some news :)
-  link: news/test
-  text: Have a look at this article! This is a news article that people can click on, in order to read the full article, which is somewhere else on this website. Oh I very much hope this works
-  date: 22.10.2025
-- thumbnail: images/piy.jpg
-  title: Here are some news :)
-  link: news/test
-  text: Have a look at this article! This is a news article that people can click on, in order to read the full article, which is somewhere else on this website. Oh I very much hope this works
-  date: 22.10.2025
+- id: 1
+  articles:
+    - thumbnail: images/piy.jpg
+      title: Article 1
+      link: news/test
+      text: Have a look at this article! This is a news article that people can click on, in order to read the full article, which is somewhere else on this website. Oh I very much hope this works
+      date: 22.10.2025
+    - thumbnail: images/Room_5.1.jpg
+      title: Article 2
+      link: news/test
+      text: Have a look at this article! This is a news article that people can click on, in order to read the full article, which is somewhere else on this website. Oh I very much hope this works
+      date: 22.10.2025
+    - thumbnail: images/tartu1.jpg
+      title: Article 3
+      link: news/test
+      text: Have a look at this article! This is a news article that people can click on, in order to read the full article, which is somewhere else on this website. Oh I very much hope this works
+      date: 22.10.2025
+- id: 2
+  articles:
+    - thumbnail: images/piy.jpg
+      title: Article 4
+      link: news/test
+      text: Have a look at this article! This is a news article that people can click on, in order to read the full article, which is somewhere else on this website. Oh I very much hope this works
+      date: 22.10.2025
+    - thumbnail: images/Room_5.1.jpg
+      title: Article 5
+      link: news/test
+      text: Have a look at this article! This is a news article that people can click on, in order to read the full article, which is somewhere else on this website. Oh I very much hope this works
+      date: 22.10.2025
+    - thumbnail: images/tartu1.jpg
+      title: Article 6
+      link: news/test
+      text: Have a look at this article! This is a news article that people can click on, in order to read the full article, which is somewhere else on this website. Oh I very much hope this works
+      date: 22.10.2025
