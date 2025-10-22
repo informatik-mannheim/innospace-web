@@ -96,30 +96,6 @@ milestones:
     from: 0
     to: 56
     title: student field trips <br>internationally
-
-testimonials:
-  - quote: The CBI programme has been a game-changer for me as a tech student, allowing me to break free from traditional ways of thinking,  leave my comfort zone, develop a more open-minded and innovative mindset and collaborate with a wide range of professionals, which has helped me to develop my creativity and problem-solving skills beyond what I thought was possible.
-    author: Maren Isabella Leidner, Masters in Computer Science - CBI 2022/2023
-  - quote: As part of the CBI project, you learn interdisciplinary skills that no normal course of study can offer. Especially the deep insight into future-oriented technologies of ATTRACT and CERN gives the students a profound understanding of technology. Learning about such technologies in their infancy is very exciting. The special thing about CBI is that it relates the whole project to actual important problems of mankind and thus shows the students at a young age what needs to be done for a better future.
-    author: Paul Mohaupt, Masters in Chemical and Process Engineering - CBI 2022/2023
-  - quote: The ME310 program really taught me a lot about myself, team work and project management. I learned how to use my skills in an international setting, understand different cultures and reach a goal together with a corporate partner. I would recommend this course to every student, who wants to enter working life with a boost!
-    author: Lia Habben, Masters in Communication Design - DTP 2021/2022
-  - quote: Start with a brainstorm, continue with an idea, explore technologies, change the properties, rewrite everything, hard work until the end and then you realize, that the real fun just started.
-    author: Matthias Bachstädter, Masters in Chemical and Process Engineering - CBI 2021/2022
-  - quote: The first real interdisciplinary project in the degree program. A completely different challenge, not to be given a discrete task and already have the path to a solution in mind, but to first find out what the users really need. This requires a lot of social interaction and communication before the practical part and solution-oriented development can begin. It is precisely this social exchange that ultimately led to a lot of fun and to the fact that fellow students have become friends in the meantime.
-    author: David Keller, Masters in Biomedical Engineering - DTP 2020/2021
-  - quote: You learn how what you learn can fit to the things you need. You need to make the connections. (…) The main learning was how far you can get from a simple sketch … it’s really impressive what you can achieve in such a few months.
-    author: Mariya Bolotnikova, Bachelors in Communication Design – CBI A3 2019/2020
-  - quote: It’s a different workflow and people bring different perspectives. It showed how this collaborative work can lead to great results. You have to put a lot of your own thoughts, you are open to try new things, which is great. (…) You learn what you are really capable of.
-    author: Sarah Lottner, Masters in Medical Engineering – CBI A3 2019/2020
-  - quote: I discovered new ways of doing innovation, it was the first time you’re not just learning from slides but you actually are doing the process. (…) I enjoyed the freedom to decide what we are going to do and how we are going to that and it’s completely different. I would say it’s an actual learning approach. (…) If you’re getting the right question at the right time, you’re exercising what you learn, it’s action-based learning.
-    author: Markus Knödler, Masters in Business Engineering – DTP 2018/2019
-  - quote: It was a big responsibility, a lot of work and a demanding challenge but a great chance to grow above myself! The freedom of following our own ideas paired with the international and interdisciplinary setup was inspiring. The project always felt full of purpose and meaning. The lectures I attended, the friends I made and the skills I acquired certainly made this a chance of a lifetime.
-    author: Christoph Bruthscher, Master in Computer Science - DTP 2016/2017
-  - quote: In the DTP Project I learned to have an open mind to all ideas. Most important I experienced the need to try these ideas out and not give up on them too early. Considering this we accelerated ideation and came up with unexpected new ideas. I brought this mindset to my life&#58; don’t judge ideas as bad or good too early, build on them and test them to create the best experience.
-    author: Emylie Pereira, Master in Computer Science - DTP 2015/2016
-  - quote: A lot of the things I learned will pay off in my future. It was a very exhausting time but also it was the masters course program that I learned the most in. A really deep and intense learning experience!
-    author: Max Becker, Master in Computer Science - DTP 2016/2017
   
 
 ---
@@ -307,43 +283,6 @@ testimonials:
     {% endfor %}
   </div>
   <div class='two spacing'></div>
-</div>
-
-<!-- Quotes -->
-<div class='full parallax' style="background: #f5f5f5;">
-  <div class='row'>
-    <div class='large-12 columns'>
-      <p class='centered-text'>
-        <i class='fa fa-quote-left' style='color: #ff6000; font-size: 36px;'></i>
-      </p>
-    </div>
-  </div>
-  <div class='row'>
-    <div class='large-12 columns'>
-      {% include section-header.html title="What students say" %}
-      <div class='spacing'></div>
-    </div>
-  </div>
-  <div class='row'>
-    <div class='large-12 columns'>
-      <div class='mod modTestimonials'>
-        <div class='row'>
-          <div class='small-12 columns'>
-            <div class='items centered-text'>
-              {% for testimonial in page.testimonials %}
-                <div class='item'>
-                  <p class='quote'>"{{testimonial.quote}}"</p>
-                  <p class='author'>- {{testimonial.author}}</p>
-                  <div class='two spacing'></div>
-                </div>
-              {% endfor %}
-            </div>
-          </div>
-          <div class='spacing'></div>
-        </div>
-      </div>
-    </div>
-  </div>
 </div>
 
 <!-- Partners -->
