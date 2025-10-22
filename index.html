@@ -185,66 +185,32 @@ milestones:
   <div class="three spacing"></div>
 </div>
 
-<!--
-<div class="full" style="background: #f5f5f5;">
-  <div class="row">
-    <div class="large-12 columns">
-      {% include section-header.html title="Our works" %}
-      <div class="spacing"></div>
-      <p>
-        Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat consectetuer sit amet magna adipiscing. Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat consectetuer sit amet magna adipiscing.
-      </p>
-      <div class="three spacing"></div>
-    </div>
-  </div>
-
-  <div class="mod modGallery">
-    <ul class="gallery small-block-grid-2 medium-block-grid-3 large-block-grid-4">
-      {% for work in page.works %}
-        <li class="{{ work.klass }}">
-          <a href='{{ work.link_to }}'>
-            <img alt="" src="{{ work.image }}" />
-            <div class='overlay'>
-              <div class='thumb-info'>
-                <h3>{{ work.title }}</h3>
-                <p>{{ work.desc }}</p>
-              </div>
-            </div>
-          </a>
-        </li>
-      {% endfor %}
-    </ul>
-  </div>
-</div>
--->
 
 <!-- OUR OFFER FOR STUDENTS AND COMPANIES -->
-<div class='full' style="background: #f5f5f5;">
-  <div class='row'>
-    <div class='large-12 columns'>
-      {% include section-header.html title="Our offer for students and companies" %}
-      <div class='spacing'></div>
+<div class='full'>
+  {% include section-header.html title="Our offer for students and companies" %}
+  <div class='two spacing'></div>
+  <div class='row image-text-center'>
+    <div class='medium-4 columns'>
       <p>
         inno.space - Design Factory Mannheim provides the environment for passion-based learning, co- creation across
         disciplines and cultures and industrial cooperation. <br />
         It facilitates teamwork, making, prototyping, and digital fabrication in an inspiring and open atmosphere,
         fostering the right conditions for solving complex real-world problems.
       </p>
-      <div class='three spacing'></div>
     </div>
-  </div>
-  <div class='row'>
-    <div class='small-12 columns'>
+    <div class='medium-8 columns'>
       <div style='padding:56.25% 0 0 0;position:relative;'>
         <iframe src="https://player.vimeo.com/video/448552394"
           style='position:absolute;top:0;left:0;width:100%;height:100%;' frameborder='0' allow="autoplay; fullscreen"
           allowfullscreen></iframe>
       </div>
-      <div class='three spacing'></div>
     </div>
   </div>
+  <div class='four three spacing'></div>
+
+  <!-- SERVICES -->
   <div class='row'>
-    <div class="three spacing"></div>
     {% for service in page.services %}
     <div class='medium-4 columns'>
       <div class='fadein mod modIconText' data-delay='{{ 300 | times:forloop.index0 }}'>
@@ -260,6 +226,33 @@ milestones:
   </div>
   <div class='spacing'></div>
 </div>
+
+
+
+<!-- NEWS -->
+<div class='full' style="background: #f5f5f5;">
+  {% include section-header.html title="News" %}
+  <div class='two spacing'></div>
+  <div class="row">
+
+      {% for news in site.data.news %}
+      <div class="large-4 medium-4 columns">
+        <div class="mod modBlogPost">
+      
+            <a href="{{ news.link }}"><img alt="" src="{{ news.thumbnail }}"></a>
+ 
+          <div class="content">
+            <p class="date">{{ news.date }}</p>
+            <h4><a href="#">{{ news.title }}</a></h4>
+            <p>{{ news.text }}</p>
+          </div>
+        </div>
+      </div>
+      {% endfor %}
+      
+  </div>
+</div>
+
 
 
 <!-- STATISTICS -->
