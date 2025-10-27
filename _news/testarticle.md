@@ -1,20 +1,25 @@
 ---
 layout: news_post
 title: A regular article title
-date: 22.10.2025
-
+subtitle: Maybe space for a bit more context, you know
+thumbnail: images/piy.jpg
+date: '22.10.2025'
 image:
-  - /images/@projects/SAGE_2.png
-  - /images/@projects/SAGE_3.png
-  - /images/@projects/SAGE_4.png
-  - /images/@projects/SAGE_5.png
-
+  - /images/@projects/CBM_Team_1_1.JPG
+  - /images/@projects/CBM_Team_1_2.JPG
+  - /images/@projects/CBM_Team_1_3.JPG
+  - /images/@news/sugar.jpg
 
 ---
 
-### **C.A.R.L** 
+This is the text for a news article! It has been taken directly from markdown, which I assume means that markdown syntax can be used.
+As far as I can understand, videos can also be included with html tags, or links added in classic markdown fashion.
 
-C.A.R.L is a machine that can recycle old clothes into whichever new items a person desires. This allows users to participate in a more sustainable clothing consumption experience with amenities, interactive features, and other educational tools. C.A.R.L focuses on reharvesting all the materials in the old garments rather than trying to restore the original garment. It promotes a circular economy by localizing recycling and production, also canceling the need for a transport chain of imports and exports. 
-<iframe src="https://player.vimeo.com/video/986287893" width="100%" height="360" frameborder="0" allow="autoplay; fullscreen" allowfullscreen></iframe>
+Of course I would assume that news posts are normally a bit longer, and maybe we want to include a functionality to link to external sources (e.g. LinkedIn),
+but all in all this is a pretty ok template :)
+
+### I think headings are possible in markdown as well
+
+Oh wow! This is pretty cool actually
 
 

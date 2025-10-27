@@ -3,6 +3,7 @@
     <h2 style="color: {{include.color}};">{{ include.title }}</h2>
   </div>
   {% if include.tagline %}
-    <h3 class='centered-text' style='color: {{include.color}}'>{{include.tagline}}</h3>
+    <!-- Tagline has been converted to date for news articles, so far it does not seem like this interferes with non-date taglines -->
+    <h3 class='centered-text' style='color: {{include.color}}'>{{include.tagline | date: "%a, %b %d, %y"}}</h3>
   {% endif %}
 </div>
