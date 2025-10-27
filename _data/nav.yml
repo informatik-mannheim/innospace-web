@@ -7,11 +7,6 @@
   children:
     - name: Course Offers
       path: courses-offers.html
-  path: courses.html
-  section_id: courses
-  children:
-    - name: Course Offers
-      path: courses-offers.html
     - name: Past Projects
       path: projects.html
 - name: Partners

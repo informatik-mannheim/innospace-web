@@ -192,7 +192,7 @@ milestones:
   <div class='two spacing'></div>
   <div class='row image-text-center'>
     <div class='medium-4 columns'>
-      <p>
+      <p style="padding-right: 20px;">
         inno.space - Design Factory Mannheim provides the environment for passion-based learning, co- creation across
         disciplines and cultures and industrial cooperation. <br />
         It facilitates teamwork, making, prototyping, and digital fabrication in an inspiring and open atmosphere,
@@ -234,7 +234,7 @@ milestones:
   {% include section-header.html title="News" %}
   <div class='two spacing'></div>
 
-  <!-- Trying to apply the testimonials formatting to the news -->
+  <!-- Applied testimonials setup for news -->
   <div class="row">
     <div class='mod modTestimonials'>
       <div class='row'>
@@ -249,7 +249,7 @@ milestones:
                   <a href="{{ article.link }}"><img alt="" src="{{ article.thumbnail }}"></a>
                   <div class="content">
                     <p class="date">{{ article.date }}</p>
-                    <h4><a href="#">{{ article.title }}</a></h4>
+                    <h4><a href="{{ article.link }}">{{ article.title }}</a></h4>
                     <p>{{ article.text }}</p>
                   </div>
                 </div>
