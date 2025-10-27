@@ -12,13 +12,13 @@
 - articles:
     - thumbnail: images/piy.jpg
       title: Article 1
-      link: news/testarticle # no underscores allowed in the markdown file names, else the website can't find the article
+      link: news/testarticle # no underscores allowed in the markdown-file names, else the website can't find the article
       text: Have a look at this article! This is a news article that people can click on, in order to read the full article, which is somewhere else on this website. Oh I very much hope this works
       date: 22.10.2025
     - thumbnail: images/Room_5.1.jpg
       title: Article 2
       link: news/testarticle
-      text: Have a look at this article! This is a news article that people can click on, in order to read the full article, which is somewhere else on this website. Oh I very much hope this works
+      text: Have a look at this article! This is a news article that people can click on, in order to read the full article, which is somewhere else on this website. Oh I very much hope this works. And now, tell me what happens when I make the text a certain length. ok, I will need to configure overflow
       date: 22.10.2025
     - thumbnail: images/tartu1.jpg
       title: Article 3
