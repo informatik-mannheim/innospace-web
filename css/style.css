@@ -1511,6 +1511,7 @@ form input.error, form textarea.error {
   display: -webkit-box;
   -webkit-box-orient: vertical;
   -webkit-line-clamp: 5; /* number of lines to show */
+  line-clamp: 5;
   overflow: hidden;
 }
 .modBlogPost h4 a {
