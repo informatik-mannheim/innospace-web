@@ -10,26 +10,19 @@ layout: default
       {% include section-header.html title=page.title tagline=page.date color="#fff" class="big" %}
     </div>
   </div>
-  <div class='four spacing'></div>
+  <div class='two spacing'></div>
 </div>
 
 <div class='full'>
   <div class='row'>
     <div class='large-12 columns'>
-      <div class='mod modBoxedSlider'>
-        <div class='slides'>
-          {% for image in page.image %}
-          <div class='slide'>
-            <img class="slideImage" src="{{site.baseurl}}{{ page.image[forloop.index0]}}"
-              alt="{{ page.title | downcase }}">
+            <img src="{{site.baseurl}}{{ page.image }}"
+              alt="{{ page.title | downcase }}" style="padding: 0% 15%">
+            </div>
           </div>
-          {% endfor %}
-        </div>
-      </div>
-    </div>
+          <div class='three spacing'></div>
   </div>
 
-  <div class='spacing'></div>
 
   <div class='row'>
     <div class='medium-12 columns'>

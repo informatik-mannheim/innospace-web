@@ -1,9 +1,9 @@
 <div class="mod modSectionHeader {{include.class}}">
   <div class="special-title centered-text">
-    <h2 style="color: {{include.color}};">{{ include.title }}</h2>
+    <h2 style="color: {{ include.color }};">{{ include.title }}</h2>
   </div>
   {% if include.tagline %}
     <!-- Tagline has been converted to date for news articles, so far it does not seem like this interferes with non-date taglines -->
-    <h3 class='centered-text' style='color: {{include.color}}'>{{include.tagline | date: "%a, %b %d, %y"}}</h3>
+    <h3 class='centered-text' style='color: {{ include.color }}'>{{ include.tagline | date: "%a, %b %d, %y" }}</h3>
   {% endif %}
 </div>

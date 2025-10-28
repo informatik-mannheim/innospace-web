@@ -10,36 +10,26 @@
 
 # page
 - articles:
-    - thumbnail: images/piy.jpg
-      title: Article 1
-      link: news/testarticle # no underscores allowed in the markdown-file names, else the website can't find the article
-      text: Have a look at this article! This is a news article that people can click on, in order to read the full article, which is somewhere else on this website. Oh I very much hope this works
-      date: 22.10.2025
-    - thumbnail: images/Room_5.1.jpg
-      title: Article 2
-      link: news/testarticle
-      text: Have a look at this article! This is a news article that people can click on, in order to read the full article, which is somewhere else on this website. Oh I very much hope this works. And now, tell me what happens when I make the text a certain length. ok, I will need to configure overflow
-      date: 22.10.2025
-    - thumbnail: images/tartu1.jpg
-      title: Article 3
-      link: news/testarticle
-      text: Have a look at this article! This is a news article that people can click on, in order to read the full article, which is somewhere else on this website. Oh I very much hope this works
-      date: 22.10.2025
+    - thumbnail: images/@news/lehrlern2025.jpg
+      title: Interactive Showcase at Lehr-Lernkonferenz 2025
+      link: news/lehrlern2025
+      text: Under the motto “Together but not in the same place - Collaborative Learning in Hybrid Teaching-Learning Settings”, we presented the results of our SHELLS funding project at the Lehr-Lernkonferenz 2025 on 9 October 2025 in the form of an interactive exhibition.
+      date: 9 October 2025
+    - thumbnail: images/@news/gecon2025_01.jpg
+      title: Paper presentation at GECon 2025 in Hamburg
+      link: news/gecon2025 # no underscores allowed in the markdown-file names, else the website can't find the article
+      text: We presented our paper “Is it worth the effort” at the IEEE German Education Conference (GECon 2025) in Hamburg. The paper explores how course duration and intensity influence students’ innovation capacities in challenge-based engineering design education.
+      date: 21-23 July 2025
+    - thumbnail: images/@news/tech2x_start.jpg
+      title: Launch of the TECH2X Project
+      link: news/tech2xstart
+      text: We are excited to announce the commencement of the TECH2X project, a European initiative aimed at enhancing innovation and entrepreneurship capacities in higher education institutions. The project focuses on fostering deep-tech talent and supporting the transition towards the fourth-generation university model.
+      date: April 2025
 
 # page
 - articles:
     - thumbnail: images/piy.jpg
-      title: Article 4
-      link: news/testarticle
-      text: Have a look at this article! This is a news article that people can click on, in order to read the full article, which is somewhere else on this website. Oh I very much hope this works
-      date: 22.10.2025
-    - thumbnail: images/Room_5.1.jpg
-      title: Article 5
-      link: news/testarticle
-      text: Have a look at this article! This is a news article that people can click on, in order to read the full article, which is somewhere else on this website. Oh I very much hope this works
-      date: 22.10.2025
-    - thumbnail: images/tartu1.jpg
-      title: Article 6
-      link: news/testarticle
-      text: Have a look at this article! This is a news article that people can click on, in order to read the full article, which is somewhere else on this website. Oh I very much hope this works
-      date: 22.10.2025
+      title: New Publication in CERN's IdeaSquare Journal
+      link: news/tech2xstart
+      text: "We're excited to share that our paper 'Making Skills: How Courses on Digital Fabrication Enhance 21st-Century Skills' has been published in the CERN IdeaSquare Journal of Experimental Innovation (Vol. 8 No. 2, 2024)."
+      date: 15 October 2025
