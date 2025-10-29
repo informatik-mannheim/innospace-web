@@ -7,7 +7,7 @@ image: /images/@news/lehrlern2025.jpg
 
 ---
 
-On 9 October 2025, the Lehr-Lernkonferenz 2025 brought together educators and researchers under the theme “Together but not in the same place – Collaborative Learning in Hybrid Teaching-Learning Settings” ([conference homepage](https://www.lehrlernkonferenz-2025.de/)). We were pleased to participate with an interactive exhibition presenting the results of our SHELLS funding project.
+On 9 October 2025, the Lehr-Lernkonferenz 2025 ([conference homepage](https://www.lehrlernkonferenz-2025.de/)) brought together educators and researchers under the theme “Together but not in the same place – Collaborative Learning in Hybrid Teaching-Learning Settings”. We were pleased to participate with an interactive exhibition presenting the results of our SHELLS funding project:
 
 
 Since 2014, inno.space at THM has been offering international and interdisciplinary Challenge-Based Courses (5, 10, and 20 ECTS) for students. Hybrid teamwork is a central element in all these courses. Students collaborate in (inter-)national and interdisciplinary teams across multiple locations, tackling challenges from research, civil society, or industry.

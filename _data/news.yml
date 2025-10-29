@@ -28,8 +28,8 @@
 
 # page
 - articles:
-    - thumbnail: images/piy.jpg
+    - thumbnail: images/@news/ideasquarepub_2024.png
       title: New Publication in CERN's IdeaSquare Journal
-      link: news/tech2xstart
+      link: news/ideasquarepub2024
       text: "We're excited to share that our paper 'Making Skills: How Courses on Digital Fabrication Enhance 21st-Century Skills' has been published in the CERN IdeaSquare Journal of Experimental Innovation (Vol. 8 No. 2, 2024)."
-      date: 15 October 2025
+      date: 15 October 2024
