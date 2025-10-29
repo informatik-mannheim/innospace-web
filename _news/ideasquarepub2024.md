@@ -2,7 +2,7 @@
 layout: news_post
 title: CERN’s IdeaSquare Journal
 subtitle: New Publication in CERN’s IdeaSquare Journal
-date: 21 July 2024
+date: 15 October 2024
 image: /images/@news/ideasquarepub_2024.png
 
 
