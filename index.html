@@ -55,21 +55,19 @@ slides:
       #  - text:
        #   link_to:
 
-
-
 services:
   - icon: fas fa-user-graduate
-    title: Students
-    desc: Currently, we host different programs at inno.space. Our offer suits both Master and Bachelor students and, although being slightly different, all our programs are multidisciplinary, international and focused on human-centered innovation.
-  - icon: fas fa-industry
-    title: Industry
-    desc: Besides our long term projects, we also provide short and fast paced workshops to industry partners to guarantee that your company gets in the Design Thinking mindset, facilitate the implementation of this method inside the company and driving innovation faster and more effectively.
-  - icon: fas fa-stopwatch
-    title: Short term courses
-    desc: "Alongside our main programs, we host many other events and courses at inno.space!
-    We offer shorter programs that focus on making and, especially, having fun!
-    We conduct courses on how to operate a laser cutter, 3D printer and how to prototype in various mediums."
-
+    title: STUDENT-CENTERED LEARNING
+    desc: "We put students at the heart of everything we do. By focusing on future skills such as collaboration, creativity, and critical thinking, we empower the next generation of engineers to grow into confident problem-solvers.  <br>
+    Learning at inno.space is hands-on, challenge-based, and always connected to real-world contexts — preparing students not just for today's challenges, but for tomorrow's opportunities."
+  - icon: fas fa-lightbulb
+    title: INNOVATION EXPERTISE
+    desc: "Innovation doesn't happen by chance — it follows a process. At inno.space, we guide students and partners through structured innovation methods that connect academia with industry. From ideation to validation, we provide the tools, mindset, and network to turn promising ideas into impactful solutions. <br>
+    Our strong links to industries, public organizations and NGOs ensure that projects are always relevant and future-ready."
+  - icon: fas fa-tools
+    title: PROTOTYPING EXCELLENCE
+    desc: "Ideas become powerful when they can be tested, touched, and improved. That's why prototyping is at the core of our work. With access to our <a href='https://inno-space.de/makerspace.html'>maker.space</a>, teams bring their concepts to life quickly and iteratively. <br>
+    From early sketches to functional prototypes, we provide the expertise and environment for rapid experimentation — because making is the fastest way of learning."
 
 milestones:
   - icon: fas fa-user-graduate
@@ -96,37 +94,13 @@ milestones:
     from: 0
     to: 56
     title: student field trips <br>internationally
-
-testimonials:
-  - quote: The CBI programme has been a game-changer for me as a tech student, allowing me to break free from traditional ways of thinking,  leave my comfort zone, develop a more open-minded and innovative mindset and collaborate with a wide range of professionals, which has helped me to develop my creativity and problem-solving skills beyond what I thought was possible.
-    author: Maren Isabella Leidner, Masters in Computer Science - CBI 2022/2023
-  - quote: As part of the CBI project, you learn interdisciplinary skills that no normal course of study can offer. Especially the deep insight into future-oriented technologies of ATTRACT and CERN gives the students a profound understanding of technology. Learning about such technologies in their infancy is very exciting. The special thing about CBI is that it relates the whole project to actual important problems of mankind and thus shows the students at a young age what needs to be done for a better future.
-    author: Paul Mohaupt, Masters in Chemical and Process Engineering - CBI 2022/2023
-  - quote: The ME310 program really taught me a lot about myself, team work and project management. I learned how to use my skills in an international setting, understand different cultures and reach a goal together with a corporate partner. I would recommend this course to every student, who wants to enter working life with a boost!
-    author: Lia Habben, Masters in Communication Design - DTP 2021/2022
-  - quote: Start with a brainstorm, continue with an idea, explore technologies, change the properties, rewrite everything, hard work until the end and then you realize, that the real fun just started.
-    author: Matthias Bachstädter, Masters in Chemical and Process Engineering - CBI 2021/2022
-  - quote: The first real interdisciplinary project in the degree program. A completely different challenge, not to be given a discrete task and already have the path to a solution in mind, but to first find out what the users really need. This requires a lot of social interaction and communication before the practical part and solution-oriented development can begin. It is precisely this social exchange that ultimately led to a lot of fun and to the fact that fellow students have become friends in the meantime.
-    author: David Keller, Masters in Biomedical Engineering - DTP 2020/2021
-  - quote: You learn how what you learn can fit to the things you need. You need to make the connections. (…) The main learning was how far you can get from a simple sketch … it’s really impressive what you can achieve in such a few months.
-    author: Mariya Bolotnikova, Bachelors in Communication Design – CBI A3 2019/2020
-  - quote: It’s a different workflow and people bring different perspectives. It showed how this collaborative work can lead to great results. You have to put a lot of your own thoughts, you are open to try new things, which is great. (…) You learn what you are really capable of.
-    author: Sarah Lottner, Masters in Medical Engineering – CBI A3 2019/2020
-  - quote: I discovered new ways of doing innovation, it was the first time you’re not just learning from slides but you actually are doing the process. (…) I enjoyed the freedom to decide what we are going to do and how we are going to that and it’s completely different. I would say it’s an actual learning approach. (…) If you’re getting the right question at the right time, you’re exercising what you learn, it’s action-based learning.
-    author: Markus Knödler, Masters in Business Engineering – DTP 2018/2019
-  - quote: It was a big responsibility, a lot of work and a demanding challenge but a great chance to grow above myself! The freedom of following our own ideas paired with the international and interdisciplinary setup was inspiring. The project always felt full of purpose and meaning. The lectures I attended, the friends I made and the skills I acquired certainly made this a chance of a lifetime.
-    author: Christoph Bruthscher, Master in Computer Science - DTP 2016/2017
-  - quote: In the DTP Project I learned to have an open mind to all ideas. Most important I experienced the need to try these ideas out and not give up on them too early. Considering this we accelerated ideation and came up with unexpected new ideas. I brought this mindset to my life&#58; don’t judge ideas as bad or good too early, build on them and test them to create the best experience.
-    author: Emylie Pereira, Master in Computer Science - DTP 2015/2016
-  - quote: A lot of the things I learned will pay off in my future. It was a very exhausting time but also it was the masters course program that I learned the most in. A really deep and intense learning experience!
-    author: Max Becker, Master in Computer Science - DTP 2016/2017
   
-
 ---
 
-<!-- Header -->
+
+<!-- IMAGE SLIDESHOW & HEADER -->
 <div class='mod modDefaultSlider'>
-  <div class='sequence' data-autostop='off' data-timeout='3500' >
+  <div class='sequence' data-autostop='off' data-timeout='3500'>
     <a class='sequence-prev' href='javascript:void(0);'>
       <span></span>
     </a>
@@ -135,39 +109,39 @@ testimonials:
     </a>
     <ul class='sequence-pagination'>
       {% for slide in page.slides %}
-        {% if forloop.first %}
-          {% assign class = 'current' %}
-        {% else %}
-          {% assign class = '' %}
-        {% endif %}
-        <li class="{{class}}"></li>
+      {% if forloop.first %}
+      {% assign class = 'current' %}
+      {% else %}
+      {% assign class = '' %}
+      {% endif %}
+      <li class="{{class}}"></li>
       {% endfor %}
     </ul>
     <ul class='sequence-canvas'>
       {% for slide in page.slides %}
-        {% if forloop.first %}
-          {% assign style = 'static' %}
-        {% else %}
-          {% assign style = '' %}
-        {% endif %}
+      {% if forloop.first %}
+      {% assign style = 'static' %}
+      {% else %}
+      {% assign style = '' %}
+      {% endif %}
 
-        <li class='frame {{style}} {{ slide.klass }}'>
-          <div class='bg' style='background-image: url({{ slide.bg}});'></div>
-          <div class='title {{ slide.title.klass }}'>
-            <div class='row'>
-              <div class='large-12 columns'>
-                <h2>{{ slide.small_title.text }}</h2>
-              </div>
+      <li class='frame {{style}} {{ slide.klass }}'>
+        <div class='bg' style='background-image: url({{slide.bg}});'></div>
+        <div class='title {{ slide.title.klass }}'>
+          <div class='row'>
+            <div class='large-12 columns'>
+              <h2>{{ slide.small_title.text }}</h2>
             </div>
           </div>
-          <div class='title {{ slide.title.klass }}'>
-            <div class='row'>
-              <div class='large-12 columns'>
-                <h2>{{ slide.title.text }}</h2>
-              </div>
+        </div>
+        <div class='title {{ slide.title.klass }}'>
+          <div class='row'>
+            <div class='large-12 columns'>
+              <h2>{{ slide.title.text }}</h2>
             </div>
           </div>
-		  <!--
+        </div>
+        <!--
           <div class="buttons-wrapper bottom-to-top">
             <div class="row">
               <div class="large-12 columns">
@@ -180,7 +154,7 @@ testimonials:
           </div>
 		  -->
 
-          <!--
+        <!--
           <div class='buttons-wrapper {{ slide.buttons.klass }}'>
             <div class='row'>
               <div class='large-12 columns'>
@@ -192,98 +166,131 @@ testimonials:
             </div>
           </div>
           -->
-        </li>
+      </li>
       {% endfor %}
     </ul>
   </div>
 </div>
 
-<!-- Slogan -->
+<!-- SLOGAN -->
 <div class="full parallax" style="text-align: center;background-image: url(images/slogan.jpg); color: #fff;">
-    <div class="spacing"></div>
-    <div class="row">
-
-        <div class="large-12">
-            <p class="slogan">Where passion-based learning meets real-world problems to generate human-centred innovation and true impact.</p>
-
-        </div>
-    </div>
-    <div class="three spacing"></div>
-</div>
-
-<!--
-<div class="full" style="background: #f5f5f5;">
+  <div class="spacing"></div>
   <div class="row">
-    <div class="large-12 columns">
-      {% include section-header.html title="Our works" %}
-      <div class="spacing"></div>
-      <p>
-        Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat consectetuer sit amet magna adipiscing. Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat consectetuer sit amet magna adipiscing.
-      </p>
-      <div class="three spacing"></div>
+
+    <div class="large-12">
+      <p class="slogan">Where passion-based learning meets real-world problems to generate human-centred innovation and
+        true impact.</p>
+
     </div>
   </div>
-
-  <div class="mod modGallery">
-    <ul class="gallery small-block-grid-2 medium-block-grid-3 large-block-grid-4">
-      {% for work in page.works %}
-        <li class="{{ work.klass }}">
-          <a href='{{ work.link_to }}'>
-            <img alt="" src="{{ work.image }}" />
-            <div class='overlay'>
-              <div class='thumb-info'>
-                <h3>{{ work.title }}</h3>
-                <p>{{ work.desc }}</p>
-              </div>
-            </div>
-          </a>
-        </li>
-      {% endfor %}
-    </ul>
-  </div>
+  <div class="three spacing"></div>
 </div>
--->
 
-<!-- Service -->
-<div class='full' style="background: #f5f5f5;">
-  <div class='row'>
-    <div class='large-12 columns'>
-      {% include section-header.html title="Our offer for students and companies" %}
-      <div class='spacing'></div>
-      <p>
-        inno.space - Design Factory Mannheim provides the environment for passion-based learning, co- creation across disciplines and cultures and industrial cooperation. <br/>
-       It facilitates teamwork, making, prototyping, and digital fabrication in an inspiring and open atmosphere, fostering the right conditions for solving complex real-world problems.
+
+<!-- OUR OFFER FOR STUDENTS AND COMPANIES -->
+<div class='full'>
+  {% include section-header.html title="Our offer for students and companies" %}
+  <div class='two spacing'></div>
+  <div class='row image-text-center'>
+    <div class='medium-4 columns'>
+      <p style="padding-right: 20px;">
+        inno.space - Design Factory Mannheim provides the environment for passion-based learning, co- creation across
+        disciplines and cultures and industrial collaboration. <br />
+        It facilitates teamwork, making, prototyping, and digital fabrication in an inspiring and open atmosphere,
+        fostering the right conditions for solving complex real-world problems.
       </p>
-      <div class='three spacing'></div>
     </div>
-  </div>
-  <div class='row'>
-    <div class='small-12 columns'>
+    <div class='medium-8 columns'>
       <div style='padding:56.25% 0 0 0;position:relative;'>
-        <iframe src="https://player.vimeo.com/video/448552394" style='position:absolute;top:0;left:0;width:100%;height:100%;' frameborder='0' allow="autoplay; fullscreen" allowfullscreen></iframe>
+        <iframe src="https://player.vimeo.com/video/448552394"
+          style='position:absolute;top:0;left:0;width:100%;height:100%;' frameborder='0' allow="autoplay; fullscreen"
+          allowfullscreen></iframe>
       </div>
-      <div class='three spacing'></div>
     </div>
   </div>
+  <div class='four three spacing'></div>
+
+  <!-- SERVICES -->
   <div class='row'>
-    <div class="three spacing"></div>
     {% for service in page.services %}
-      <div class='medium-4 columns'>
-        <div class='fadein mod modIconText' data-delay='{{ 300 | times:forloop.index0 }}'>
-          <div class='icon-text-simple'>
-            <i class='{{service.icon}}'></i>
-            <h3>{{service.title}}</h3>
-            <p>{{service.desc}}</p>
-          </div>
-          <div class='two spacing'></div>
+    <div class='medium-4 columns'>
+      <div class='fadein mod modIconText' data-delay='{{ 300 | times:forloop.index0 }}'>
+        <div class='icon-text-simple'>
+          <i class='{{service.icon}}'></i>
+          <h3>{{service.title}}</h3>
+          <p>{{service.desc}}</p>
         </div>
+        <div class='two spacing'></div>
       </div>
+    </div>
     {% endfor %}
   </div>
   <div class='spacing'></div>
 </div>
 
-<!-- Numbers -->
+
+
+<!-- NEWS
+<div class='full' style="background: #f5f5f5;">
+  {% include section-header.html title="News" %}
+  <div class='two spacing'></div>
+
+  <div class="row">
+        {% for article in site.data.news %}
+        <div class="large-4 medium-4 columns">
+          <div class="mod modBlogPost">
+            <a href="{{ article.link }}"><img alt="" src="{{ article.thumbnail }}"></a>
+            <div class="content">
+              <p class="date">{{ article.date }}</p>
+              <h4><a href="{{ article.link }}">{{ article.title }}</a></h4>
+              <p>{{ article.text }}</p>
+            </div>
+          </div>
+        </div>
+        {% endfor %}
+    <div class='spacing'></div>
+  </div>
+</div>
+-->
+
+<!-- NEWS -->
+<div class='full' style="background: #f5f5f5;">
+  {% include section-header.html title="News" %}
+  <div class='two spacing'></div>
+
+  <!-- Applied testimonials setup for news -->
+  <div class="row">
+    <div class='mod modTestimonials'>
+      <div class='row'>
+          <div class='items centered-text'>
+            {% for newspage in site.data.news %}
+            <div class='item'>
+
+              {% for article in newspage.articles %}
+              <div class="large-4 medium-4 columns">
+                <div class="mod modBlogPost">
+                  <a href="{{ article.link }}"><img alt="" src="{{ article.thumbnail }}"></a>
+                  <div class="content">
+                    <p class="date">{{ article.date }}</p>
+                    <h4><a href="{{ article.link }}">{{ article.title }}</a></h4>
+                    <p class="text">{{ article.text }}</p>
+                  </div>
+                </div>
+              </div>
+              {% endfor %}
+              <div class='two spacing'></div>
+            </div>
+            {% endfor %}
+          </div>
+        <div class='two spacing'></div>
+      </div>
+    </div>
+  </div>
+</div>
+
+
+
+<!-- STATISTICS -->
 <div class='full parallax' style='background-image: url(images/teams-bg.jpg); color: #fff;'>
   <div class='row'>
     <div class='large-12 columns'>
@@ -296,57 +303,21 @@ testimonials:
   </div>
   <div class='row'>
     {% for milestone in page.milestones %}
-      <div class='medium-4 columns'>
-        <div class='mod modMilestone'>
-          <i class='{{milestone.icon}}'></i>
-          <strong data-from='{{milestone.from}}' data-to='{{milestone.to}}'>&nbsp;</strong>
-          <span>{{milestone.title}}</span>
-          <div class='two spacing'></div>
-        </div>
+    <div class='medium-4 columns'>
+      <div class='mod modMilestone'>
+        <i class='{{milestone.icon}}'></i>
+        <strong data-from='{{milestone.from}}' data-to='{{milestone.to}}'>&nbsp;</strong>
+        <span>{{milestone.title}}</span>
+        <div class='two spacing'></div>
       </div>
+    </div>
     {% endfor %}
   </div>
   <div class='two spacing'></div>
 </div>
 
-<!-- Quotes -->
-<div class='full parallax' style="background: #f5f5f5;">
-  <div class='row'>
-    <div class='large-12 columns'>
-      <p class='centered-text'>
-        <i class='fa fa-quote-left' style='color: #ff6000; font-size: 36px;'></i>
-      </p>
-    </div>
-  </div>
-  <div class='row'>
-    <div class='large-12 columns'>
-      {% include section-header.html title="What students say" %}
-      <div class='spacing'></div>
-    </div>
-  </div>
-  <div class='row'>
-    <div class='large-12 columns'>
-      <div class='mod modTestimonials'>
-        <div class='row'>
-          <div class='small-12 columns'>
-            <div class='items centered-text'>
-              {% for testimonial in page.testimonials %}
-                <div class='item'>
-                  <p class='quote'>"{{testimonial.quote}}"</p>
-                  <p class='author'>- {{testimonial.author}}</p>
-                  <div class='two spacing'></div>
-                </div>
-              {% endfor %}
-            </div>
-          </div>
-          <div class='spacing'></div>
-        </div>
-      </div>
-    </div>
-  </div>
-</div>
 
-<!-- Partners -->
+<!-- PARTNERS -->
 {% include our-customers.html %}
 
 <!-- Call to action -->

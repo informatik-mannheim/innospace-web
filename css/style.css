@@ -1505,7 +1505,14 @@ form input.error, form textarea.error {
   background: #fff;
 }
 .modBlogPost .content {
-  padding: 30px 20px;
+  padding: 20px 20px;
+}
+.modBlogPost .text {
+  display: -webkit-box;
+  -webkit-box-orient: vertical;
+  -webkit-line-clamp: 5; /* number of lines to show */
+  line-clamp: 5;
+  overflow: hidden;
 }
 .modBlogPost h4 a {
   color: #333;
@@ -1528,6 +1535,8 @@ form input.error, form textarea.error {
 }
 .modBlogPost img {
   width: 100%;
+  height: 200px;
+  object-fit: cover;
 }
 .modBlogPost a:hover img {
   -moz-transition-duration: 0.5s;
@@ -3679,14 +3688,12 @@ body {
 }
 .modTestimonials p.quote {
   font-size: 1.1rem;
-  margin-bottom: 30px;
 }
 .modTestimonials p.author {
   font-style: italic;
 }
 .modTestimonials .slick-dots li button:before {
   font-size: 30px;
-  top: -40px;
 }
 
 .modTestimonials.simple {

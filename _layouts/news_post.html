@@ -1,0 +1,44 @@
+---
+layout: default
+---
+
+<!-- Template for news posts: Currently being adapted from project posts -->
+<div class='full parallax'
+  style='background-image: url({{site.baseurl}}/images/@header/projects_headline.jpg); color: #fff;'>
+  <div class='row'>
+    <div class='large-12 columns'>
+      {% include section-header.html title=page.title tagline=page.date color="#fff" class="big" %}
+    </div>
+  </div>
+  <div class='two spacing'></div>
+</div>
+
+<div class='full'>
+
+
+  <div class='row'>
+    <div class='medium-12 columns'>
+
+        {% include section-header.html title=page.subtitle %}
+
+        <div class='spacing'></div>
+
+        <p>{{ content }}</p>
+        </p>
+      </div>
+      
+   <div class='two spacing'></div>
+  </div>
+  <div class='two spacing'></div>
+
+    <div class='row'>
+    <div class='large-12 columns'>
+            <img src="{{site.baseurl}}{{ page.image }}"
+              alt="{{ page.title | downcase }}" style="padding: 0% 15%">
+            </div>
+          </div>
+          <div class='three spacing'></div>
+  </div>
+
+
+</div>

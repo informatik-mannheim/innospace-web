@@ -1,0 +1,35 @@
+# News posts are summarized into pages, each page contains three articles
+# This structure was implemented to fit with the pagination from testimonials, 
+# because each dot in the pagination represents one page, and each page contains three news articles
+
+# GUIDE FOR ADDING NEW NEWS ARTICLES:
+# (it's a bit more complicated, I'm sorry)
+# For a news article to show up on the first page, it needs to be at the top of this yml file
+# It's possible for a page to contain only one article, however, ideally you would configure so that the last page, not the first, is incomplete
+# So: Add the newest article at the top in the same structure, then move other articles to fit desired page structure
+
+# page
+- articles:
+    - thumbnail: images/@news/lehrlern2025.jpg
+      title: Interactive Showcase at Lehr-Lernkonferenz 2025
+      link: news/lehrlern2025
+      text: Under the motto “Together but not in the same place - Collaborative Learning in Hybrid Teaching-Learning Settings”, we presented the results of our SHELLS funding project at the Lehr-Lernkonferenz 2025 on 9 October 2025 in the form of an interactive exhibition.
+      date: 9 October 2025
+    - thumbnail: images/@news/gecon2025_01.jpg
+      title: Paper presentation at GECon 2025 in Hamburg
+      link: news/gecon2025 # no underscores allowed in the markdown-file names, else the website can't find the article
+      text: We presented our paper “Is it worth the effort” at the IEEE German Education Conference (GECon 2025) in Hamburg. The paper explores how course duration and intensity influence students’ innovation capacities in challenge-based engineering design education.
+      date: 21-23 July 2025
+    - thumbnail: images/@news/tech2x_start.jpg
+      title: Launch of the TECH2X Project
+      link: news/tech2xstart
+      text: We are excited to announce the commencement of the TECH2X project, a European initiative aimed at enhancing innovation and entrepreneurship capacities in higher education institutions. The project focuses on fostering deep-tech talent and supporting the transition towards the fourth-generation university model.
+      date: April 2025
+
+# page
+- articles:
+    - thumbnail: images/@news/ideasquarepub_2024.png
+      title: New Publication in CERN's IdeaSquare Journal
+      link: news/ideasquarepub2024
+      text: "We're excited to share that our paper 'Making Skills: How Courses on Digital Fabrication Enhance 21st-Century Skills' has been published in the CERN IdeaSquare Journal of Experimental Innovation (Vol. 8 No. 2, 2024)."
+      date: 15 October 2024
