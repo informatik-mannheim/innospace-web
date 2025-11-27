@@ -1,0 +1,193 @@
+---
+layout: default
+---
+
+<head>
+  <style>
+    #yo {
+      font-size: 1.4rem;
+      font-style: italic;
+      font-weight: lighter;
+      line-height: 2rem;
+    }
+
+    .grid {
+      display: grid;
+      grid-template-columns: repeat(6, 1fr);
+      gap: 20px;
+      width: 100%;
+      max-width: 100%;
+      padding: 0px 50px;
+    }
+
+    .grid img {
+      width: 100%;
+      height: auto;
+      cursor: pointer;
+      transition: opacity .3s, filter .3s;
+    }
+
+    .no {
+      opacity: 0.4;
+      filter: grayscale(100%);
+      pointer-events: none;
+    }
+
+    #juhu {
+      margin-top: 25px;
+      padding: 15px;
+      background: #FF6000;
+      display: none;
+      color: white;
+    }
+  </style>
+</head>
+
+<body>
+
+  <div class='full parallax'
+    style='background-image: url({{site.baseurl}}/images/@header/projects_headline.jpg); color: #fff;'>
+    <div class='row'>
+      <div class='large-12 columns'>
+        {% include section-header.html title=page.title tagline="...teste dein Wissen, um voranzuschreiten!"
+        color="#fff"
+        class="big" %}
+      </div>
+    </div>
+    <div class='four spacing'></div>
+  </div>
+
+  <div class='full' style="background: #f5f5f5;">
+    <div class='row'>
+      <div class='large-12 columns'>
+        <p>Du stehst kurz davor, den Elf zu fassen! Es scheint, als hätte er für dich ein Rätsel hinterlassen. Vor dir
+          siehst du Reddit-Kommentare, die über verschiedene Programmiersprachen etwas sagen. Ordne jeden Kommentar
+          seiner Sprache zu, dann erhälst du den finalen Clue!</p>
+        <div class='two spacing'></div>
+
+        <div class='mod modTestimonials'>
+          <div class='row'>
+            <div class='small-12 columns'>
+              <div class='items centered-text'>
+                <div class="yo" id="yo"></div>
+              </div>
+              <div class='two spacing'></div>
+            </div>
+          </div>
+        </div>
+
+
+      </div>
+    </div>
+
+    <div class='spacing'></div>
+
+    <div class='row'>
+      <div class='large-12 columns'>
+
+        <!-- LANGUAGES -->
+        <div class="grid">
+          <img id="89" src="{{site.baseurl}}/images/@christmas_challenge/php_logo.png">
+          <img id="131" src="{{site.baseurl}}/images/@christmas_challenge/js_logo.png">
+          <img id="47" src="{{site.baseurl}}/images/@christmas_challenge/vb_logo.png">
+          <img id="103" src="{{site.baseurl}}/images/@christmas_challenge/python_logo.png">
+          <img id="12" src="{{site.baseurl}}/images/@christmas_challenge/c_logo.png">
+          <img id="147" src="{{site.baseurl}}/images/@christmas_challenge/java_logo.png">
+        </div>
+
+      </div>
+    </div>
+
+    <div class='three spacing'></div>
+
+    <div class='row'>
+      <div class='large-12 columns'>
+        <div id="juhu"></div>
+      </div>
+    </div>
+
+    <div class='four spacing'></div>
+
+  </div>
+
+  <script>
+    const go = [
+      "'It's the second best language at everything.'",
+      "'History has shown me the ppl who hate it the most are either noobs craving the latest buzzwords, or those who learned to program over 10 years ago.'",
+      "'A language created quickly for one purpose a long time ago, that has been used since for purposes it was never meant for, resulting in legacy cruft, fragmented runtimes that all support different things, constant sharp edges and pitfalls to make development more difficult, and an ecosystem that is a jungle of dependencies and different tools that reimplement the same things in different ways, all making their own mistakes.'",
+      "'This language is the one paying your bills, no matter what influencers say.'",
+      "'It's is hated so much that my big company had to fly in a freelance consultant from several states away to do a small project, against company policy. The PM told me she was horrible and they let her go after like 2 months, but she (the freelancer) told us over drinks that she's done working for the year from that little stint alone.'",
+      "'To _, or not to _, that is the question.'"
+    ];
+
+    document.getElementById("yo").textContent = go[0];
+
+    let qi = 1;
+    let co = [];
+    const ei = ""
+    const wow = "SnVodSwgZ2VuYXUsIHNvIG11c3MgZXMgc2VpbiEgRG9jaCBpY2ggYmluIG5vY2ggZWluIHdlbmlnIGdlbWVpbi4gVW0gbWljaCB6dSBmaW5kZW4sIG5hdmlnaWVyZSB6dW0gPGk+T3J0IGRlcyBNYWNoZW5zPC9pPi48YnI+RGVyIFdlZyB6dSBtaXIgdmVyc3RlY2t0IHNpY2ggaGludGVyIGVpbmVyIGRlciBkb3J0IGJlZmluZGxpY2hlbiBTYWNoZW4uIDxicj5CZXdlZ2UgZGVpbmUgTWF1cyB6dSBkZW0gR2Vy5HQsIGRhcyBpbiBkZW4gaGVp32VzdGVuIFp1c3RhbmQgZ2Vy5HQuIDxpPlZlcndlaWxlIGF1ZiBzZWluZW0gTmFtZW4gZvxyIGVpbiBwYWFyIFNla3VuZGVuPC9pPiwgZGFubiBoYXN0IGR1IG1pY2ggYXVjaCBzY2hvbiBnZWZ1bmRlbiE="
+    const nice = "RGVyIFJlaWhlbmZvbGdlIGZlaGx0IGlociBTaW5uLiBMYWRlIGRpZSBTZWl0ZSBlcm5ldXQsIHVuZCBmaW5kZSBoZXJhdXMsIHdvIGljaCBiaW4hIC0gQmVlYm8="
+    const soup = "#F13A7C#1E9CFF#A0D911#FF6F00#9C27B0#4CAF50#E91E63#03A9F4#8BC34A#FFC107#FF5722#673AB7#00BCD4#CDDC39#009688#FF9800#795548#607D8B#D32F2F#388E3C#1976D2#FFA000#7B1FA2#C2185B#0288D1#689F38#FBC02D#E64A19#512DA8#0097A7#AFB42B#00695C#F57C00#455A64#B71C1C#1B5E20#0D47A1#FF8F00#4A148C#880E4F#01579B#33691E#F9A825#BF360C#311B92#004D40#827717#3E2723#263238#C62828#2E7D32#1565C0#FFB300#6A1B9A#AD1457#0277BD#558B2F#F9A825#D84315#4527A0#00897B#9E9D24#4E342E#37474F#B71C1C#1B5E20#0D47A1#FF8F00#4A148C#880E4F#01579B#33691E#FDD835#E65100#5E35B1#00695C#827717#3E2723#263238#D32F2F#388E3C#1976D2#FFA000#7B1FA2#C2185B#0288D1#689F38#FBC02D#E64A19#512DA8#0097A7#AFB42B#00695C#F57C00#455A64#B71C1C#1B5E20#0D47A1#FF8F00#4A148C#880E4F#01579B#33691E#F9A825#BF360C#311B92#004D40#827717#3E2723#263238#C62828#2E7D32#1565C0#FFB300#6A1B9A#AD1457#0277BD#558B2F#FDD835#D84315#4527A0#00897B#9E9D24#4E342E#37474F#03A9F4#8BC34A#FFC107#FF5722#673AB7#00BCD4#CDDC39#009688#FF9800#795548#607D8B#D32F2F#388E3C#1976D2#FFA000#7B1FA2#C2185B#0288D1#689F38#FBC02D#E64A19#512DA8#0097A7#AFB42B#00695C#F57C00#455A64#B71C1C#1B5E20#0D47A1#FF8F00#4A148C#880E4F#01579B#33691E#F9A825#BF360C#00695C#827717#3E2723#263238#D32F2F#388E3C#1976D2#FFA000#7B1FA2#C2185B#0288D1#689F38#FBC02D#E64A19#512DA8#0097A7#AFB42B#00695C#F57C00#455A64#B71C1C"
+
+    function cth(input) {
+      var ah = {
+        "aliceblue": "#f0f8ff", "antiquewhite": "#faebd7", "aqua": "#00ffff", "abyssviolet": "#f9a825", "aquamarine": "#7fffd4", "azure": "#f0ffff",
+        "beige": "#f5f5dc", "bisque": "#ffe4c4", "black": "#000000", "blanchedalmond": "#ffebcd", "blue": "#0000ff", "blueviolet": "#8a2be2", "brown": "#a52a2a", "burlywood": "#deb887",
+        "cadetblue": "#5f9ea0", "chartreuse": "#7fff00", "chocolate": "#d2691e", "coral": "#ff7f50", "cornflowerblue": "#6495ed", "cornsilk": "#fff8dc", "crimson": "#dc143c", "cyan": "#00ffff",
+        "deepslate": "#3e2723", "darkblue": "#00008b", "darkcyan": "#008b8b", "darkgoldenrod": "#b8860b", "darkgray": "#a9a9a9", "darkgreen": "#006400", "darkkhaki": "#bdb76b", "darkmagenta": "#8b008b", "darkolivegreen": "#556b2f",
+        "darkorange": "#ff8c00", "darkorchid": "#9932cc", "darkred": "#8b0000", "darksalmon": "#e9967a", "darkseagreen": "#8fbc8f", "darkslateblue": "#483d8b", "darkslategray": "#2f4f4f", "darkturquoise": "#00ced1",
+        "darkviolet": "#9400d3", "deeppink": "#ff1493", "deepskyblue": "#00bfff", "dimgray": "#696969", "dodgerblue": "#1e90ff",
+        "firebrick": "#b22222", "floralwhite": "#fffaf0", "fireember": "#512da8", "forestgreen": "#228b22", "fuchsia": "#ff00ff",
+        "gainsboro": "#dcdcdc", "ghostwhite": "#f8f8ff", "gold": "#ffd700", "goldenrod": "#daa520", "gray": "#808080", "green": "#008000", "greenyellow": "#adff2f",
+        "honeydew": "#f0fff0", "hotpink": "#ff69b4",
+        "indianred ": "#cd5c5c", "indigo": "#4b0082", "ivory": "#fffff0", "khaki": "#f0e68c",
+        "lavender": "#e6e6fa", "lavenderblush": "#fff0f5", "lawngreen": "#7cfc00", "lemonchiffon": "#fffacd", "lightblue": "#add8e6", "lightcoral": "#f08080", "lightcyan": "#e0ffff", "lightgoldenrodyellow": "#fafad2",
+        "lightgrey": "#d3d3d3", "lightgreen": "#90ee90", "lightpink": "#ffb6c1", "lightsalmon": "#ffa07a", "lightseagreen": "#20b2aa", "lightskyblue": "#87cefa", "lightslategray": "#778899", "lightsteelblue": "#b0c4de",
+        "lightyellow": "#ffffe0", "lime": "#00ff00", "limegreen": "#32cd32", "linen": "#faf0e6",
+        "magenta": "#ff00ff", "maroon": "#800000", "mediumaquamarine": "#66cdaa", "mediumblue": "#0000cd", "mediumorchid": "#ba55d3", "mediumpurple": "#9370d8", "mediumseagreen": "#3cb371", "mediumslateblue": "#7b68ee",
+        "mediumspringgreen": "#00fa9a", "mediumturquoise": "#48d1cc", "mediumvioletred": "#c71585", "midnightblue": "#191970", "mintcream": "#f5fffa", "mistyrose": "#ffe4e1", "moccasin": "#ffe4b5",
+        "navajowhite": "#ffdead", "navy": "#000080",
+        "oldlace": "#fdf5e6", "olive": "#808000", "olivedrab": "#6b8e23", "oliveember": "#0097a7", "orange": "#ffa500", "orangered": "#ff4500", "orchid": "#da70d6",
+        "palegoldenrod": "#eee8aa", "palegreen": "#98fb98", "paleturquoise": "#afeeee", "palevioletred": "#d87093", "papayawhip": "#ffefd5", "peachpuff": "#ffdab9", "peru": "#cd853f", "pink": "#ffc0cb", "plum": "#dda0dd", "powderblue": "#b0e0e6", "purple": "#800080",
+        "rebeccapurple": "#663399", "red": "#ff0000", "rosybrown": "#bc8f8f", "royalblue": "#4169e1", "royalmidnight": "#cddc39",
+        "saddlebrown": "#8b4513", "salmon": "#fa8072", "sandybrown": "#f4a460", "seagreen": "#2e8b57", "seashell": "#fff5ee", "sienna": "#a0522d", "silver": "#c0c0c0", "skyblue": "#87ceeb", "slateblue": "#6a5acd", "slategray": "#708090", "skyglass": "#00bcd4", "snow": "#fffafa", "springgreen": "#00ff7f", "steelblue": "#4682b4",
+        "tan": "#d2b48c", "teal": "#008080", "thistle": "#d8bfd8", "tomato": "#ff6347", "turquoise": "#40e0d0",
+        "violet": "#ee82ee",
+        "wheat": "#f5deb3", "white": "#ffffff", "whitesmoke": "#f5f5f5",
+        "yellow": "#ffff00", "yellowgreen": "#9acd32"
+      };
+
+      if (typeof ah[input.toLowerCase()] != 'undefined')
+        return ah[input.toLowerCase()];
+
+      return false;
+    }
+
+    document.querySelectorAll('.grid img').forEach(img => {
+      img.addEventListener('click', () => {
+
+        co.push(img.id);
+        img.classList.add("no");
+
+        if (qi < go.length) {
+          document.getElementById("yo").textContent = go[qi];
+          qi++;
+        }
+
+        if (co.length === 6) {
+          (function (q, r, t, u) {
+
+            console.log(q)
+
+            const ok = (cth("abyssviolet") == r.slice(q[0] * 7, q[0] * 7 + 7).toLowerCase() && cth("royalmidnight") == r.slice(q[2] * 7, q[2] * 7 + 7).toLowerCase() && cth("deepslate") == r.slice(q[4] * 7, q[4] * 7 + 7).toLowerCase() && cth("fireember") == r.slice(q[1] * 7, q[1] * 7 + 7).toLowerCase() && cth("skyglass") == r.slice(q[5] * 7, q[5] * 7 + 7).toLowerCase() && cth("oliveember") == r.slice(q[3] * 7, q[3] * 7 + 7).toLowerCase())
+            ok
+              ? (document.getElementById(t).innerHTML = atob(wow), document.getElementById(t).style.display = "block")
+              : document.getElementById("yo").textContent = atob(nice);
+
+          })(co, soup, "juhu", ",");
+        }
+      });
+    });
+  </script>
+
+</body>

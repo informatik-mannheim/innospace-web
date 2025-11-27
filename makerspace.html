@@ -7,100 +7,125 @@ section_id: makerspace
 <div class='full parallax' style='background-image: url(images/@header/makerspace.png); color: #fff; '>
   <div class='row'>
     <div class='large-12 columns'>
-      {% include section-header.html title="maker.space" tagline="how we bring ideas to life" color="#fff" class="big" %}
+      {% include section-header.html title="maker.space" tagline="how we bring ideas to life" color="#fff" class="big"
+      %}
     </div>
   </div>
   <div class='four spacing'></div>
 </div>
-  <div class='full'>
-    <div class='row'>
-      <div class='medium-8 columns'>
-        <h2>For Students and Staff of our University</h2>
-        <p>Our makerspace provides access to various machines and tools for modern digital fabrication. We welcome students and researchers of all faculties and support them to bring their projects and ideas to life. <br> 
-		You find the maker.space next to inno.space in room K020 (EG). <br><br>
-          We open the doors weekly on Tuesday from 1:30 pm and Friday from 10:00 am. During this time people can book the machines for predefined time slots and the inno.space teaching team supports and supervises the usage. <br> Booking is organized via the following moodle course: <a href="https://moodle.hs-mannheim.de/course/view.php?id=5259" target="_blank" rel="noopener noreferrer">maker.space</a> <br>
-          The usage of dedicated machinery requires special training. Therefor we offer mastering machinery courses in a blended format. Further information is also available in the respective moodle course. 
-        </p>
-		        
-        <div class='two spacing'></div>
-      </div>
-      <div class='medium-4 columns'>
-        <div class='contact-details'>
-  
-          <h4>Opening hours:</h4>
-          <p>Tuesday: 1:30 pm - 5:30 pm<p>
-		      <p>Friday: 10:00 am - 2:00 pm<p>
-		  </p>
-        </div>
-      </div>
-		  <style>
-			/* Stellt den Container des Videos responsiv ein */
-			.responsive-video {
-				position: relative; 
-				padding-bottom: 56.25%; /* 16:9 Aspect Ratio */
-				padding-top: 25px; 
-				height: 0;
-			}
+<div class='full'>
+  <div class='row'>
+    <div class='medium-8 columns'>
+      <h2>For Students and Staff of our University</h2>
+      <p>Our makerspace provides access to various machines and tools for modern digital fabrication. We welcome
+        students and researchers of all faculties and support them to bring their projects and ideas to life. <br>
+        You find the maker.space next to inno.space in room K020 (EG). <br><br>
+        We open the doors weekly on Tuesday from 1:30 pm and Friday from 10:00 am. During this time people can book the
+        machines for predefined time slots and the inno.space teaching team supports and supervises the usage. <br>
+        Booking is organized via the following moodle course: <a
+          href="https://moodle.hs-mannheim.de/course/view.php?id=5259" target="_blank"
+          rel="noopener noreferrer">maker.space</a> <br>
+        The usage of dedicated machinery requires special training. Therefor we offer mastering machinery courses in a
+        blended format. Further information is also available in the respective moodle course.
+      </p>
 
-			/* Stellt das iframe des Videos so ein, dass es den Container voll ausfüllt */
-			.responsive-video iframe {
-				position: absolute;
-				top: 0;
-				left: 0;
-				width: 100%;
-				height: 100%;
-			}
-		</style>
-
-        <div class='medium-12 columns responsive-video'>
-                 <iframe width="1280" height="720" src="https://www.youtube.com/embed/yTFlZoqhUnA" title="maker.space" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
-        </div>
+      <div class='two spacing'></div>
     </div>
-	
+    <div class='medium-4 columns'>
+      <div class='contact-details'>
+
+        <h4>Opening hours:</h4>
+        <p>Tuesday: 1:30 pm - 5:30 pm
+        <p>
+        <p>Friday: 10:00 am - 2:00 pm
+        <p>
+        </p>
+      </div>
+    </div>
+    <style>
+      /* Stellt den Container des Videos responsiv ein */
+      .responsive-video {
+        position: relative;
+        padding-bottom: 56.25%;
+        /* 16:9 Aspect Ratio */
+        padding-top: 25px;
+        height: 0;
+      }
+
+      /* Stellt das iframe des Videos so ein, dass es den Container voll ausfüllt */
+      .responsive-video iframe {
+        position: absolute;
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: 100%;
+      }
+    </style>
+
+    <div class='medium-12 columns responsive-video'>
+      <iframe width="1280" height="720" src="https://www.youtube.com/embed/yTFlZoqhUnA" title="maker.space"
+        frameborder="0"
+        allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+        referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+    </div>
   </div>
-  <div class='two spacing'></div>
+
+</div>
+<div class='two spacing'></div>
 </div>
 
 
 <div class='full' style="background: #f5f5f5;">
-    <div class="row">
-        <div class='medium-12 columns'>
-            <h2>Our machine Highlights</h2>
-        </div>
+  <div class="row">
+    <div class='medium-12 columns'>
+      <h2>Our machine Highlights</h2>
     </div>
-    <br>
-    <div class='row'>
+  </div>
+  <br>
+  <div class='row'>
 
-        {% for machine in site.data.machines %}
-        <div class='small-6 end medium-3 large-3 columns'>
-            <div class='mod modTeamMember'>
-                <div class='member'>
-                    <img class="avatar" alt="" src="{{ machine.avatar }}"  />
-                    <div class='overlay'>
-                        <div class='intro'>
-                            <h3>{{machine.name}}</h3>
-                            <p>{{machine.position}}</p>
-                            </ul>
-                        </div>
-                    </div>
-                </div>
+    {% for machine in site.data.machines %}
+    <div class='small-6 end medium-3 large-3 columns'>
+      <div class='mod modTeamMember'>
+        <div class='member'>
+          {% if machine.name == "Epilog Helix" %}
+          <img class="avatar" alt="" src="{{ machine.avatar }}"/>
+          <div class='overlay'>
+            <div class='intro' >
+              <h3 id="hoverDiv">{{machine.name}}</h3>
+              <p id="hoverDiv"> {{machine.position}}</p>
+                <button id="delayedBtn" style="opacity:0; cursor:default"><a style="cursor:default" href='{{site.baseurl}}/nice.html'>Hier entlang :)</a></button>
+              </ul>
             </div>
-            <div class='four spacing'></div>
+          </div>
+          {% else %}
+          <img class="avatar" alt="" src="{{ machine.avatar }}" />
+          <div class='overlay'>
+            <div class='intro'>
+              <h3>{{machine.name}}</h3>
+              <p>{{machine.position}}</p>
+              </ul>
+            </div>
+          </div>
+          {% endif %}
         </div>
-        {% endfor %}
+      </div>
+      <div class='four spacing'></div>
     </div>
+    {% endfor %}
+  </div>
 </div>
 
 
 
-<div class='full'> 
-    <div class='row'>
-        <div class='medium-12 columns'>
-             <h2>The Room</h2>
-        </div>
+<div class='full'>
+  <div class='row'>
+    <div class='medium-12 columns'>
+      <h2>The Room</h2>
     </div>
-    <div class='row'>
-        <!-- <div class='medium-6 columns'>
+  </div>
+  <div class='row'>
+    <!-- <div class='medium-6 columns'>
 
             <h3>Wood and metal sector</h3>
             <ul style="padding-left: 30px">
@@ -140,7 +165,25 @@ section_id: makerspace
 
             <div class='two spacing'></div>
         </div> -->
-		<div class='medium-12 columns'>
-                 {% include image-gallery.html folder="/images/@makerRoom" %}
-        </div> 
-</div>-
+    <div class='medium-12 columns'>
+      {% include image-gallery.html folder="/images/@makerRoom" %}
+    </div>
+  </div>-
+
+  <script>
+    const hoverDiv = document.getElementById("hoverDiv");
+    const btn = document.getElementById("delayedBtn");
+
+    let timer;
+
+    hoverDiv.addEventListener("mouseenter", () => {
+      timer = setTimeout(() => {
+        btn.style.opacity = "1";
+      }, 3000);
+    });
+
+    hoverDiv.addEventListener("mouseleave", () => {
+      clearTimeout(timer);
+      btn.style.opacity = "0";
+    });
+  </script>
