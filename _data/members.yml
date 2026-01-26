@@ -38,26 +38,6 @@
       Manuel Walter
   desc2:
       Teaching Team Member
-- avatar: images/@ttteam/philipp.jpg
-  name: Philipp Arnold
-  position: Teaching Team Member
-  socials:
-    - link: https://www.linkedin.com/in/philipp-arnold-287473297/
-      icon: fab fa-linkedin-in
-  desc1:
-      Phillip Arnold
-  desc2:
-      Teaching Team Member
-- avatar: images/@ttteam/luana.jpg
-  name: Mia Luana Werner
-  position: Crew Member
-  socials:
-    - link: https://www.linkedin.com/in/mia-luana-werner-a773b330b/
-      icon: fab fa-linkedin-in
-  desc1:
-      Mia Luana Werner
-  desc2:
-      Crew Member
 - avatar: images/@ttteam/hnudee.jpg
   name: Hnudee Espedal
   position: Teaching Team Member
