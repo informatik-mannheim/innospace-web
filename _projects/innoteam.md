@@ -4,7 +4,7 @@ title: inno.TEAm
 section_id: portfolio
 year: 2025
 program: PDP
-sponsor: Frenvy
+sponsor: Frenvi
 
 image:
   - /images/@projects/innoteam2.png
