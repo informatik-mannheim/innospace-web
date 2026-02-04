@@ -70,7 +70,7 @@ videos:
 {% for video in page.videos %}
 
 <!-- Set background color via condition -->
-{% assign grey_background = "Coaching-Warm Up-Teamwork-Technik, Raum, Mindset" | split: "," %}
+{% assign grey_background = "Coaching-Warm Up-Technik, Raum, Mindset" | split: "-" %}
 {% if grey_background contains video.title %}
   {% assign backgr = '#f5f5f5' %}
 {% else %}
