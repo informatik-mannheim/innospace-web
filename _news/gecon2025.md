@@ -2,10 +2,8 @@
 layout: news_post
 title: GECon 2025 in Hamburg
 subtitle: “Is it worth the effort?”
-date: "July 21st to 23rd 2025"
+date: 21 July 2025
 image: /images/@news/gecon2025_02.jpeg
-
-
 ---
 
 *From 21–23 July 2025, the IEEE German Education Conference (GECon 2025) took place in Hamburg under the theme Networking Education in Germany.*
