@@ -56,7 +56,7 @@ videos:
 <div class='full parallax' style='background-image: url(images/@header/offer_industry.jpg); color: #fff;'>
   <div class='row'>
     <div class='large-12 columns'>
-      {% include section-header.html title="Ultrahybride Lehre" tagline="Videos"
+      {% include section-header.html title="Ultrahybride Lehre" tagline="Das Konzept - erklärt"
       color="#fff"
       class="big" %}
     </div>
@@ -70,7 +70,7 @@ videos:
 {% for video in page.videos %}
 
 <!-- Set background color via condition -->
-{% assign grey_background = "Coaching,Warm Up,Teamwork" | split: "," %}
+{% assign grey_background = "Coaching-Warm Up-Teamwork-Technik, Raum, Mindset" | split: "," %}
 {% if grey_background contains video.title %}
   {% assign backgr = '#f5f5f5' %}
 {% else %}
