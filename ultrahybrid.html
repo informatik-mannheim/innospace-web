@@ -1,7 +1,7 @@
 ---
 layout: default
 title: Ultrahybride Lehre
-section_id: funding 
+section_id: ultrahybrid 
 
 value_left:
   - icon: fas fa-brain
@@ -16,104 +16,86 @@ value_right:
   - icon: fas fa-map-signs
     desc: A broader horizon of opportunities
 
+videos:
+  - title: Grundstruktur
+    link: https://stream.hs-mannheim.de/play/54173cfb-4505-45c9-a76c-67048902a4d4
+    text: „Ultrahybrid“ bezeichnet ein Lehrkonzept, das über die übliche Mischung aus Präsenz- und Onlineunterricht hinausgeht und mehrere Lernformate, Modalitäten und Methoden didaktisch miteinander verknüpft. Es kombiniert drei Teilnahmemodalitäten mit fünf Lernaktivitäten, die bewusst aufeinander abgestimmt sind, um ein aktives und inklusives Lernerlebnis zu ermöglichen – unabhängig vom Aufenthaltsort der Lernenden.
+  - title: Warm Up
+    link: https://stream.hs-mannheim.de/paella7/ui/watch.html?id=bf20f553-4aec-4883-8bc6-5d1d85f48487
+    text: Das Warm-Up hilft beim sozialen und kognitiven Ankommen. Über einfache, aktivierende Aufgaben werden alle Beteiligten eingebunden. Diese können zum Beispiel durch Pen & Paper oder durch Bewegungsspiele umgesetzt werden.
+  - title: Input Phase
+    link: https://stream.hs-mannheim.de/play/b2124f39-8b4c-4db9-a783-876681dd1faf
+    text: In der Input Phase wird Theorie vermittelt, kommende Projektschritte kommuniziert und Ankündigungen gemacht. Wichtig is, Remote-Teilnehmenden Sichtbarkeit zu verschaffen und sicher zu gehen, dass Dozenten für alle Teilnehmer sichtbar und verständlich sind.
+  - title: Coaching
+    link: https://stream.hs-mannheim.de/play/75daf8c0-6fa9-4fbc-9586-6c8a1af46842
+    text: Im Coaching geht es darum, Teamdynamik zu fördern und Projektfortschritte zu identifizieren. Wie auch in der Input-Phase ist auf die Sichtbarkeit und Einbindung von Remote-Teilnehmern zu achten.
+  - title: Teamwork
+    link: https://stream.hs-mannheim.de/play/1c618cf0-bcb1-4a7c-a0da-ea6bd870da8a
+    text: Das ultrahybride Teamwork dient dem Identifizieren interkultureller Problemlösungen in einem Umfeld, in dem durch verschiedenste Teilnehmer die Disziplinvielfalt erhöht ist. Neben lokalen Tools, Materialien und Räumlichkeiten für Teamwork ist zu gewährleisten, dass Remoteteilnehmende sichtbar sind und Einsicht in die Arbeit vor Ort erhalten. 
+  - title: Technik, Raum, Mindset
+    link: https://stream.hs-mannheim.de/play/a00372f0-c062-4406-a340-c2aa3da1dacd
+    text: Wichtig für die Ultrahybride Zusammenarbeit ist, dass die Räumlichkeiten vor Ort hierfür ausgelegt sind. Dies bedeutet eine möglichst willkommenheißende Atmosphäre, ein physischer Raum pro Team und mindestens zwei Displays, sodass auf einem dieser die Remote-Teilnehmer sichtbar sein können.
+  - title: Abschlusspräsentation
+    link: https://stream.hs-mannheim.de/play/7b6712d8-45dc-4321-8747-37bd702b86ec
+    text: Besonders bei Abschlusspräsentationen ist darauf zu achten, dass das Setup Remote-Teilnehmer und Menschen vor Ort möglichst gleich einbindet und über alle Orte hinweg gleiche technische Gegebenheiten schafft.
 ---
+
+<style>
+  .video-wrapper {
+    width: 100%;
+    aspect-ratio: 16 / 9;
+  }
+
+  .video-wrapper iframe {
+    width: 100%;
+    height: 100%;
+    border: 0;
+  }
+</style>
+
 <div class='full parallax' style='background-image: url(images/@header/offer_industry.jpg); color: #fff;'>
   <div class='row'>
     <div class='large-12 columns'>
-      {% include section-header.html title="Funding" tagline="Get to know our grants & funding sources" color="#fff"
+      {% include section-header.html title="Ultrahybride Lehre" tagline="Videos"
+      color="#fff"
       class="big" %}
     </div>
   </div>
   <div class='four spacing'></div>
 </div>
 
-<!-- TECH2X -->
-<div class='full'>
-  <style>
-    .video-wrapper {
-      position: relative;
-      padding-bottom: 56.25%; /* 16:9 Format */
-      height: 0;
-      overflow: hidden;
-      max-width: 800px; /* optional: maximale Breite */
-      margin: 0 auto;   /* zentriert */
-    }
 
-    .video-wrapper iframe {
-      position: absolute;
-      top: 0;
-      left: 0;
-      width: 100%;
-      height: 100%;
-      border: none;
-    }
-  </style>
+<!-- HALT: Turning this into a for loop because this has to be easier somehow -->
 
+{% for video in page.videos %}
+
+<!-- Set background color via condition -->
+{% assign grey_background = "Coaching,Warm Up,Teamwork" | split: "," %}
+{% if grey_background contains video.title %}
+  {% assign backgr = '#f5f5f5' %}
+{% else %}
+  {% assign backgr = '#ffffff' %}
+{% endif %}
+
+<div class='full' style="background: {{ backgr }}">
   <div class='row'>
     <div class='large-12 columns'>
-      <h2>Grundstruktur</h2>
+      <h2>{{video.title}}</h2>
       <div class='spacing'></div>
-      <p>
-        „Ultrahybrid“ bezeichnet ein Lehrkonzept, das über die übliche Mischung aus Präsenz- und Onlineunterricht hinausgeht und mehrere Lernformate, Modalitäten und Methoden didaktisch miteinander verknüpft. Es kombiniert drei Teilnahmemodalitäten mit fünf Lernaktivitäten, die bewusst aufeinander abgestimmt sind, um ein aktives und inklusives Lernerlebnis zu ermöglichen – unabhängig vom Aufenthaltsort der Lernenden.
-      </p>
+      <p>{{video.text}}</p>
       <div class='two spacing'></div>
 
       <div class="video-wrapper">
-        <iframe 
-           src="stream.hs-mannheim.de/paella7/ui/watch.html?id=54173cfb-4505-45c9-a76c-67048902a4d4"
-          frameborder="0"
-          allowfullscreen>
+        <iframe src="{{video.link}}" allowfullscreen>
         </iframe>
       </div>
 
     </div>
   </div>
-	 <div class='two spacing'></div>
+  <div class='two spacing'></div>
 </div>
-<div class='full' style="background: #f5f5f5;">
-  <style>
-    .video-wrapper {
-      position: relative;
-      padding-bottom: 56.25%; /* 16:9 Format */
-      height: 0;
-      overflow: hidden;
-      max-width: 800px; /* optional: maximale Breite */
-      margin: 0 auto;   /* zentriert */
-    }
 
-    .video-wrapper iframe {
-      position: absolute;
-      top: 0;
-      left: 0;
-      width: 100%;
-      height: 100%;
-      border: none;
-    }
-  </style>
-
-  <div class='row'>
-    <div class='large-12 columns'>
-      <h2>Warm up</h2>
-      <div class='spacing'></div>
-      <p>
-        Das Warm-Up hilft beim sozialen und kognitiven Ankommen. Über einfache, aktivierende Aufgaben werden alle Beteiligten eingebunden.
-      </p>
-      <div class='two spacing'></div>
-
-      <div class="video-wrapper">
-        <iframe 
-         
-		src="https://stream.hs-mannheim.de/paella7/ui/watch.html?id=bf20f553-4aec-4883-8bc6-5d1d85f48487"
-          frameborder="0"
-          allowfullscreen>
-        </iframe>
-      </div>
-
-    </div>
-  </div>
-	 <div class='two spacing'></div>
-</div>
-</div>
+{% endfor %}
 
 
 <!-- Call to Action -->
@@ -135,9 +117,6 @@ value_right:
 <!-- 
 VIDEO LINKS
 
-Technik, Raum, Mindset https://stream.hs-mannheim.de/paella7/ui/watch.html?id=a00372f0-c062-4406-a340-c2aa3da1dacd
-Teamwork https://stream.hs-mannheim.de/paella7/ui/watch.html?id=1c618cf0-bcb1-4a7c-a0da-ea6bd870da8a
-Input Phase https://stream.hs-mannheim.de/paella7/ui/watch.html?id=b2124f39-8b4c-4db9-a783-876681dd1faf
 Coaching https://stream.hs-mannheim.de/paella7/ui/watch.html?id=75daf8c0-6fa9-4fbc-9586-6c8a1af46842
 Abschlusspräsentation https://stream.hs-mannheim.de/paella7/ui/watch.html?id=7b6712d8-45dc-4321-8747-37bd702b86ec
 
