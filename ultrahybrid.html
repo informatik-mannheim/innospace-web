@@ -19,24 +19,31 @@ value_right:
 videos:
   - title: Grundstruktur
     link: https://stream.hs-mannheim.de/play/54173cfb-4505-45c9-a76c-67048902a4d4
+    screenshot: /images/@ultrahybrid/01_grundstruktur.png
     text: „Ultrahybrid“ bezeichnet ein Lehrkonzept, das über die übliche Mischung aus Präsenz- und Onlineunterricht hinausgeht und mehrere Lernformate, Modalitäten und Methoden didaktisch miteinander verknüpft. Es kombiniert drei Teilnahmemodalitäten mit fünf Lernaktivitäten, die bewusst aufeinander abgestimmt sind, um ein aktives und inklusives Lernerlebnis zu ermöglichen – unabhängig vom Aufenthaltsort der Lernenden.
   - title: Warm Up
     link: https://stream.hs-mannheim.de/paella7/ui/watch.html?id=bf20f553-4aec-4883-8bc6-5d1d85f48487
+    screenshot: /images/@ultrahybrid/02_warmup.png
     text: Das Warm-Up hilft beim sozialen und kognitiven Ankommen. Über einfache, aktivierende Aufgaben werden alle Beteiligten eingebunden. Diese können zum Beispiel durch Pen & Paper oder durch Bewegungsspiele umgesetzt werden.
   - title: Input Phase
     link: https://stream.hs-mannheim.de/play/b2124f39-8b4c-4db9-a783-876681dd1faf
+    screenshot: /images/@ultrahybrid/03_input.png
     text: In der Input Phase wird Theorie vermittelt, kommende Projektschritte kommuniziert und Ankündigungen gemacht. Wichtig is, Remote-Teilnehmenden Sichtbarkeit zu verschaffen und sicher zu gehen, dass Dozenten für alle Teilnehmer sichtbar und verständlich sind.
   - title: Coaching
     link: https://stream.hs-mannheim.de/play/75daf8c0-6fa9-4fbc-9586-6c8a1af46842
+    screenshot: /images/@ultrahybrid/04_coaching.png
     text: Im Coaching geht es darum, Teamdynamik zu fördern und Projektfortschritte zu identifizieren. Wie auch in der Input-Phase ist auf die Sichtbarkeit und Einbindung von Remote-Teilnehmern zu achten.
   - title: Teamwork
     link: https://stream.hs-mannheim.de/play/1c618cf0-bcb1-4a7c-a0da-ea6bd870da8a
+    screenshot: /images/@ultrahybrid/05_teamwork.png
     text: Das ultrahybride Teamwork dient dem Identifizieren interkultureller Problemlösungen in einem Umfeld, in dem durch verschiedenste Teilnehmer die Disziplinvielfalt erhöht ist. Neben lokalen Tools, Materialien und Räumlichkeiten für Teamwork ist zu gewährleisten, dass Remoteteilnehmende sichtbar sind und Einsicht in die Arbeit vor Ort erhalten. 
   - title: Technik, Raum, Mindset
     link: https://stream.hs-mannheim.de/play/a00372f0-c062-4406-a340-c2aa3da1dacd
+    screenshot: /images/@ultrahybrid/06_technik.png
     text: Wichtig für die Ultrahybride Zusammenarbeit ist, dass die Räumlichkeiten vor Ort hierfür ausgelegt sind. Dies bedeutet eine möglichst willkommenheißende Atmosphäre, ein physischer Raum pro Team und mindestens zwei Displays, sodass auf einem dieser die Remote-Teilnehmer sichtbar sein können.
   - title: Abschlusspräsentation
     link: https://stream.hs-mannheim.de/play/7b6712d8-45dc-4321-8747-37bd702b86ec
+    screenshot: /images/@ultrahybrid/07_abschluss.png
     text: Besonders bei Abschlusspräsentationen ist darauf zu achten, dass das Setup Remote-Teilnehmer und Menschen vor Ort möglichst gleich einbindet und über alle Orte hinweg gleiche technische Gegebenheiten schafft.
 ---
 
@@ -65,36 +72,55 @@ videos:
 </div>
 
 
-<!-- HALT: Turning this into a for loop because this has to be easier somehow -->
+<!-- For-loop to iterate through all videos -->
 
 {% for video in page.videos %}
 
-<!-- Set background color via condition -->
+<!-- Background color and layout alternates -->
 {% assign grey_background = "Coaching-Warm Up-Technik, Raum, Mindset" | split: "-" %}
 {% if grey_background contains video.title %}
-  {% assign backgr = '#f5f5f5' %}
-{% else %}
-  {% assign backgr = '#ffffff' %}
-{% endif %}
 
-<div class='full' style="background: {{ backgr }}">
-  <div class='row'>
-    <div class='large-12 columns'>
-      <h2>{{video.title}}</h2>
-      <div class='spacing'></div>
-      <p>{{video.text}}</p>
-      <div class='two spacing'></div>
+<div class='full' style="background: #f5f5f5">
 
+  <!-- partition -->
+  <div class='row image-text-center'>
+    <div class='medium-8 columns'>
       <div class="video-wrapper">
         <iframe src="{{video.link}}" allowfullscreen>
         </iframe>
       </div>
-
+    </div>
+    <div class='medium-4 columns'>
+      <h2>{{video.title}}</h2>
+      <p>{{video.text}}</p>
     </div>
   </div>
+
   <div class='two spacing'></div>
 </div>
 
+{% else %}
+
+<div class='full'>
+
+  <!-- partition -->
+  <div class='row image-text-center'>
+    <div class='medium-4 columns'>
+      <h2>{{video.title}}</h2>
+      <p>{{video.text}}</p>
+    </div>
+    <div class='medium-8 columns'>
+      <div class="video-wrapper">
+        <iframe src="{{video.link}}" allowfullscreen>
+        </iframe>
+      </div>
+    </div>
+  </div>
+
+  <div class='two spacing'></div>
+</div>
+
+{% endif %}
 {% endfor %}
 
 
