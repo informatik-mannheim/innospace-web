@@ -4,8 +4,6 @@ title: CERN’s IdeaSquare Journal
 subtitle: New Publication in CERN’s IdeaSquare Journal
 date: 15 October 2024
 image: /images/@news/ideasquarepub_2024.png
-
-
 ---
 
 *“Making Skills: How Courses on Digital Fabrication Enhance 21st-Century Skills” – Published in CERN IdeaSquare Journal*
