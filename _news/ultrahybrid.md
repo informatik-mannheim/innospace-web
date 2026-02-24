@@ -2,7 +2,7 @@
 layout: news_post
 title: Ultrahybride Lehre
 subtitle: Lehre fit für die Zukunft machen
-date: 21 July 2025
+date: 7 December 2025
 section_id: ultrahybrid 
 
 videos:
