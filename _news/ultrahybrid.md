@@ -3,20 +3,7 @@ layout: news_post
 title: Ultrahybride Lehre
 subtitle: Lehre fit für die Zukunft machen
 date: 21 July 2025
-image: /images/@news/gecon2025_02.jpeg
 section_id: ultrahybrid 
-
-value_left:
-  - icon: fas fa-brain
-    desc: New way of thinking
-  - icon: fas fa-hand-pointer
-    desc: Hands on approach
-
-value_right:
-  - icon: fas fa-globe-americas
-    desc: International collaboration
-  - icon: fas fa-map-signs
-    desc: A broader horizon of opportunities
 
 videos:
   - title: Grundstruktur
@@ -132,22 +119,4 @@ Für viele Lernaktivitäten sind alle drei Modalitäten gegeben; das bezeichnen 
 
 {% endif %}
 {% endfor %}
-
-
-<!-- Call to Action -->
-<div class='mod modCallToAction' style="text-align: center;">
-
-  <div class='two spacing'></div>
-  <div class="row">
-    <div class='medium-12 large-12 columns'>
-      <p>You want to become a sponsor as well? Contact us through our e-mail <a class='ctaLink'
-          href="mailto:inno.space@hs-mannheim.de ?subject=Design Thinking - HS Mannheim"><i
-            class="fas fa-envelope"></i></a></p>
-    </div>
-
-  </div>
-  <div class='spacing'></div>
-</div>
-
-</div>
 </body>
