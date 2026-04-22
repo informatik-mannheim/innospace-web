@@ -45,63 +45,123 @@ works:
 custom_css: pannellum
 custom_js: pannellum
 rooms:
-    kitchen:
-        text: Kitchen and teaching team area
-        image: kitchen.jpg
-        start: 130
-        connections:
-            -
-                horizontal: 175
-                linksTo: lasercutter
-            -
-                horizontal: -140
-                linksTo: workarea
-            -
-                horizontal: 90
-                linksTo: teamsarea
-    lasercutter:
-        text: Lasercutter room
-        image: lasercutter.jpg
-        start: 40
-        connections:
-            -
-                horizontal: -170
-                linksTo: workarea
-            -
-                horizontal: -120
-                linksTo: kitchen
-        pointsOfInterest:
-            -
-                horizontal: -147
-                vertical: -10
-                text: Ultimaker² Extended 3D printer
-                link: https://ultimaker.com/3d-printers/ultimaker-2-plus
-            -
-                horizontal: 70
-                vertical: -25
-                text: Epilog HELIX lasercutter
-                link: https://www.epiloglaser.co.uk/laser-machines/mini-helix-engraver-cutter/
-    workarea:
-        text: General work area for prototyping
-        image: workarea.jpg
-        connections:
-            -
-                horizontal: 140
-                linksTo: lasercutter
-            -
-                horizontal: 60
-                linksTo: kitchen
-            -
-                horizontal: 90
-                linksTo: teamsarea
-    teamsarea:
-        text: Regular working area for the teams
-        image: teamsarea.jpg
-        connections:
-            -
-                horizontal: 25
-                linksTo: kitchen
-# -- End of panorama section --
+  entrance:
+    text: Entrance into inno.space
+    image: inno_entrance.jpg
+    start: 130
+    connections:
+      -
+        horizontal: 100
+        linksTo: teamsarea
+      -
+        horizontal: -170
+        linksTo: workarea
+      -
+        horizontal: -55
+        linksTo: hallway
+      -
+        horizontal: 165
+        linksTo: office
+  teamsarea:
+    text: Area for input sessions and teamwork
+    image: teams_area.jpg
+    start: -20
+    connections:
+    - 
+      horizontal: -48
+      linksTo: entrance
+  workarea:
+    text: Area for prototyping
+    image: work_area.jpg
+    start: 50
+    connections:
+    - 
+      horizontal: -30
+      linksTo: entrance
+    - 
+      horizontal: 10
+      linksTo: teamsarea
+    - 
+      horizontal: 80
+      linksTo: office
+  office:
+    text: T-Team office
+    image: office.jpg
+    start: -40
+    connections:
+    - 
+      horizontal: 150
+      linksTo: workarea
+  hallway:
+    text: Hallway of building K
+    image: hallway.jpg
+    start: 0
+    connections:
+    - 
+      horizontal: 0
+      linksTo: makerspace
+    - 
+      horizontal: -140
+      linksTo: entrance
+  makerspace:
+    text: Entrance to maker.space
+    image: maker_entrance.jpg
+    start: -170
+    connections:
+    - 
+      horizontal: 30
+      linksTo: hallway
+    - 
+      horizontal: 180
+      linksTo: sewingcorner
+    - 
+      horizontal: 150
+      linksTo: workbenches
+    - 
+      horizontal: -140
+      linksTo: 3dprinters
+  sewingcorner:
+    text: Sewing machines, heat press, plotter and lasercutter
+    image: sewing_corner.jpg
+    start: -170
+    connections:
+    - 
+      horizontal: 100
+      linksTo: workbenches
+    - 
+      horizontal: 42
+      linksTo: makerspace
+    - 
+      horizontal: 5
+      linksTo: 3dprinters
+  3dprinters:
+    text: 3D printers, soldering and electronics
+    image: 3d_printers.jpg
+    start: -10
+    connections:
+    - 
+      horizontal: 120
+      linksTo: workbenches
+    - 
+      horizontal: 55
+      linksTo: makerspace
+    - 
+      horizontal: 160
+      linksTo: sewingcorner
+  workbenches:
+    text: Workbenches, saws, drills
+    image: workbenches.jpg
+    start: -100
+    connections:
+    - 
+      horizontal: 110
+      linksTo: makerspace
+    - 
+      horizontal: 70
+      linksTo: 3dprinters
+    - 
+      horizontal: 0
+      linksTo: sewingcorner
 ---
 
 <div class='full parallax' style='background-image: url(images/@header/About_1.1.jpg); color: #fff;'>
@@ -277,7 +337,7 @@ rooms:
 
   <!-- Panorama Work in Progress Duplicate -->
    <div class='row'>
-    {% include panorama_new.html rooms=rooms%}
+    {% include panorama.html rooms=rooms%}
   </div>
 
   <div class='row'>
