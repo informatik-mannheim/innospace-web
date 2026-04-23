@@ -88,17 +88,6 @@ section_id: makerspace
     <div class='small-6 end medium-3 large-3 columns'>
       <div class='mod modTeamMember'>
         <div class='member'>
-          {% if machine.name == "Epilog Helix" %}
-          <img class="avatar" alt="" src="{{ machine.avatar }}"/>
-          <div class='overlay'>
-            <div class='intro' >
-              <h3 id="hoverDiv">{{machine.name}}</h3>
-              <p id="hoverDiv"> {{machine.position}}</p>
-                <button id="delayedBtn" style="opacity:0; cursor:default"><a style="cursor:default" href='{{site.baseurl}}/nice.html'>Hier entlang :)</a></button>
-              </ul>
-            </div>
-          </div>
-          {% else %}
           <img class="avatar" alt="" src="{{ machine.avatar }}" />
           <div class='overlay'>
             <div class='intro'>
@@ -107,7 +96,6 @@ section_id: makerspace
               </ul>
             </div>
           </div>
-          {% endif %}
         </div>
       </div>
       <div class='four spacing'></div>
@@ -116,8 +104,6 @@ section_id: makerspace
   </div>
 </div>
 
-
-
 <div class='full'>
   <div class='row'>
     <div class='medium-12 columns'>
@@ -125,65 +111,7 @@ section_id: makerspace
     </div>
   </div>
   <div class='row'>
-    <!-- <div class='medium-6 columns'>
-
-            <h3>Wood and metal sector</h3>
-            <ul style="padding-left: 30px">
-                <li>Pedestal drilling machine</li>
-                <li>Pedestal drilling machine</li>
-				        <li>Pedestal drilling machine</li>
-            </ul>
-
-            <h3>Digital sector</h3>
-            <ul style="padding-left: 30px">
-                <li>Resin Printer</li>
-                <li>3D-Printer Ultimaker 2 extended+</li>
-				        <li>3D-Printer Ultimaker 5 </li>
-            </ul>
-
-            <h3>Textile sector</h3>
-            <ul style="padding-left: 30px">
-                <li>Vinyl Cutter</li>
-                <li>Sewing machine</li>
-				        <li>Sewing machine</li>
-            </ul>
-
-            <h3>Electronic sector</h3>
-            <ul style="padding-left: 30px">
-                <li>Osziloscope</li>
-                <li>Soldering iron</li>
-				        <li>Soldering iron</li>
-            </ul>
-
-            <h3>Other facilities</h3>
-            <ul style="padding-left: 30px">
-                <li>Lego bricks</li>
-                <li>Prototyping material</li>
-				        <li>Prototyping material</li>
-            </ul>
-
-
-            <div class='two spacing'></div>
-        </div> -->
     <div class='medium-12 columns'>
       {% include image-gallery.html folder="/images/@makerRoom" %}
     </div>
-  </div>-
-
-  <script>
-    const hoverDiv = document.getElementById("hoverDiv");
-    const btn = document.getElementById("delayedBtn");
-
-    let timer;
-
-    hoverDiv.addEventListener("mouseenter", () => {
-      timer = setTimeout(() => {
-        btn.style.opacity = "1";
-      }, 3000);
-    });
-
-    // hoverDiv.addEventListener("mouseleave", () => {
-      // clearTimeout(timer);
-      // btn.style.opacity = "0";
-    // });
-  </script>
+  </div>
