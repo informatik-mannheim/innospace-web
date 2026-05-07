@@ -7,9 +7,9 @@ program: GDIP
 sponsor: VidaWell
 partnerUni: University of Tartu
 image:
-  - /images/@projects/vidagesaund1.jpg
-  - /images/@projects/vidagesaund2.jpg
-  - /images/@projects/vidagesaund3.jpg
+  - /images/@projects/vidagesund1.jpg
+  - /images/@projects/vidagesund2.jpg
+  - /images/@projects/vidagesund3.jpg
 
 ---
 

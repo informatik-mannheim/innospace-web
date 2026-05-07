@@ -7,7 +7,7 @@ program: DTP
 sponsor: SAP
 partnerUni: Stanford University
 image:
-  - /images/@projects/IMG_9870.JPG
+  - /images/@projects/revo0.JPG
   - /images/@projects/revo1.jpg
   - /images/@projects/revo2.jpg
 

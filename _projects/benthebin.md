@@ -5,10 +5,10 @@ section_id: portfolio
 year: 2021
 program: CBM
 image:
-  - /images/@projects/CBM_Team_1_1.JPG
-  - /images/@projects/CBM_Team_1_2.JPG
-  - /images/@projects/CBM_Team_1_3.JPG
-  - /images/@projects/CBM_Team_1_4.JPG
+  - /images/@projects/benthebin1.JPG
+  - /images/@projects/benthebin2.JPG
+  - /images/@projects/benthebin3.JPG
+  - /images/@projects/benthebin4.JPG
 
 ---
 

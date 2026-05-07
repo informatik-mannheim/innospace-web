@@ -7,10 +7,10 @@ program: GDIP
 sponsor: The Coffee Store
 partnerUni: University of Tartu
 image:
-  - /images/@projects/coffee1.png
-  - /images/@projects/coffee2.png
-  - /images/@projects/coffee3.png
-  - /images/@projects/coffee4.png
+  - /images/@projects/tastebud1.png
+  - /images/@projects/tastebud2.png
+  - /images/@projects/tastebud3.png
+  - /images/@projects/tastebud4.png
 
 ---
 

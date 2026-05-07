@@ -7,7 +7,7 @@ program: PDP
 sponsor: Technoseum
 
 image:
-  - /images/@projects/bnett1.jpg
+  - /images/@projects/bnett_thumbnail.jpg
   - /images/@projects/bnett2.png
   - /images/@projects/bnett3.png
  

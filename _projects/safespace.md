@@ -8,9 +8,9 @@ program: DTP
 #partnerUni: Stanford University
 image:
   - /images/@projects/safespace-hero.jpg
-  - /images/@projects/safespace-p1.JPG
-  - /images/@projects/safespace-p2.jpg
-  - /images/@projects/safespace-p3.JPG
+  - /images/@projects/safespace1.JPG
+  - /images/@projects/safespace2.jpg
+  - /images/@projects/safespace3.JPG
   - /images/@projects/safespace-team.jpg
 ---
 

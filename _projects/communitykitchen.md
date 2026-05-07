@@ -7,11 +7,11 @@ program: GDIP
 sponsor: City of Mannheim
 partnerUni: University of Tartu
 image:
-  - /images/@projects/Stadt Mannheim_01.jpg
-  - /images/@projects/Stadt Mannheim_02.jpg
-  - /images/@projects/Stadt Mannheim_03.jpg
-  - /images/@projects/Stadt Mannheim_04.jpg
-  - /images/@projects/Stadt Mannheim_05.jpg
+  - /images/@projects/Stadt_Mannheim_01.jpg
+  - /images/@projects/Stadt_Mannheim_02.jpg
+  - /images/@projects/Stadt_Mannheim_03.jpg
+  - /images/@projects/Stadt_Mannheim_04.jpg
+  - /images/@projects/Stadt_Mannheim_05.jpg
 
 ---
 

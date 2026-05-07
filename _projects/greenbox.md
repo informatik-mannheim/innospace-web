@@ -6,11 +6,11 @@ year: 2021/22
 program: CBM
 
 image:
-  - /images/@projects/CBM_Team_2_1.JPG
-  - /images/@projects/CBM_Team_2_2.JPG
-  - /images/@projects/CBM_Team_2_3.JPG
-  - /images/@projects/CBM_Team_2_4.JPG
-  - /images/@projects/CBM_Team_2_5.JPG
+  - /images/@projects/greenbox1.JPG
+  - /images/@projects/greenbox2.JPG
+  - /images/@projects/greenbox3.JPG
+  - /images/@projects/greenbox4.JPG
+  - /images/@projects/greenbox5.JPG
 
 ---
 

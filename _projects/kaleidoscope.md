@@ -7,10 +7,10 @@ program: GDIP
 sponsor: Strategy Compass
 partnerUni: University of Tartu
 image:
-  - /images/@projects/Strategy Compass_01.jpg
-  - /images/@projects/Strategy Compass_02.jpg
-  - /images/@projects/Strategy Compass_03.jpg
-  - /images/@projects/Strategy Compass_04.jpg
+  - /images/@projects/Strategy_Compass_01.jpg
+  - /images/@projects/Strategy_Compass_02.jpg
+  - /images/@projects/Strategy_Compass_03.jpg
+  - /images/@projects/Strategy_Compass_04.jpg
 
 ---
 
