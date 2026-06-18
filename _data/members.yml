@@ -47,6 +47,9 @@
 - avatar: images/@ttteam/laurin.png
   name: Laurin Knapp
   position: Teaching Team Member
+  socials:
+    - link: https://www.linkedin.com/in/laurin-knapp-74409a340/
+      icon: fab fa-linkedin-in
 - avatar: images/@ttteam/katharina.jpg
   name: Katharina Salewski
   position: Research Assistant
