@@ -7,8 +7,8 @@ program: CBI
 sponsor: CERN
 #partnerUni:
 image:
-  - /images/@projects/sustainablesquares3.pdf
-  - /images/@projects/sustainablesquares1.pdf
+  - /images/@projects/sustainablesquares3.png
+  - /images/@projects/sustainablesquares1.png
   - /images/@projects/sustainablesquares2.png
 
 
