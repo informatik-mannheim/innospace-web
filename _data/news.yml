@@ -10,6 +10,11 @@
 
 # page
 - articles:
+    - thumbnail: images/@news/sose26.jpeg
+      title: Summer Semester 2026 Recap
+      link: news/sose26review
+      text: The summer semester ended a month ago, but before the next one begins, we wanted to take a moment to look back on our summer semester...
+      date: April 2025
     - thumbnail: images/@news/ultrahybrid.jpg
       title: Ultrahybride Lehre
       link: news/ultrahybrid
@@ -20,14 +25,14 @@
       link: news/lehrlern2025
       text: Under the motto “Together but not in the same place - Collaborative Learning in Hybrid Teaching-Learning Settings”, we presented the results of our SHELLS funding project at the Lehr-Lernkonferenz 2025 on 9 October 2025 in the form of an interactive exhibition.
       date: 9 October 2025
+
+# page
+- articles:
     - thumbnail: images/@news/gecon2025_01.jpg
       title: Paper presentation at GECon 2025 in Hamburg
       link: news/gecon2025 # no underscores allowed in the markdown-file names, else the website can't find the article
       text: We presented our paper “Is it worth the effort” at the IEEE German Education Conference (GECon 2025) in Hamburg. The paper explores how course duration and intensity influence students’ innovation capacities in challenge-based engineering design education.
       date: 21-23 July 2025
-
-# page
-- articles:
     - thumbnail: images/@news/tech2x_start.jpg
       title: Launch of the TECH2X Project
       link: news/tech2xstart
