@@ -10,6 +10,24 @@
 
 # page
 - articles:
+    - thumbnail: images/@news/ixeposose26.JPG
+      title: I.Expo @inno.space
+      link: news/iexposose26
+      text: We are proud to have held our first ever I.Expo at inno.space this summer! There, five student teams from three different courses presented the amazing results of their work...
+      date: July 2026
+    - thumbnail: images/@news/sose26.jpeg
+      title: Summer Semester 2026 Recap
+      link: news/sose26review
+      text: The summer semester ended a month ago, but before the next one begins, we wanted to take a moment to look back on our summer semester...
+      date: August 2026
+    - thumbnail: images/@news/fresksose26.JPG
+      title: Climate Fresk @ inno.space
+      link: news/climatefresksose26
+      text: How can one take complex scientific data and turn it into real-world impact? Recently, 12 students from across our faculties took on this challenge during our university's first Climate Fresk workshop.
+      date: April 2026
+
+# page
+- articles:
     - thumbnail: images/@news/ultrahybrid.jpg
       title: Ultrahybride Lehre
       link: news/ultrahybrid
@@ -26,7 +44,7 @@
       text: We presented our paper “Is it worth the effort” at the IEEE German Education Conference (GECon 2025) in Hamburg. The paper explores how course duration and intensity influence students’ innovation capacities in challenge-based engineering design education.
       date: 21-23 July 2025
 
-# page
+#page
 - articles:
     - thumbnail: images/@news/tech2x_start.jpg
       title: Launch of the TECH2X Project
