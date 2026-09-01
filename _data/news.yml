@@ -10,6 +10,11 @@
 
 # page
 - articles:
+    - thumbnail: images/@news/
+      title: I.Expo @inno.space
+      link: news/iexposose26
+      text: 
+      date: July 2026
     - thumbnail: images/@news/sose26.jpeg
       title: Summer Semester 2026 Recap
       link: news/sose26review
@@ -20,14 +25,14 @@
       link: news/climatefresksose26
       text: How can one take complex scientific data and turn it into real-world impact? Recently, 12 students from across our faculties took on this challenge during our university's first Climate Fresk workshop.
       date: April 2026
+
+# page
+- articles:
     - thumbnail: images/@news/ultrahybrid.jpg
       title: Ultrahybride Lehre
       link: news/ultrahybrid
       text: "Seit 2014 bietet das Team des inno.space für Studierende der Technischen Hochschule Mannheim internationale und interdisziplinäre Challenge-basierte Kurse an. In diesen ist hybride Teamarbeit und Lehre für die Studierenden und Lehrenden (Coaches) elementarer Bestandteil. Mit Partner-Hochschulen aus dem"
       date: 7 December 2025
-
-# page
-- articles:
     - thumbnail: images/@news/lehrlern2025.jpg
       title: Interactive Showcase at Lehr-Lernkonferenz 2025
       link: news/lehrlern2025
@@ -38,14 +43,14 @@
       link: news/gecon2025 # no underscores allowed in the markdown-file names, else the website can't find the article
       text: We presented our paper “Is it worth the effort” at the IEEE German Education Conference (GECon 2025) in Hamburg. The paper explores how course duration and intensity influence students’ innovation capacities in challenge-based engineering design education.
       date: 21-23 July 2025
+
+#page
+- articles:
     - thumbnail: images/@news/tech2x_start.jpg
       title: Launch of the TECH2X Project
       link: news/tech2xstart
       text: We are excited to announce the commencement of the TECH2X project, a European initiative aimed at enhancing innovation and entrepreneurship capacities in higher education institutions. The project focuses on fostering deep-tech talent and supporting the transition towards the fourth-generation university model.
       date: April 2025
-
-#page
-- articles:
     - thumbnail: images/@news/ideasquarepub_2024.png
       title: New Publication in CERN's IdeaSquare Journal
       link: news/ideasquarepub2024
