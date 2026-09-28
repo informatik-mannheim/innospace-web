@@ -20,7 +20,7 @@
       link: https://www.linkedin.com/posts/innospace%2Emannheim_the-summer-semester-ended-a-month-ago-but-activity-7497975004567941121-lCKS
       text: The summer semester ended a month ago, but before the next one begins, we wanted to take a moment to look back on our summer semester...
       date: August 2026
-    - thumbnail: images/@news/ixeposose26.JPG
+    - thumbnail: images/@news/iexposose26_thumbnail.JPG
       title: I.Expo @inno.space
       link: news/iexposose26
       text: We are proud to have held our first ever I.Expo at inno.space this summer! There, five student teams from three different courses presented the amazing results of their work...
@@ -28,17 +28,17 @@
 
 # page
 - articles:
-    - thumbnail: images/@news/fresksose26.JPG
+    - thumbnail: images/@news/fresksose26_thumbnail.JPG
       title: Climate Fresk @ inno.space
       link: https://www.linkedin.com/posts/innospace%2Emannheim_thmannheim-climatefresk-sustainabilityineducation-activity-7462917273130029056-_4mb
       text: How can one take complex scientific data and turn it into real-world impact? Recently, 12 students from across our faculties took on this challenge during our university's first Climate Fresk workshop.
       date: April 2026
-    - thumbnail: images/@news/ultrahybrid.jpg
+    - thumbnail: images/@news/ultrahybrid_thumbnail.jpg
       title: Ultrahybride Lehre
       link: news/ultrahybrid
       text: "Seit 2014 bietet das Team des inno.space für Studierende der Technischen Hochschule Mannheim internationale und interdisziplinäre Challenge-basierte Kurse an. In diesen ist hybride Teamarbeit und Lehre für die Studierenden und Lehrenden (Coaches) elementarer Bestandteil. Mit Partner-Hochschulen aus dem"
       date: 7 December 2025
-    - thumbnail: images/@news/lehrlern2025.jpg
+    - thumbnail: images/@news/lehrlern2025_thumbnail.jpg
       title: Interactive Showcase at Lehr-Lernkonferenz 2025
       link: news/lehrlern2025
       text: Under the motto “Together but not in the same place - Collaborative Learning in Hybrid Teaching-Learning Settings”, we presented the results of our SHELLS funding project at the Lehr-Lernkonferenz 2025 on 9 October 2025 in the form of an interactive exhibition.
