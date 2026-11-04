@@ -129,6 +129,10 @@ The HTML layout file `collection.html` will be automatically used to format the 
   - One image has to be provided in the `image` list
     - This image can differ from the news post's thumbnail, but does not have to
 
+> **Important**: If there is a social media post/website/etc. about the news article already, you do not necessarily need to
+> create a markdown file for the article, however, you still need a thumbnail. Instead of linking to a markdown file in the 
+> `_data/news.yml` file, simply insert the link to the social media post/website/etc.
+
 Here is a short description of the process for adding new news articles:
 
 1. Copy one of the markdown files in the `_news` folder
