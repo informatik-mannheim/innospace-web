@@ -87,6 +87,60 @@ The structure of the website follows the directory structure as [recommended by 
 - Similarly, the folder `inactive_pages` contains several pages that can be linked to in emails, which contain e.g. course overviews for students of different faculties, information on how to apply to courses and information for potential sponsors
   - These pages are currently not up to date, and inacessible due to their location, but they can be reactivated by moving them back to the top folder structure. Before doing so, they ought to be updated with the current information on courses
 
+***
+
+# Adding Content to the Website
+
+## Adding Student Projects
+
+- Student projects information is added in markdown format into the folder `_projects`
+- Each project needs at least:
+  - One thumbnail for the "Past Projects" section
+  - One image to display in the project subsite
+  - A (short) text describing the project
+- Existing markdown files can be used as templates on how to format the information
+  - In the yml information at the top of each file, `title`, `year`, `program` and `sponsor` have to be provided
+  - At least one image has to be provided in the `image` list
+
+Here is a short description of the process for adding new projects:
+
+1. Copy one of the markdown files in the `_projects` folder
+2. Change the heading (prefixed with `###`) and description to fit the new project
+3. Change the `title`, `year`, `program` and `sponsor` fields in the yml at the top of the markdown file
+4. Add the images you want to display for the project to the folder `/images/@projects/`
+   1. Name the images in a way that connects them to the project and number them (e.g. <project_name>1.png or <team_name>1.png)
+   2. Replace the image paths from the base markdown file you copied from with paths leading to the images for the new project you just uploaded
+5. Add a thumbnail for the project, also to the `/images/@projects/` folder
+   1. The image format must be square
+   2. Use the same naming convention you used for the other images, but add the suffix "_thumbnail" (e.g. <project_name>_thumbnail.png)
+6. In the HTML file `projects.html`, add information about the project in the same way the other projects are referenced in the list "works", **at the top of the list**
+   1. Here, add the path to the thumbnail, so that this image will be displayed in the overview of past projects
+
+The HTML layout file `collection.html` will be automatically used to format the contents from the markdown file into a project page. 
+
+## Adding News Articles
+
+- Like student projects, news articles are added as markdown files, to the folder `_news`
+- Each news article needs at least:
+  - One thumbnail for the "News" section
+  - A title, subtitle and text describing the news, as well as a date to attach to the news article
+- Existing markdown files can be used as templates on how to format the information
+  - In the yml information at the top of each file, `title`, `subtitle`, and `date` have to be provided
+  - One image has to be provided in the `image` list
+    - This image can differ from the news post's thumbnail, but does not have to
+
+Here is a short description of the process for adding new news articles:
+
+1. Copy one of the markdown files in the `_news` folder
+2. Change the text of the news article, and add formatting (headings, bold, links, etc.) if you want
+3. Change the `title`, `subtitle`, and `date` fields in the yml at the top of the markdown file
+4. Add the image you want to display for the project to the folder `/images/@news/`
+   1. Name the image in a way that connects them to the news post (e.g. <news_post_title>.png)
+   2. Replace the image path from the base markdown file you copied from with path leading to the image for the new news article you just uploaded
+5. Either add a separate thumbnail for the news article, also to the `/images/@news/` folder, or use the same image
+6. In the YML file `_data/news.yml`, add information about the news article in the same way the other news articles are referenced **above previous articles**. A more detailled tutorial is provided in the comments above the yml content
+
+***
 
 # Small tips for Bug catching
 

@@ -1,4 +1,4 @@
-# News posts are summarized into pages, each page contains three articles
+# Due to the slide show, news posts are summarized into pages, each page contains three articles
 # This structure was implemented to fit with the pagination from testimonials, 
 # because each dot in the pagination represents one page, and each page contains three news articles
 
