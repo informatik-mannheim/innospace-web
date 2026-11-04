@@ -1353,6 +1353,8 @@ form input.error, form textarea.error {
 }
 
 .slideImage{
+  height: 50vh; /* added by Kathi */
+  max-width: 100%; /* added by Kathi */
   margin: 0 auto;
 }
 
